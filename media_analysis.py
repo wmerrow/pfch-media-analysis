@@ -36,7 +36,7 @@ orgs = {
 }
 
 # search terms
-search_text = 'Michigan'
+search_text = 'Georgia'
 
 # empty variable for storing results
 all_data = []
@@ -51,6 +51,9 @@ for org_id in orgs:
 
 	# define as empty initially for each org
 	next_token = None
+
+	# reset result count for each org
+	result_count = 0
 
 	# make requests, using next_token to combine multiple responses into one json file until there is no next token or 10 requests have been made
 
@@ -69,15 +72,19 @@ for org_id in orgs:
 			'next_token': next_token
 		}
 
+		# make request
 		r = requests.get(endpoint_url, params = payload, headers = headers)
 		
+		# print request status
 		print('Response ', i, ': ', r.status_code, sep='')
 
+		# store response
 		data = json.loads(r.text)
 
-		print(data['meta']['result_count'], 'results')
+		# add to result count
+		result_count = result_count + data['meta']['result_count']
 
-		# if there are more than zero results, add results to all_data
+		# if there are more than zero results
 		if data['meta']['result_count'] > 0:
 
 			# add new results to all_data, including data but not meta
@@ -89,15 +96,23 @@ for org_id in orgs:
 			# store new next_token
 			next_token = data['meta']['next_token']
 
-			# if it's the final iteration, print a warning about uncaught results
+			# if it's the final iteration
 			if i == iterations:
 
-				print('Uncaught results (final iteration has next_token)')
+				# print number of results
+				print(result_count, 'results')
+
+				# print warning about uncaught results
+				print('WARNING: Uncaught results (final iteration has next_token)')
 
 		# if response does not contain next token
 		else:
 
-			print('No more results (response #', i, ' does not have next_token)', sep='')
+			# print number of results
+			print(result_count, 'results')
+
+			# print "no more results"
+			print('No more results (response ', i, ' does not have next_token)', sep='')
 
 			# end loop
 			break
