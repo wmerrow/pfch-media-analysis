@@ -35,90 +35,116 @@ orgs = {
 	}
 }
 
-# search terms
-search_text = 'Georgia'
+# function for getting tweets, specifying with or without org URL, and search text
+def get_tweets(has_org_url, search_text):
 
-# empty variable for storing results
-all_data = []
+	# empty variable for storing results
+	all_data = []
 
-# for each organization
-for org_id in orgs:
+	# for each organization
+	for org_id in orgs:
 
-	handle = orgs[org_id]['handle']
-	url = orgs[org_id]['url']
+		# print org name
+		print('\n', org_id, sep='')
 
-	print('\n', org_id, sep='')
+		# define as empty initially for each org
+		next_token = None
 
-	# define as empty initially for each org
-	next_token = None
+		# reset result count for each org
+		result_count = 0
 
-	# reset result count for each org
-	result_count = 0
+		# create parameters for query string (tweets by the organization, containing the organization's URL if specified, containing the specified search words)
 
-	# make requests, using next_token to combine multiple responses into one json file until there is no next token or 10 requests have been made
+		# handle
+		handle = orgs[org_id]['handle']
+		handle_param = f'from:{handle}'
 
-	iterations = 4
-
-	for i in range(1, iterations + 1):
-
-		payload = {
-			# get tweets by the organization, containing the organization's URL, containing the search words
-			'query': f'from:{handle} url:"{url}" {search_text}', 
-			# return these fields
-			'tweet.fields': 'author_id,id,created_at,public_metrics,text,entities',
-			# number of results per request (can be 10-100)
-			'max_results': 10,
-			# specify next_token (page to start on)
-			'next_token': next_token
-		}
-
-		# make request
-		r = requests.get(endpoint_url, params = payload, headers = headers)
+		# url
+		url = orgs[org_id]['url']
+		if has_org_url == False:
+			url_param = ''
+		else:
+			url_param = f' url:"{url}"'
 		
-		# print request status
-		print('Response ', i, ': ', r.status_code, sep='')
+		# search text
+		if search_text == None:
+			search_text_param = ''
+		else:
+			search_text_param = f' {search_text}'
 
-		# store response
-		data = json.loads(r.text)
+		# create query string
+		query = handle_param + url_param + search_text_param
 
-		# add to result count
-		result_count = result_count + data['meta']['result_count']
+		# make requests, using next_token to combine multiple responses into one json file until there is no next token or 10 requests have been made
 
-		# if there are more than zero results
-		if data['meta']['result_count'] > 0:
+		# limit iterations to avoid hitting hitting request limit
+		iterations = 4
 
-			# add new results to all_data, including data but not meta
-			all_data = all_data + data['data']
+		for i in range(1, iterations + 1):
 
-		# if response contains a next token
-		if 'next_token' in data['meta']:
+			payload = {
+				# query
+				'query': query,
+				# return these fields
+				'tweet.fields': 'author_id,id,created_at,public_metrics,text,entities',
+				# number of results per request (can be 10-100)
+				'max_results': 10,
+				# specify next_token (page to start on)
+				'next_token': next_token
+			}
 
-			# store new next_token
-			next_token = data['meta']['next_token']
+			# make request
+			r = requests.get(endpoint_url, params = payload, headers = headers)
+			
+			# print request status
+			print('Response ', i, ': ', r.status_code, sep='')
 
-			# if it's the final iteration
-			if i == iterations:
+			# store response
+			data = json.loads(r.text)
+
+			# add to result count
+			result_count = result_count + data['meta']['result_count']
+
+			# if there are more than zero results
+			if data['meta']['result_count'] > 0:
+
+				# add new results to all_data, including data but not meta
+				all_data = all_data + data['data']
+
+			# if response contains a next token
+			if 'next_token' in data['meta']:
+
+				# store new next_token
+				next_token = data['meta']['next_token']
+
+				# if it's the final iteration
+				if i == iterations:
+
+					# print number of results
+					print(result_count, 'results')
+
+					# print warning about uncaught results
+					print('WARNING: Uncaught results (final iteration has next_token)')
+
+			# if response does not contain next token
+			else:
 
 				# print number of results
 				print(result_count, 'results')
 
-				# print warning about uncaught results
-				print('WARNING: Uncaught results (final iteration has next_token)')
+				# print "no more results"
+				print('No more results (response ', i, ' does not have next_token)', sep='')
 
-		# if response does not contain next token
-		else:
+				# end loop
+				break
 
-			# print number of results
-			print(result_count, 'results')
+	# filter to desired fields
+	#data = 
 
-			# print "no more results"
-			print('No more results (response ', i, ' does not have next_token)', sep='')
+	# write output of get_tweets() as json file
+	json.dump(all_data, open(f'output__URL_{has_org_url}__Search_{search_text}.json', 'w'), indent = 2)
 
-			# end loop
-			break
 
-# filter to desired fields
-#data = 
+# get tweets 
+get_tweets(has_org_url = True, search_text = 'Georgia')
 
-# write output as json file
-json.dump(all_data, open('output.json', 'w'), indent = 2)
