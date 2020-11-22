@@ -1,1 +1,2052 @@
-[]
+[
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5558,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 84,
+          "end": 94,
+          "probability": 0.8959,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 110,
+          "end": 116,
+          "probability": 0.6649,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 128,
+          "end": 136,
+          "probability": 0.9952,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 152,
+          "end": 159,
+          "probability": 0.5862,
+          "type": "Organization",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/6BdZ9FQWUa",
+          "expanded_url": "https://nyti.ms/393M1oc",
+          "display_url": "nyti.ms/393M1oc"
+        }
+      ]
+    },
+    "id": "1329998010344935424",
+    "created_at": "2020-11-21T04:00:10.000Z",
+    "public_metrics": {
+      "retweet_count": 299,
+      "reply_count": 169,
+      "like_count": 2244,
+      "quote_count": 69
+    },
+    "author_id": "807095",
+    "text": "President Trump\u2019s attempt to undo the election results was undercut twice by fellow Republicans on Friday, as Georgia certified Joe Biden\u2019s victory and Michigan lawmakers said they would not intervene in their state\u2019s election certification process. https://t.co/6BdZ9FQWUa"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 23,
+          "end": 33,
+          "probability": 0.6604,
+          "type": "Place",
+          "normalized_text": "White House"
+        },
+        {
+          "start": 44,
+          "end": 51,
+          "probability": 0.7776,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 146,
+          "end": 160,
+          "probability": 0.7024,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 163,
+          "end": 186,
+          "url": "https://t.co/Fn1o2k3Kxw",
+          "expanded_url": "https://nyti.ms/332Npnd",
+          "display_url": "nyti.ms/332Npnd"
+        }
+      ]
+    },
+    "id": "1329941375928897540",
+    "created_at": "2020-11-21T00:15:07.000Z",
+    "public_metrics": {
+      "retweet_count": 4518,
+      "reply_count": 2483,
+      "like_count": 32225,
+      "quote_count": 1822
+    },
+    "author_id": "807095",
+    "text": "Breaking News: After a White House meeting, Michigan lawmakers said they would honor the outcome of the state\u2019s election process, another blow to President Trump. https://t.co/Fn1o2k3Kxw"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 8,
+          "end": 18,
+          "probability": 0.8121,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 25,
+          "end": 32,
+          "probability": 0.9383,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 52,
+          "end": 62,
+          "probability": 0.9819,
+          "type": "Place",
+          "normalized_text": "White House"
+        },
+        {
+          "start": 88,
+          "end": 92,
+          "probability": 0.5114,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 206,
+          "end": 229,
+          "url": "https://t.co/ONX3ctTp57",
+          "expanded_url": "https://nyti.ms/2Ks3tIF",
+          "display_url": "nyti.ms/2Ks3tIF"
+        }
+      ]
+    },
+    "id": "1329867370685472770",
+    "created_at": "2020-11-20T19:21:03.000Z",
+    "public_metrics": {
+      "retweet_count": 71,
+      "reply_count": 187,
+      "like_count": 298,
+      "quote_count": 29
+    },
+    "author_id": "807095",
+    "text": "Leading Republicans from Michigan are headed to the White House on Friday, as President Trump continues trying to subvert the election results in their state. Here's what we know about the planned meeting. https://t.co/ONX3ctTp57"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5786,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 61,
+          "end": 68,
+          "probability": 0.9818,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 115,
+          "end": 123,
+          "probability": 0.9989,
+          "type": "Place",
+          "normalized_text": "Minnesota"
+        },
+        {
+          "start": 189,
+          "end": 193,
+          "probability": 0.998,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 230,
+          "end": 253,
+          "url": "https://t.co/SPgAiG2jOp",
+          "expanded_url": "https://nyti.ms/36TXG6b",
+          "display_url": "nyti.ms/36TXG6b"
+        }
+      ]
+    },
+    "id": "1329849503659282437",
+    "created_at": "2020-11-20T18:10:03.000Z",
+    "public_metrics": {
+      "retweet_count": 2605,
+      "reply_count": 782,
+      "like_count": 11466,
+      "quote_count": 1089
+    },
+    "author_id": "807095",
+    "text": "President Trump\u2019s legal team, trying to prove voter fraud in Michigan, apparently used data taken from counties in Minnesota, the latest in a series of embarrassing missteps that have made Trump\u2019s uphill legal fight even steeper. https://t.co/SPgAiG2jOp"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 16,
+          "end": 24,
+          "probability": 0.9808,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 53,
+          "end": 67,
+          "probability": 0.8535,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 141,
+          "end": 148,
+          "probability": 0.8167,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 209,
+          "end": 232,
+          "url": "https://t.co/WYG5KXRfke",
+          "expanded_url": "https://nyti.ms/32YlKDR",
+          "display_url": "nyti.ms/32YlKDR",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329839456489238531/A4hrrU95?format=jpg&name=orig",
+              "width": 1600,
+              "height": 900
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329839456489238531/A4hrrU95?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Biden\u2019s top election lawyer says Trump\u2019s \u2018absolutely appalling\u2019 efforts to undermine the election will fail.",
+          "description": "President-elect Joe Biden announced more staff appointments and will meet with Speaker Nancy Pelosi and Senator Chuck Schumer today. Mr. Biden\u2019s top election lawyer called President Trump\u2019s attempts to overturn the results \u201cpathetic.\u201d Lamar Alexander, a Republican senator, urged Mr. Trump to stop blocking the transition. In a winner-take-all system, close margins of voters leads to fights that are as fierce after Election Day as the campaigns before. The passions we feel reflect voters\u2019 commitment to the",
+          "unwound_url": "https://www.nytimes.com/live/2020/11/20/us/joe-biden-trump/bidens-top-election-lawyer-says-trumps-absolutely-appalling-efforts-to-undermine-the-election-will-fail?smid=tw-nytimes&smtyp=cur"
+        }
+      ]
+    },
+    "id": "1329839450948595712",
+    "created_at": "2020-11-20T17:30:06.000Z",
+    "public_metrics": {
+      "retweet_count": 144,
+      "reply_count": 66,
+      "like_count": 771,
+      "quote_count": 12
+    },
+    "author_id": "807095",
+    "text": "President-elect Joe Biden's top lawyer lashed out at President Trump\u2019s attempts to undermine the election, calling his efforts to strong-arm Michigan officials \u201can abuse of office\u201d and \u201cabsolutely appalling.\" https://t.co/WYG5KXRfke"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5184,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 24,
+          "end": 33,
+          "probability": 0.513,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 46,
+          "end": 53,
+          "probability": 0.9964,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 62,
+          "end": 72,
+          "probability": 0.9741,
+          "type": "Place",
+          "normalized_text": "White House"
+        },
+        {
+          "start": 189,
+          "end": 198,
+          "probability": 0.6449,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        }
+      ],
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/pr7Ku3U3Yt",
+          "expanded_url": "https://nyti.ms/2UHyg6f",
+          "display_url": "nyti.ms/2UHyg6f"
+        }
+      ]
+    },
+    "id": "1329615454818754560",
+    "created_at": "2020-11-20T02:40:02.000Z",
+    "public_metrics": {
+      "retweet_count": 256,
+      "reply_count": 471,
+      "like_count": 714,
+      "quote_count": 170
+    },
+    "author_id": "807095",
+    "text": "President Trump invited Republican leaders in Michigan to the White House as he and his allies try to prevent the state from certifying its results. The president has also asked aides what Republican officials he could call in other battleground states.\nhttps://t.co/pr7Ku3U3Yt"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 62,
+          "end": 73,
+          "probability": 0.9905,
+          "type": "Person",
+          "normalized_text": "Mike Shirkey"
+        },
+        {
+          "start": 80,
+          "end": 89,
+          "probability": 0.5595,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 114,
+          "end": 128,
+          "probability": 0.8365,
+          "type": "Organization",
+          "normalized_text": "Michigan Senate"
+        },
+        {
+          "start": 169,
+          "end": 183,
+          "probability": 0.8893,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 229,
+          "end": 237,
+          "probability": 0.9702,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/u9kNVERevN",
+          "expanded_url": "https://nyti.ms/35Mgkh5",
+          "display_url": "nyti.ms/35Mgkh5"
+        }
+      ]
+    },
+    "id": "1329567664570834945",
+    "created_at": "2020-11-19T23:30:08.000Z",
+    "public_metrics": {
+      "retweet_count": 276,
+      "reply_count": 156,
+      "like_count": 1687,
+      "quote_count": 72
+    },
+    "author_id": "807095",
+    "text": "\u201cWe are going to follow the law and follow the process,\u201d said Mike Shirkey, the Republican majority leader of the Michigan Senate. Shirkey, who was invited to meet with President Trump, said he would not override President-elect Joe Biden\u2019s victory. https://t.co/u9kNVERevN"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 15,
+          "end": 29,
+          "probability": 0.6715,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 71,
+          "end": 78,
+          "probability": 0.6683,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 103,
+          "end": 113,
+          "probability": 0.95,
+          "type": "Place",
+          "normalized_text": "White House"
+        }
+      ],
+      "urls": [
+        {
+          "start": 229,
+          "end": 252,
+          "url": "https://t.co/yXzh7tKzB7",
+          "expanded_url": "https://nyti.ms/2HfMaJt",
+          "display_url": "nyti.ms/2HfMaJt"
+        }
+      ]
+    },
+    "id": "1329494252443856897",
+    "created_at": "2020-11-19T18:38:25.000Z",
+    "public_metrics": {
+      "retweet_count": 1531,
+      "reply_count": 1069,
+      "like_count": 3130,
+      "quote_count": 930
+    },
+    "author_id": "807095",
+    "text": "Breaking News: President Trump took the extraordinary step of inviting Michigan state lawmakers to the White House as part of his bid to subvert the election. The deadline for the state to certify its election results is Monday. https://t.co/yXzh7tKzB7"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "probability": 0.5619,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 37,
+          "end": 44,
+          "probability": 0.9488,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 95,
+          "end": 101,
+          "probability": 0.9405,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        },
+        {
+          "start": 152,
+          "end": 160,
+          "probability": 0.9667,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 209,
+          "end": 223,
+          "probability": 0.9101,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/h5KjDKlofh",
+          "expanded_url": "https://nyti.ms/3fehZis",
+          "display_url": "nyti.ms/3fehZis"
+        }
+      ]
+    },
+    "id": "1329459457772949511",
+    "created_at": "2020-11-19T16:20:09.000Z",
+    "public_metrics": {
+      "retweet_count": 209,
+      "reply_count": 161,
+      "like_count": 732,
+      "quote_count": 58
+    },
+    "author_id": "807095",
+    "text": "Republican election officials in one Michigan county tried in vain to rescind certification of Detroit\u2019s results, which heavily favored President-elect Joe Biden. One of the officials had received a call from President Trump.\nhttps://t.co/h5KjDKlofh"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 67,
+          "end": 73,
+          "probability": 0.9964,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        }
+      ],
+      "urls": [
+        {
+          "start": 235,
+          "end": 258,
+          "url": "https://t.co/Asy1NitWsR",
+          "expanded_url": "https://nyti.ms/3fdmzNT",
+          "display_url": "nyti.ms/3fdmzNT"
+        }
+      ]
+    },
+    "id": "1329222869650464768",
+    "created_at": "2020-11-19T00:40:02.000Z",
+    "public_metrics": {
+      "retweet_count": 97,
+      "reply_count": 63,
+      "like_count": 457,
+      "quote_count": 22
+    },
+    "author_id": "807095",
+    "text": "Election certification is supposed to be routine. What happened in Detroit on Tuesday \u2014 when election officials deadlocked along party lines \u2014 was not normal. Here\u2019s a breakdown of the dispute and what it means for American democracy. https://t.co/Asy1NitWsR"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 100,
+      "reply_count": 90,
+      "like_count": 741,
+      "quote_count": 20
+    },
+    "author_id": "807095",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "probability": 0.7718,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 45,
+          "end": 56,
+          "probability": 0.9626,
+          "type": "Place",
+          "normalized_text": "Wayne County"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "probability": 0.5165,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 84,
+          "end": 90,
+          "probability": 0.8159,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        },
+        {
+          "start": 176,
+          "end": 184,
+          "probability": 0.9965,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 210,
+          "end": 233,
+          "url": "https://t.co/zP48MlIuMG",
+          "expanded_url": "https://nyti.ms/36OWLE7",
+          "display_url": "nyti.ms/36OWLE7"
+        }
+      ]
+    },
+    "created_at": "2020-11-18T09:33:07.000Z",
+    "text": "Republican members of the elections board in Wayne County, Michigan, which includes Detroit and is heavily Democratic, backtracked after trying to hold up the certification of Joe Biden\u2019s victory in the state. https://t.co/zP48MlIuMG",
+    "id": "1328994635927044097"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 620,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 16,
+          "username": "jimrutenberg"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 23,
+          "end": 42,
+          "probability": 0.5277,
+          "type": "Organization",
+          "normalized_text": "Michigan Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 116,
+          "end": 139,
+          "url": "https://t.co/1hVtokpcWZ",
+          "expanded_url": "https://www.nytimes.com/2020/11/17/us/politics/michigan-certify-election-results.html?smid=tw-share",
+          "display_url": "nytimes.com/2020/11/17/us/\u2026"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "created_at": "2020-11-18T03:20:05.000Z",
+    "text": "RT @jimrutenberg: NEW: Michigan Republicans Backtrack After Refusing to Certify Election Results ...Oh what a night https://t.co/1hVtokpcWZ",
+    "id": "1328900757748387840"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 198,
+      "reply_count": 141,
+      "like_count": 1288,
+      "quote_count": 59
+    },
+    "author_id": "807095",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "probability": 0.799,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 28,
+          "end": 35,
+          "probability": 0.486,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 110,
+          "end": 118,
+          "probability": 0.9953,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 144,
+          "end": 167,
+          "url": "https://t.co/WVjygU5Spv",
+          "expanded_url": "https://nyti.ms/3pDhEdP",
+          "display_url": "nyti.ms/3pDhEdP"
+        }
+      ]
+    },
+    "created_at": "2020-11-18T03:10:04.000Z",
+    "text": "Republican members of a key Michigan elections board backtracked after trying to hold up the certification of Joe Biden\u2019s victory in the state. https://t.co/WVjygU5Spv",
+    "id": "1328898239752499202"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 646,
+      "reply_count": 161,
+      "like_count": 3514,
+      "quote_count": 145
+    },
+    "author_id": "807095",
+    "entities": {
+      "annotations": [
+        {
+          "start": 98,
+          "end": 105,
+          "probability": 0.9941,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 108,
+          "end": 114,
+          "probability": 0.8582,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 117,
+          "end": 128,
+          "probability": 0.9622,
+          "type": "Place",
+          "normalized_text": "Pennsylvania"
+        },
+        {
+          "start": 134,
+          "end": 142,
+          "probability": 0.8602,
+          "type": "Place",
+          "normalized_text": "Wisconsin"
+        }
+      ],
+      "urls": [
+        {
+          "start": 205,
+          "end": 228,
+          "url": "https://t.co/boyJbZGxlR",
+          "expanded_url": "https://nyti.ms/2IFWoDw",
+          "display_url": "nyti.ms/2IFWoDw",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328483015903866885/V4f-IGR3?format=jpg&name=orig",
+              "width": 1600,
+              "height": 900
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328483015903866885/V4f-IGR3?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Republicans drop election suits in Georgia, Michigan, Pennsylvania and Wisconsin.",
+          "description": "President-elect Joseph R. Biden Jr. delivered remarks on the struggling economy amid the coronavirus pandemic. He is retaining his lead over President Trump in Georgia as a hand recount there continues. Lindsey Graham, Republican of South Carolina, asked the Georgia secretary of state if it was possible to invalidate all mail ballots in counties with higher rates of mismatched signatures, the secretary of state said on Monday. Senator Lindsey Graham, Republican of South Carolina, asked the Georgia",
+          "unwound_url": "https://www.nytimes.com/live/2020/11/16/us/joe-biden-trump/republicans-drop-election-suits-in-georgia-michigan-pennsylvania-and-wisconsin?smtyp=cur&smid=tw-nytimes"
+        }
+      ]
+    },
+    "created_at": "2020-11-16T23:40:05.000Z",
+    "text": "The plaintiffs in four federal lawsuits challenging the integrity of the presidential election in Michigan, Georgia, Pennsylvania and Wisconsin all filed notice Monday that they were dropping their cases. https://t.co/boyJbZGxlR",
+    "id": "1328483008358326272"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 194,
+      "reply_count": 78,
+      "like_count": 1137,
+      "quote_count": 13
+    },
+    "author_id": "807095",
+    "entities": {
+      "annotations": [
+        {
+          "start": 5,
+          "end": 20,
+          "probability": 0.7285,
+          "type": "Person",
+          "normalized_text": "Gretchen Whitmer"
+        },
+        {
+          "start": 25,
+          "end": 32,
+          "probability": 0.694,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 47,
+          "end": 51,
+          "probability": 0.9959,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/CfyiYzUmiK",
+          "expanded_url": "https://nyti.ms/2UzJI3M",
+          "display_url": "nyti.ms/2UzJI3M"
+        }
+      ]
+    },
+    "created_at": "2020-11-16T19:30:14.000Z",
+    "text": "Gov. Gretchen Whitmer of Michigan criticized a Trump adviser for urging people to \"rise up\" over virus rules. \u201cIt\u2019s just incredibly reckless, considering everything that has happened,\u201d she said, alluding to an alleged right-wing terrorist plot against her. https://t.co/CfyiYzUmiK",
+    "id": "1328420130536255488"
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9982,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 61,
+          "end": 72,
+          "probability": 0.9926,
+          "type": "Place",
+          "normalized_text": "Wayne County"
+        },
+        {
+          "start": 75,
+          "end": 82,
+          "probability": 0.8198,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 102,
+          "end": 114,
+          "probability": 0.7838,
+          "type": "Place",
+          "normalized_text": "Black Detroit"
+        }
+      ],
+      "urls": [
+        {
+          "start": 196,
+          "end": 219,
+          "url": "https://t.co/xkx8TZiMRl",
+          "expanded_url": "https://www.vox.com/2020/11/21/21588472/lawsuit-michigan-trump-disenfranchise-black-voters-election-results?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/21/215\u2026"
+        }
+      ]
+    },
+    "created_at": "2020-11-21T17:09:12.000Z",
+    "id": "1330196577567256576",
+    "text": "Trump and his allies have argued for throwing out ballots in Wayne County, Michigan, home to majority Black Detroit.\n\nA new lawsuit alleges these efforts amount to Black voter disenfranchisement. https://t.co/xkx8TZiMRl",
+    "public_metrics": {
+      "retweet_count": 31,
+      "reply_count": 8,
+      "like_count": 127,
+      "quote_count": 2
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "probability": 0.8619,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 32,
+          "end": 42,
+          "probability": 0.8934,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 98,
+          "end": 121,
+          "url": "https://t.co/ovN6nIPdqy",
+          "expanded_url": "https://trib.al/kVoylum",
+          "display_url": "trib.al/kVoylum"
+        }
+      ]
+    },
+    "created_at": "2020-11-21T11:56:21.000Z",
+    "id": "1330117845771051009",
+    "text": "Joe Biden clearly won Michigan. Republicans are playing partisan games with certification anyway. https://t.co/ovN6nIPdqy",
+    "public_metrics": {
+      "retweet_count": 20,
+      "reply_count": 13,
+      "like_count": 116,
+      "quote_count": 5
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "probability": 0.8619,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 32,
+          "end": 42,
+          "probability": 0.8934,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 98,
+          "end": 121,
+          "url": "https://t.co/kUaUoJVv5z",
+          "expanded_url": "https://trib.al/F5066E0",
+          "display_url": "trib.al/F5066E0"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T22:14:05.000Z",
+    "id": "1329910915379195906",
+    "text": "Joe Biden clearly won Michigan. Republicans are playing partisan games with certification anyway. https://t.co/kUaUoJVv5z",
+    "public_metrics": {
+      "retweet_count": 22,
+      "reply_count": 11,
+      "like_count": 95,
+      "quote_count": 2
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 211,
+          "end": 215,
+          "probability": 0.9973,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 69,
+          "end": 80,
+          "username": "imillhiser"
+        }
+      ],
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/sSf1oO5Dqc",
+          "expanded_url": "https://trib.al/amtgCWZ",
+          "display_url": "trib.al/amtgCWZ"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T21:13:06.000Z",
+    "id": "1329895570203430915",
+    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/sSf1oO5Dqc",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 11,
+      "like_count": 161,
+      "quote_count": 1
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 211,
+          "end": 215,
+          "probability": 0.9973,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 69,
+          "end": 80,
+          "username": "imillhiser"
+        }
+      ],
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/Zeu9MIKTUg",
+          "expanded_url": "https://trib.al/zgu8D9p",
+          "display_url": "trib.al/zgu8D9p"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T14:52:06.000Z",
+    "id": "1329799687457615879",
+    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/Zeu9MIKTUg",
+    "public_metrics": {
+      "retweet_count": 60,
+      "reply_count": 11,
+      "like_count": 252,
+      "quote_count": 2
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 72,
+          "end": 95,
+          "url": "https://t.co/3WZm5lNgVt",
+          "expanded_url": "https://www.vox.com/21575301/trump-lawsuits-election-rudy-giuliani-pennsylvania-georgia-michigan?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/21575301/trump\u2026"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T14:20:08.000Z",
+    "id": "1329791641973088257",
+    "text": "Trump\u2019s lawsuits challenging the election have turned into a clown show https://t.co/3WZm5lNgVt",
+    "public_metrics": {
+      "retweet_count": 20,
+      "reply_count": 17,
+      "like_count": 146,
+      "quote_count": 6
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "probability": 0.8619,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 32,
+          "end": 42,
+          "probability": 0.8934,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 98,
+          "end": 121,
+          "url": "https://t.co/kMQJkpPMkn",
+          "expanded_url": "https://trib.al/5LaaBKi",
+          "display_url": "trib.al/5LaaBKi"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T11:55:55.000Z",
+    "id": "1329755347368734725",
+    "text": "Joe Biden clearly won Michigan. Republicans are playing partisan games with certification anyway. https://t.co/kMQJkpPMkn",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 13,
+      "like_count": 101,
+      "quote_count": 7
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6284,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 163,
+          "end": 171,
+          "probability": 0.9908,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 220,
+          "end": 231,
+          "probability": 0.9872,
+          "type": "Place",
+          "normalized_text": "Wayne County"
+        },
+        {
+          "start": 234,
+          "end": 241,
+          "probability": 0.6312,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 244,
+          "end": 267,
+          "url": "https://t.co/bRbaM66Q2T",
+          "expanded_url": "https://trib.al/Ek9AcFI",
+          "display_url": "trib.al/Ek9AcFI"
+        }
+      ]
+    },
+    "created_at": "2020-11-20T01:50:22.000Z",
+    "id": "1329602956229042181",
+    "text": "President Trump is making an unprecedented effort to interfere with the mechanics of electoral democracy by trying to block the certification of results in states Joe Biden won.\n\nThe most blatant move so far has been in Wayne County, Michigan: https://t.co/bRbaM66Q2T",
+    "public_metrics": {
+      "retweet_count": 27,
+      "reply_count": 10,
+      "like_count": 92,
+      "quote_count": 6
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 29,
+          "end": 36,
+          "probability": 0.9966,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 41,
+          "end": 45,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "probability": 0.964,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 92,
+          "end": 115,
+          "url": "https://t.co/69SNZyWDHA",
+          "expanded_url": "https://www.vox.com/2020/11/19/21575177/trump-wayne-county-michigan-certification?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/19/215\u2026"
+        }
+      ]
+    },
+    "created_at": "2020-11-19T17:30:09.000Z",
+    "id": "1329477075393257475",
+    "text": "New shenanigans are afoot in Michigan as Trump tries to block certification of Biden\u2019s win  https://t.co/69SNZyWDHA",
+    "public_metrics": {
+      "retweet_count": 14,
+      "reply_count": 10,
+      "like_count": 49,
+      "quote_count": 6
+    }
+  },
+  {
+    "author_id": "2347049341",
+    "entities": {
+      "annotations": [
+        {
+          "start": 15,
+          "end": 17,
+          "probability": 0.9294,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 53,
+          "end": 57,
+          "probability": 0.972,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 61,
+          "end": 68,
+          "probability": 0.6476,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 86,
+          "end": 109,
+          "url": "https://t.co/vlUkJg6Z52",
+          "expanded_url": "https://www.vox.com/2020/11/18/21572409/michigan-wayne-county-trump-certification-balance?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/18/215\u2026"
+        }
+      ]
+    },
+    "created_at": "2020-11-18T17:25:07.000Z",
+    "id": "1329113420847833094",
+    "text": "The disturbing GOP attempt to block certification of Biden\u2019s Michigan win, explained  https://t.co/vlUkJg6Z52",
+    "public_metrics": {
+      "retweet_count": 23,
+      "reply_count": 7,
+      "like_count": 59,
+      "quote_count": 1
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 34,
+          "end": 64,
+          "probability": 0.4356,
+          "type": "Organization",
+          "normalized_text": "Oakland County Sheriff's Office"
+        },
+        {
+          "start": 148,
+          "end": 156,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 159,
+          "end": 170,
+          "probability": 0.9977,
+          "type": "Person",
+          "normalized_text": "Donald Trump"
+        },
+        {
+          "start": 177,
+          "end": 186,
+          "probability": 0.9756,
+          "type": "Person",
+          "normalized_text": "Mike Pence"
+        },
+        {
+          "start": 211,
+          "end": 223,
+          "probability": 0.7505,
+          "type": "Person",
+          "normalized_text": "Kamala Harris"
+        }
+      ],
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/9b9H7gPpLD",
+          "expanded_url": "https://cnn.it/3nFT0HG",
+          "display_url": "cnn.it/3nFT0HG"
+        }
+      ]
+    },
+    "id": "1330232035181465601",
+    "created_at": "2020-11-21T19:30:06.000Z",
+    "public_metrics": {
+      "retweet_count": 207,
+      "reply_count": 325,
+      "like_count": 1150,
+      "quote_count": 84
+    },
+    "author_id": "759251",
+    "text": "A part-time court deputy with the Oakland County Sheriff's Office was terminated after she was found to have posted a photo on social media showing Joe Biden, Donald Trump, and Mike Pence pumpkin carvings and a Kamala Harris carving in a watermelon.\nhttps://t.co/9b9H7gPpLD"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 27,
+          "end": 60,
+          "probability": 0.8332,
+          "type": "Organization",
+          "normalized_text": "Michigan State Board of Canvassers"
+        },
+        {
+          "start": 226,
+          "end": 242,
+          "probability": 0.9402,
+          "type": "Organization",
+          "normalized_text": "Electoral College"
+        }
+      ],
+      "urls": [
+        {
+          "start": 245,
+          "end": 268,
+          "url": "https://t.co/M3TLAvIrmm",
+          "expanded_url": "https://cnn.it/2IQJr9T",
+          "display_url": "cnn.it/2IQJr9T"
+        }
+      ]
+    },
+    "id": "1329978346407669760",
+    "created_at": "2020-11-21T02:42:02.000Z",
+    "public_metrics": {
+      "retweet_count": 72,
+      "reply_count": 85,
+      "like_count": 369,
+      "quote_count": 13
+    },
+    "author_id": "759251",
+    "text": "Monday is the day when the Michigan State Board of Canvassers is scheduled to meet to certify election results. The board's certification of the results is what triggers electors to be selected, which is what gets sent to the Electoral College. https://t.co/M3TLAvIrmm"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 14,
+          "end": 23,
+          "probability": 0.5431,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 53,
+          "end": 74,
+          "probability": 0.6616,
+          "type": "Person",
+          "normalized_text": "President Donald Trump"
+        },
+        {
+          "start": 142,
+          "end": 149,
+          "probability": 0.9916,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/Dpw9k1lRcb",
+          "expanded_url": "https://cnn.it/36Vijid",
+          "display_url": "cnn.it/36Vijid"
+        }
+      ]
+    },
+    "id": "1329869644757409792",
+    "created_at": "2020-11-20T19:30:05.000Z",
+    "public_metrics": {
+      "retweet_count": 253,
+      "reply_count": 331,
+      "like_count": 2227,
+      "quote_count": 77
+    },
+    "author_id": "759251",
+    "text": "Two prominent Republican senators on Thursday ripped President Donald Trump's attempt to overturn the results of the presidential election in Michigan, with one going so far as to call the President's strategy \"undemocratic.\" https://t.co/Dpw9k1lRcb"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 14,
+          "end": 23,
+          "probability": 0.5431,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 53,
+          "end": 74,
+          "probability": 0.6616,
+          "type": "Person",
+          "normalized_text": "President Donald Trump"
+        },
+        {
+          "start": 142,
+          "end": 149,
+          "probability": 0.9916,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/cOZIMMfwP3",
+          "expanded_url": "https://cnn.it/2HjpTuv",
+          "display_url": "cnn.it/2HjpTuv",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329648425164390401/UtexLIO9?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329648425164390401/UtexLIO9?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Mitt Romney calls Trump's attempt to overturn Michigan election 'undemocratic'",
+          "description": "Two prominent Republican senators on Thursday ripped President Donald Trump's attempt to overturn the results of the presidential election in Michigan, with one going so far as to call the President's strategy \"undemocratic.\"",
+          "unwound_url": "https://www.cnn.com/2020/11/19/politics/mitt-romney-ben-sasse-trump/index.html?utm_source=twCNN&utm_medium=social&utm_term=link&utm_content=2020-11-20T07%3A45%3A03"
+        }
+      ]
+    },
+    "id": "1329692217162801157",
+    "created_at": "2020-11-20T07:45:03.000Z",
+    "public_metrics": {
+      "retweet_count": 393,
+      "reply_count": 389,
+      "like_count": 2829,
+      "quote_count": 86
+    },
+    "author_id": "759251",
+    "text": "Two prominent Republican senators on Thursday ripped President Donald Trump's attempt to overturn the results of the presidential election in Michigan, with one going so far as to call the President's strategy \"undemocratic.\" https://t.co/cOZIMMfwP3"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "probability": 0.998,
+          "type": "Person",
+          "normalized_text": "Kelly Stafford"
+        },
+        {
+          "start": 33,
+          "end": 45,
+          "probability": 0.9633,
+          "type": "Organization",
+          "normalized_text": "Detroit Lions"
+        },
+        {
+          "start": 59,
+          "end": 74,
+          "probability": 0.9876,
+          "type": "Person",
+          "normalized_text": "Matthew Stafford"
+        },
+        {
+          "start": 114,
+          "end": 121,
+          "probability": 0.5961,
+          "type": "Organization",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 179,
+          "end": 183,
+          "probability": 0.4258,
+          "type": "Organization",
+          "normalized_text": "Covid"
+        }
+      ],
+      "urls": [
+        {
+          "start": 201,
+          "end": 224,
+          "url": "https://t.co/2MQZMSvtDp",
+          "expanded_url": "https://cnn.it/3pG04Gp",
+          "display_url": "cnn.it/3pG04Gp"
+        }
+      ]
+    },
+    "id": "1329581180589633536",
+    "created_at": "2020-11-20T00:23:50.000Z",
+    "public_metrics": {
+      "retweet_count": 80,
+      "reply_count": 1108,
+      "like_count": 583,
+      "quote_count": 179
+    },
+    "author_id": "759251",
+    "text": "Kelly Stafford, wife of longtime Detroit Lions quarterback Matthew Stafford, apologized on Thursday after calling Michigan a \"dictatorship\" in response to news of the state's new Covid-19 restrictions https://t.co/2MQZMSvtDp"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6275,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 47,
+          "end": 49,
+          "probability": 0.9364,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 62,
+          "end": 69,
+          "probability": 0.8816,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 73,
+          "end": 84,
+          "probability": 0.3707,
+          "type": "Place",
+          "normalized_text": "Wayne County"
+        },
+        {
+          "start": 147,
+          "end": 153,
+          "probability": 0.7967,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        },
+        {
+          "start": 183,
+          "end": 197,
+          "probability": 0.7646,
+          "type": "Organization",
+          "normalized_text": "Washington Post"
+        }
+      ],
+      "urls": [
+        {
+          "start": 252,
+          "end": 275,
+          "url": "https://t.co/Dv45ka7GRG",
+          "expanded_url": "https://cnn.it/38YYF7W",
+          "display_url": "cnn.it/38YYF7W"
+        }
+      ]
+    },
+    "id": "1329477063598804992",
+    "created_at": "2020-11-19T17:30:07.000Z",
+    "public_metrics": {
+      "retweet_count": 133,
+      "reply_count": 419,
+      "like_count": 533,
+      "quote_count": 74
+    },
+    "author_id": "759251",
+    "text": "President Trump called at least one of the two GOP members of Michigan\u2019s Wayne County board who said they want to \"rescind\" their votes to certify Detroit\u2019s presidential results, the Washington Post reports. Certification is still set to move forward. https://t.co/Dv45ka7GRG"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 2,
+          "end": 4,
+          "probability": 0.8824,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 60,
+          "end": 66,
+          "probability": 0.8719,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        },
+        {
+          "start": 145,
+          "end": 152,
+          "probability": 0.4856,
+          "type": "Product",
+          "normalized_text": "Facebook"
+        }
+      ],
+      "urls": [
+        {
+          "start": 154,
+          "end": 177,
+          "url": "https://t.co/loP2gE7qMf",
+          "expanded_url": "https://cnn.it/38UQtFz",
+          "display_url": "cnn.it/38UQtFz",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329205670063837186/ShwM6nHi?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329205670063837186/ShwM6nHi?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Republican who temporarily blocked certification of Detroit's results shared election conspiracy theories on Facebook",
+          "description": "William Hartmann, a Republican member of the Wayne County Board of Canvassers who temporarily blocked certification of election results in the Michigan county, has recently shared conspiracy theories about the election and Covid-19 on Facebook, CNN has found. He also shared racist posts about President Barack Obama during his presidency.",
+          "unwound_url": "https://www.cnn.com/2020/11/18/politics/republican-michigan-certification-conspiracy-theories/index.html?utm_term=link&utm_content=2020-11-19T02%3A53%3A01&utm_source=twCNN&utm_medium=social"
+        }
+      ]
+    },
+    "id": "1329256337419759627",
+    "created_at": "2020-11-19T02:53:01.000Z",
+    "public_metrics": {
+      "retweet_count": 200,
+      "reply_count": 151,
+      "like_count": 529,
+      "quote_count": 51
+    },
+    "author_id": "759251",
+    "text": "A GOP member of the board that initially blocked certifying Detroit's results previously shared election conspiracy theories and racist posts on Facebook https://t.co/loP2gE7qMf"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 80,
+          "end": 87,
+          "probability": 0.509,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 98,
+          "end": 113,
+          "probability": 0.7972,
+          "type": "Person",
+          "normalized_text": "Garlin Gilchrist"
+        },
+        {
+          "start": 189,
+          "end": 199,
+          "probability": 0.8679,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 227,
+          "end": 250,
+          "url": "https://t.co/0BvmFz53l4",
+          "expanded_url": "https://cnn.it/3pE8v4P",
+          "display_url": "cnn.it/3pE8v4P",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328868423699402753/qMxS4amW?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328868423699402753/qMxS4amW?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Michigan Republicans temporarily block certification of Detroit's election results",
+          "description": "In an unprecedented move, the Detroit-based Wayne County Board of Canvassers deadlocked along partisan lines on a critical vote Tuesday and was unable to certify the county's presidential results before the deadline.",
+          "unwound_url": "https://www.cnn.com/2020/11/17/politics/michigan-detroit-election-results/index.html?utm_term=video&utm_source=twCNN&utm_content=2020-11-18T07%3A16%3A04&utm_medium=social"
+        },
+        {
+          "start": 251,
+          "end": 274,
+          "url": "https://t.co/EzmuOjfN1W",
+          "expanded_url": "https://twitter.com/CNN/status/1328960151185973250/video/1",
+          "display_url": "pic.twitter.com/EzmuOjfN1W"
+        }
+      ]
+    },
+    "id": "1328960151185973250",
+    "created_at": "2020-11-18T07:16:05.000Z",
+    "public_metrics": {
+      "retweet_count": 130,
+      "reply_count": 74,
+      "like_count": 673,
+      "quote_count": 22
+    },
+    "author_id": "759251",
+    "text": "\"They were working to try to strip voters of their voice and their power,\" says Michigan Lt. Gov. Garlin Gilchrist, reacting to the state's largest county certifying election results after Republicans earlier blocked the move. https://t.co/0BvmFz53l4 https://t.co/EzmuOjfN1W"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 24,
+          "end": 31,
+          "probability": 0.8717,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 90,
+          "end": 100,
+          "probability": 0.836,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 132,
+          "end": 155,
+          "url": "https://t.co/kEBtdbWkr4",
+          "expanded_url": "https://cnn.it/3nwDnCw",
+          "display_url": "cnn.it/3nwDnCw"
+        }
+      ]
+    },
+    "id": "1328894481878421504",
+    "created_at": "2020-11-18T02:55:08.000Z",
+    "public_metrics": {
+      "retweet_count": 323,
+      "reply_count": 272,
+      "like_count": 2641,
+      "quote_count": 113
+    },
+    "author_id": "759251",
+    "text": "In a shocking reversal, Michigan's largest county voted to certify election results after Republicans earlier blocked the same move https://t.co/kEBtdbWkr4"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 30,
+          "end": 36,
+          "probability": 0.8597,
+          "type": "Place",
+          "normalized_text": "Detroit"
+        },
+        {
+          "start": 44,
+          "end": 75,
+          "probability": 0.3971,
+          "type": "Organization",
+          "normalized_text": "Wayne County Board of Canvassers"
+        }
+      ],
+      "urls": [
+        {
+          "start": 208,
+          "end": 231,
+          "url": "https://t.co/trkuqtmIhn",
+          "expanded_url": "https://cnn.it/2IHSl9E",
+          "display_url": "cnn.it/2IHSl9E"
+        }
+      ]
+    },
+    "id": "1328872789781209092",
+    "created_at": "2020-11-18T01:28:57.000Z",
+    "public_metrics": {
+      "retweet_count": 125,
+      "reply_count": 301,
+      "like_count": 521,
+      "quote_count": 76
+    },
+    "author_id": "759251",
+    "text": "In an unprecedented move, the Detroit-based Wayne County Board of Canvassers deadlocked along partisan lines on a critical vote and was unable to certify the county's presidential results before the deadline https://t.co/trkuqtmIhn"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 230,
+      "reply_count": 387,
+      "like_count": 1320,
+      "quote_count": 65
+    },
+    "entities": {
+      "annotations": [
+        {
+          "start": 1,
+          "end": 5,
+          "probability": 0.9902,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 106,
+          "end": 113,
+          "probability": 0.9994,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 116,
+          "end": 127,
+          "probability": 0.8227,
+          "type": "Place",
+          "normalized_text": "Pennsylvania"
+        },
+        {
+          "start": 133,
+          "end": 141,
+          "probability": 0.997,
+          "type": "Place",
+          "normalized_text": "Wisconsin"
+        },
+        {
+          "start": 146,
+          "end": 150,
+          "probability": 0.9987,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 212,
+          "end": 228,
+          "username": "ForecasterEnten"
+        }
+      ],
+      "urls": [
+        {
+          "start": 248,
+          "end": 271,
+          "url": "https://t.co/PAcrDeMpwF",
+          "expanded_url": "https://cnn.it/2IK1SNQ",
+          "display_url": "cnn.it/2IK1SNQ",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328670495286312962/jPeB6GYB?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328670495286312962/jPeB6GYB?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Analysis: Trump's fraud accusations make no sense. The suburbs, not the cities, are why he lost.",
+          "description": "President Donald Trump continues to carry on with his unfounded charade claiming the election was wide-scale fraud. At the heart of many of his campaign's complaints is that the big cities in the Great Lakes (Rust Belt) battleground states, such as Detroit and Philadelphia, helped to \"engineer\" a certain outcome.",
+          "unwound_url": "https://www.cnn.com/2020/11/17/politics/trump-suburbs-analysis/index.html?utm_content=2020-11-17T17%3A10%3A03&utm_source=twCNN&utm_term=link&utm_medium=social"
+        }
+      ]
+    },
+    "id": "1328747243575406595",
+    "text": "\"Biden won in large part because of a dramatic improvement in the suburbs surrounding the major cities in Michigan, Pennsylvania and Wisconsin... Trump simply got beat because suburban voters were tired of him,\" @ForecasterEnten writes. | Analysis https://t.co/PAcrDeMpwF",
+    "created_at": "2020-11-17T17:10:04.000Z"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 548,
+      "reply_count": 853,
+      "like_count": 5211,
+      "quote_count": 117
+    },
+    "entities": {
+      "annotations": [
+        {
+          "start": 1,
+          "end": 5,
+          "probability": 0.9902,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 106,
+          "end": 113,
+          "probability": 0.9994,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        },
+        {
+          "start": 116,
+          "end": 127,
+          "probability": 0.8227,
+          "type": "Place",
+          "normalized_text": "Pennsylvania"
+        },
+        {
+          "start": 133,
+          "end": 141,
+          "probability": 0.997,
+          "type": "Place",
+          "normalized_text": "Wisconsin"
+        },
+        {
+          "start": 146,
+          "end": 150,
+          "probability": 0.9987,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 212,
+          "end": 228,
+          "username": "ForecasterEnten"
+        }
+      ],
+      "urls": [
+        {
+          "start": 248,
+          "end": 271,
+          "url": "https://t.co/9bGHHTe1Nm",
+          "expanded_url": "https://cnn.it/32O0ksU",
+          "display_url": "cnn.it/32O0ksU",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328670495286312962/jPeB6GYB?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328670495286312962/jPeB6GYB?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Analysis: Trump's fraud accusations make no sense. The suburbs, not the cities, are why he lost.",
+          "description": "President Donald Trump continues to carry on with his unfounded charade claiming the election was wide-scale fraud. At the heart of many of his campaign's complaints is that the big cities in the Great Lakes (Rust Belt) battleground states, such as Detroit and Philadelphia, helped to \"engineer\" a certain outcome.",
+          "unwound_url": "https://www.cnn.com/2020/11/17/politics/trump-suburbs-analysis/index.html?utm_content=2020-11-17T12%3A45%3A02&utm_source=twCNN&utm_term=link&utm_medium=social"
+        }
+      ]
+    },
+    "id": "1328680548819197958",
+    "text": "\"Biden won in large part because of a dramatic improvement in the suburbs surrounding the major cities in Michigan, Pennsylvania and Wisconsin... Trump simply got beat because suburban voters were tired of him,\" @ForecasterEnten writes. | Analysis https://t.co/9bGHHTe1Nm",
+    "created_at": "2020-11-17T12:45:03.000Z"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 578,
+      "reply_count": 338,
+      "like_count": 4843,
+      "quote_count": 104
+    },
+    "entities": {
+      "annotations": [
+        {
+          "start": 83,
+          "end": 91,
+          "probability": 0.9547,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 150,
+          "end": 173,
+          "url": "https://t.co/5eWnhWsF2Q",
+          "expanded_url": "https://cnn.it/3lAX0sE",
+          "display_url": "cnn.it/3lAX0sE",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328379325834547201/AKXw6mrG?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328379325834547201/AKXw6mrG?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Lawsuits that tried to disrupt Biden's wins in four states are withdrawn",
+          "description": "Voters in four states who had brought longshot lawsuits to disrupt President-elect Joe Biden's win and went nowhere in court have dropped their cases Monday morning.",
+          "unwound_url": "https://www.cnn.com/2020/11/16/politics/lawsuits-michigan-pennsylvania-wisconsin-georgia/index.html?utm_term=link&utm_source=twCNN&utm_content=2020-11-16T18%3A50%3A04&utm_medium=social"
+        }
+      ]
+    },
+    "id": "1328410025497423873",
+    "text": "Voters in four states who had brought longshot lawsuits to disrupt President-elect Joe Biden's win and went nowhere in court have dropped their cases https://t.co/5eWnhWsF2Q",
+    "created_at": "2020-11-16T18:50:05.000Z"
+  },
+  {
+    "author_id": "1367531",
+    "created_at": "2020-11-19T17:13:20.000Z",
+    "id": "1329472840685547521",
+    "entities": {
+      "urls": [
+        {
+          "start": 90,
+          "end": 113,
+          "url": "https://t.co/YZ2fJORKba",
+          "expanded_url": "https://www.foxnews.com/politics/trump-campaign-drops-lawsuit-challenging-michigan-voting-results",
+          "display_url": "foxnews.com/politics/trump\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329461322262560768/Zeh41NvL?format=jpg&name=orig",
+              "width": 1024,
+              "height": 512
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329461322262560768/Zeh41NvL?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Trump campaign drops lawsuit challenging Michigan voting results",
+          "description": "President Trump's reelection campaign said Thursday that it is\u00a0dropping a lawsuit challenging voting results in Michigan, which show Democrat Joe Biden narrowly carrying the battleground state.",
+          "unwound_url": "https://www.foxnews.com/politics/trump-campaign-drops-lawsuit-challenging-michigan-voting-results"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 11,
+          "end": 15,
+          "probability": 0.9909,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 73,
+          "end": 80,
+          "probability": 0.7682,
+          "type": "Place",
+          "normalized_text": "Michigan"
+        }
+      ]
+    },
+    "text": "WATCH NOW: Trump legal team holds news conference after withdrawing from Michigan lawsuit\nhttps://t.co/YZ2fJORKba",
+    "public_metrics": {
+      "retweet_count": 187,
+      "reply_count": 794,
+      "like_count": 1254,
+      "quote_count": 82
+    }
+  }
+]

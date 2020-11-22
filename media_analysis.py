@@ -35,10 +35,11 @@ orgs = {
 	}
 }
 
-## all_data overwriting each time
-
 # search terms
 search_text = 'Michigan'
+
+# empty variable for storing results
+all_data = []
 
 # for each organization
 for org_id in orgs:
@@ -48,9 +49,8 @@ for org_id in orgs:
 
 	print('\n', org_id, sep='')
 
-	# define as empty initially
+	# define as empty initially for each org
 	next_token = None
-	all_data = []
 
 	# make requests, using next_token to combine multiple responses into one json file until there is no next token or 10 requests have been made
 
