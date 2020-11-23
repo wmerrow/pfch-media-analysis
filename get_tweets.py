@@ -85,9 +85,9 @@ def get_tweets(has_org_url, search_text):
 			payload = {
 				# query
 				'query': query,
-				# return these fields
+				# include these fields in response
 				'tweet.fields': 'author_id,id,created_at,public_metrics,text,entities',
-				# number of results per request (can be 10-100)
+				# number of results per response (can be 10-100)
 				'max_results': 10,
 				# specify next_token (page to start on)
 				'next_token': next_token
@@ -99,23 +99,23 @@ def get_tweets(has_org_url, search_text):
 			# print request status
 			print('Response ', i, ': ', r.status_code, sep='')
 
-			# store response
-			data = json.loads(r.text)
+			# store page of responses
+			page_data = json.loads(r.text)
 
 			# add to result count
-			result_count = result_count + data['meta']['result_count']
+			result_count = result_count + page_data['meta']['result_count']
 
 			# if there are more than zero results
-			if data['meta']['result_count'] > 0:
+			if page_data['meta']['result_count'] > 0:
 
 				# add new results to all_data, including data but not meta
-				all_data = all_data + data['data']
+				all_data = all_data + page_data['data']
 
 			# if response contains a next token
-			if 'next_token' in data['meta']:
+			if 'next_token' in page_data['meta']:
 
 				# store new next_token
-				next_token = data['meta']['next_token']
+				next_token = page_data['meta']['next_token']
 
 				# if it's the final iteration
 				if i == iterations:
@@ -147,4 +147,5 @@ def get_tweets(has_org_url, search_text):
 
 # get tweets 
 get_tweets(has_org_url = True, search_text = 'Georgia')
+
 

@@ -1,29 +1,9 @@
 [
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 268,
-      "reply_count": 226,
-      "like_count": 1528,
-      "quote_count": 94
-    },
+    "created_at": "2020-11-22T04:30:05.000Z",
+    "id": "1330367925451173888",
     "entities": {
-      "annotations": [
-        {
-          "start": 8,
-          "end": 21,
-          "probability": 0.5896,
-          "type": "Person",
-          "normalized_text": "Kelly Loeffler"
-        },
-        {
-          "start": 46,
-          "end": 52,
-          "probability": 0.9855,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        }
-      ],
       "urls": [
         {
           "start": 149,
@@ -48,21 +28,46 @@
           "description": "Senator Kelly Loeffler of Georgia, a Republican who is campaigning in a high-stakes runoff election that could determine control of the Senate, is quarantining after testing positive for the coronavirus.",
           "unwound_url": "https://www.nytimes.com/2020/11/21/us/politics/kelly-loeffler-georgia-quarantine-coronavirus-senate-runoff.html?smtyp=cur&smid=tw-nytimes"
         }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 21,
+          "probability": 0.5896,
+          "type": "Person",
+          "normalized_text": "Kelly Loeffler"
+        },
+        {
+          "start": 46,
+          "end": 52,
+          "probability": 0.9855,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
       ]
     },
-    "id": "1330367925451173888",
     "text": "Senator Kelly Loeffler, who faces a runoff in Georgia, is quarantining after a positive virus test and an inconclusive follow-up, her campaign said. https://t.co/DTnCUYemt4",
-    "created_at": "2020-11-22T04:30:05.000Z"
+    "public_metrics": {
+      "retweet_count": 275,
+      "reply_count": 238,
+      "like_count": 1597,
+      "quote_count": 100
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 312,
-      "reply_count": 175,
-      "like_count": 2292,
-      "quote_count": 69
-    },
+    "created_at": "2020-11-21T04:00:10.000Z",
+    "id": "1329998010344935424",
     "entities": {
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/6BdZ9FQWUa",
+          "expanded_url": "https://nyti.ms/393M1oc",
+          "display_url": "nyti.ms/393M1oc"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -99,30 +104,30 @@
           "type": "Organization",
           "normalized_text": "Michigan"
         }
-      ],
-      "urls": [
-        {
-          "start": 250,
-          "end": 273,
-          "url": "https://t.co/6BdZ9FQWUa",
-          "expanded_url": "https://nyti.ms/393M1oc",
-          "display_url": "nyti.ms/393M1oc"
-        }
       ]
     },
-    "id": "1329998010344935424",
     "text": "President Trump\u2019s attempt to undo the election results was undercut twice by fellow Republicans on Friday, as Georgia certified Joe Biden\u2019s victory and Michigan lawmakers said they would not intervene in their state\u2019s election certification process. https://t.co/6BdZ9FQWUa",
-    "created_at": "2020-11-21T04:00:10.000Z"
+    "public_metrics": {
+      "retweet_count": 313,
+      "reply_count": 174,
+      "like_count": 2298,
+      "quote_count": 70
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 154,
-      "reply_count": 59,
-      "like_count": 1128,
-      "quote_count": 64
-    },
+    "created_at": "2020-11-20T21:17:35.000Z",
+    "id": "1329896697703657472",
     "entities": {
+      "urls": [
+        {
+          "start": 157,
+          "end": 180,
+          "url": "https://t.co/9bpYvv6IJR",
+          "expanded_url": "https://nyti.ms/2IMJvrL",
+          "display_url": "nyti.ms/2IMJvrL"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -138,30 +143,46 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
+      ]
+    },
+    "text": "Breaking News: Georgia certified President-elect Joe Biden\u2019s victory in the state, hours after a premature announcement that the process had been completed. https://t.co/9bpYvv6IJR",
+    "public_metrics": {
+      "retweet_count": 155,
+      "reply_count": 59,
+      "like_count": 1130,
+      "quote_count": 64
+    }
+  },
+  {
+    "author_id": "807095",
+    "created_at": "2020-11-20T19:12:10.000Z",
+    "id": "1329865135939342350",
+    "entities": {
       "urls": [
         {
           "start": 157,
           "end": 180,
-          "url": "https://t.co/9bpYvv6IJR",
-          "expanded_url": "https://nyti.ms/2IMJvrL",
-          "display_url": "nyti.ms/2IMJvrL"
+          "url": "https://t.co/z4Njc6OoCR",
+          "expanded_url": "https://nyti.ms/393ppUS",
+          "display_url": "nyti.ms/393ppUS",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329783428221374469/IWHRY6sx?format=jpg&name=orig",
+              "width": 1600,
+              "height": 900
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329783428221374469/IWHRY6sx?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Transition Live Updates: Biden to Meet With Congressional Leaders",
+          "description": "President-elect Joe Biden is set to talk with Speaker Nancy Pelosi and Senator Chuck Schumer today. President Trump is hosting state lawmakers from Michigan he hopes will help him nullify Mr. Biden\u2019s victory there.",
+          "unwound_url": "https://www.nytimes.com/live/2020/11/20/us/joe-biden-trump#georgia-officials-say-certification-will-be-finished-today-after-the-wrong-press-release-said-it-was-done?smid=tw-nytimes&smtyp=cur"
         }
-      ]
-    },
-    "id": "1329896697703657472",
-    "text": "Breaking News: Georgia certified President-elect Joe Biden\u2019s victory in the state, hours after a premature announcement that the process had been completed. https://t.co/9bpYvv6IJR",
-    "created_at": "2020-11-20T21:17:35.000Z"
-  },
-  {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 66,
-      "reply_count": 50,
-      "like_count": 610,
-      "quote_count": 39
-    },
-    "entities": {
+      ],
       "annotations": [
         {
           "start": 8,
@@ -177,30 +198,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 157,
-          "end": 180,
-          "url": "https://t.co/z4Njc6OoCR",
-          "expanded_url": "https://nyti.ms/393ppUS",
-          "display_url": "nyti.ms/393ppUS"
-        }
       ]
     },
-    "id": "1329865135939342350",
     "text": "Update: Georgia officials now say certification for Joe Biden will finish soon. A staffer prematurely \u201csent out the wrong press release\u201d saying it was done. https://t.co/z4Njc6OoCR",
-    "created_at": "2020-11-20T19:12:10.000Z"
+    "public_metrics": {
+      "retweet_count": 66,
+      "reply_count": 50,
+      "like_count": 610,
+      "quote_count": 39
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 492,
-      "reply_count": 203,
-      "like_count": 3749,
-      "quote_count": 102
-    },
+    "created_at": "2020-11-20T17:37:12.000Z",
+    "id": "1329841236702859265",
     "entities": {
+      "urls": [
+        {
+          "start": 164,
+          "end": 187,
+          "url": "https://t.co/b436bXe1Av",
+          "expanded_url": "https://nyti.ms/3lQi1Q9",
+          "display_url": "nyti.ms/3lQi1Q9"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -223,30 +244,30 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 164,
-          "end": 187,
-          "url": "https://t.co/b436bXe1Av",
-          "expanded_url": "https://nyti.ms/3lQi1Q9",
-          "display_url": "nyti.ms/3lQi1Q9"
-        }
       ]
     },
-    "id": "1329841236702859265",
     "text": "Breaking News: Georgia\u2019s top election official certified President-elect Joe Biden\u2019s win there, despite President Trump\u2019s false claim that the process was corrupt. https://t.co/b436bXe1Av",
-    "created_at": "2020-11-20T17:37:12.000Z"
+    "public_metrics": {
+      "retweet_count": 491,
+      "reply_count": 203,
+      "like_count": 3748,
+      "quote_count": 102
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 157,
-      "reply_count": 67,
-      "like_count": 1143,
-      "quote_count": 21
-    },
+    "created_at": "2020-11-20T16:30:06.000Z",
+    "id": "1329824350371983362",
     "entities": {
+      "urls": [
+        {
+          "start": 196,
+          "end": 219,
+          "url": "https://t.co/TvyBqnEuQq",
+          "expanded_url": "https://nyti.ms/334eSVw",
+          "display_url": "nyti.ms/334eSVw"
+        }
+      ],
       "annotations": [
         {
           "start": 8,
@@ -269,60 +290,21 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ],
-      "urls": [
-        {
-          "start": 196,
-          "end": 219,
-          "url": "https://t.co/TvyBqnEuQq",
-          "expanded_url": "https://nyti.ms/334eSVw",
-          "display_url": "nyti.ms/334eSVw"
-        }
       ]
     },
-    "id": "1329824350371983362",
     "text": "In many Georgia counties, officials conducting a hand vote recount found zero or only single-digit differences. The end result statewide reaffirmed President-elect Joe Biden's victory in Georgia. https://t.co/TvyBqnEuQq",
-    "created_at": "2020-11-20T16:30:06.000Z"
+    "public_metrics": {
+      "retweet_count": 157,
+      "reply_count": 67,
+      "like_count": 1143,
+      "quote_count": 21
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 372,
-      "reply_count": 162,
-      "like_count": 3193,
-      "quote_count": 106
-    },
+    "created_at": "2020-11-20T16:20:12.000Z",
+    "id": "1329821856149475328",
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 6,
-          "probability": 0.8432,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        },
-        {
-          "start": 32,
-          "end": 41,
-          "probability": 0.7229,
-          "type": "Organization",
-          "normalized_text": "Republican"
-        },
-        {
-          "start": 47,
-          "end": 51,
-          "probability": 0.9978,
-          "type": "Person",
-          "normalized_text": "Trump"
-        },
-        {
-          "start": 146,
-          "end": 154,
-          "probability": 0.9959,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        }
-      ],
       "urls": [
         {
           "start": 249,
@@ -354,21 +336,60 @@
           "expanded_url": "https://twitter.com/nytimes/status/1329821856149475328/video/1",
           "display_url": "pic.twitter.com/4Br3J0QA43"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.8432,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 32,
+          "end": 41,
+          "probability": 0.7229,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 47,
+          "end": 51,
+          "probability": 0.9978,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 146,
+          "end": 154,
+          "probability": 0.9959,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
       ]
     },
-    "id": "1329821856149475328",
     "text": "Georgia\u2019s secretary of state, a Republican and Trump supporter, will certify the state\u2019s presidential election results on Friday, making official Joe Biden's win there. \"I believe that the numbers that we have presented today are correct,\" he said. https://t.co/6H71oyksg8 https://t.co/4Br3J0QA43",
-    "created_at": "2020-11-20T16:20:12.000Z"
+    "public_metrics": {
+      "retweet_count": 372,
+      "reply_count": 162,
+      "like_count": 3197,
+      "quote_count": 106
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 273,
-      "reply_count": 101,
-      "like_count": 2726,
-      "quote_count": 68
-    },
+    "created_at": "2020-11-20T14:40:09.000Z",
+    "id": "1329796679579611138",
     "entities": {
+      "urls": [
+        {
+          "start": 245,
+          "end": 268,
+          "url": "https://t.co/99ofJPQxdo",
+          "expanded_url": "https://nyti.ms/3flWQ5V",
+          "display_url": "nyti.ms/3flWQ5V"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -391,30 +412,30 @@
           "type": "Person",
           "normalized_text": "Brad Raffensperger"
         }
-      ],
-      "urls": [
-        {
-          "start": 245,
-          "end": 268,
-          "url": "https://t.co/99ofJPQxdo",
-          "expanded_url": "https://nyti.ms/3flWQ5V",
-          "display_url": "nyti.ms/3flWQ5V"
-        }
       ]
     },
-    "id": "1329796679579611138",
     "text": "Georgia\u2019s secretary of state is set to certify the state\u2019s presidential election results on Friday, making President-elect Joe Biden's victory there official. \"I live by the motto that numbers don\u2019t lie,\u201d Brad Raffensperger, a Republican, said. https://t.co/99ofJPQxdo",
-    "created_at": "2020-11-20T14:40:09.000Z"
+    "public_metrics": {
+      "retweet_count": 274,
+      "reply_count": 101,
+      "like_count": 2730,
+      "quote_count": 68
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 465,
-      "reply_count": 182,
-      "like_count": 4938,
-      "quote_count": 96
-    },
+    "created_at": "2020-11-20T11:20:05.000Z",
+    "id": "1329746332748230656",
     "entities": {
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/8HCG3ETPUZ",
+          "expanded_url": "https://nyti.ms/35LoEgN",
+          "display_url": "nyti.ms/35LoEgN"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -430,30 +451,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 220,
-          "end": 243,
-          "url": "https://t.co/8HCG3ETPUZ",
-          "expanded_url": "https://nyti.ms/35LoEgN",
-          "display_url": "nyti.ms/35LoEgN"
-        }
       ]
     },
-    "id": "1329746332748230656",
     "text": "Georgia\u2019s statewide hand recount of more than five million ballots was completed on Thursday, reaffirming that President-elect Joe Biden notched an upset in a state that has long been considered a Republican stronghold.\nhttps://t.co/8HCG3ETPUZ",
-    "created_at": "2020-11-20T11:20:05.000Z"
+    "public_metrics": {
+      "retweet_count": 466,
+      "reply_count": 183,
+      "like_count": 4937,
+      "quote_count": 96
+    }
   },
   {
     "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 137,
-      "reply_count": 109,
-      "like_count": 948,
-      "quote_count": 38
-    },
+    "created_at": "2020-11-20T04:40:21.000Z",
+    "id": "1329645733339930624",
     "entities": {
+      "urls": [
+        {
+          "start": 244,
+          "end": 267,
+          "url": "https://t.co/dNEQK63YkM",
+          "expanded_url": "https://nyti.ms/38YiD2p",
+          "display_url": "nyti.ms/38YiD2p"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -469,29 +490,17 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 244,
-          "end": 267,
-          "url": "https://t.co/dNEQK63YkM",
-          "expanded_url": "https://nyti.ms/38YiD2p",
-          "display_url": "nyti.ms/38YiD2p"
-        }
       ]
     },
-    "id": "1329645733339930624",
     "text": "Georgia finalized a hand recount on Thursday of the five million ballots cast in the election, reaffirming President-elect Joe Biden\u2019s victory but reducing his lead by more than 1,200 votes. Here's a look at where the votes differed by county.\nhttps://t.co/dNEQK63YkM",
-    "created_at": "2020-11-20T04:40:21.000Z"
+    "public_metrics": {
+      "retweet_count": 137,
+      "reply_count": 109,
+      "like_count": 948,
+      "quote_count": 38
+    }
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 1027,
-      "reply_count": 308,
-      "like_count": 7281,
-      "quote_count": 390
-    },
     "entities": {
       "annotations": [
         {
@@ -520,17 +529,17 @@
       ]
     },
     "id": "1329585771834118144",
-    "text": "Breaking News: President-elect Joe Biden\u2019s victory in Georgia was reaffirmed after the state finished its recount of nearly five million ballots with few meaningful vote changes.\nhttps://t.co/eHH0he6cHz",
-    "created_at": "2020-11-20T00:42:05.000Z"
+    "created_at": "2020-11-20T00:42:05.000Z",
+    "public_metrics": {
+      "retweet_count": 1027,
+      "reply_count": 308,
+      "like_count": 7284,
+      "quote_count": 390
+    },
+    "author_id": "807095",
+    "text": "Breaking News: President-elect Joe Biden\u2019s victory in Georgia was reaffirmed after the state finished its recount of nearly five million ballots with few meaningful vote changes.\nhttps://t.co/eHH0he6cHz"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 69,
-      "reply_count": 41,
-      "like_count": 367,
-      "quote_count": 12
-    },
     "entities": {
       "annotations": [
         {
@@ -559,17 +568,17 @@
       ]
     },
     "id": "1329575226041098241",
-    "text": "The two Georgia runoff elections that will determine control of the Senate are already drawing enormous sums of cash, with more than $125 million pouring into the state in only two weeks. https://t.co/G8u90F7tJ0",
-    "created_at": "2020-11-20T00:00:10.000Z"
+    "created_at": "2020-11-20T00:00:10.000Z",
+    "public_metrics": {
+      "retweet_count": 69,
+      "reply_count": 41,
+      "like_count": 367,
+      "quote_count": 12
+    },
+    "author_id": "807095",
+    "text": "The two Georgia runoff elections that will determine control of the Senate are already drawing enormous sums of cash, with more than $125 million pouring into the state in only two weeks. https://t.co/G8u90F7tJ0"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 5089,
-      "reply_count": 805,
-      "like_count": 10908,
-      "quote_count": 1193
-    },
     "entities": {
       "annotations": [
         {
@@ -605,17 +614,17 @@
       ]
     },
     "id": "1329527396022837249",
-    "text": "Sen. David Perdue, one of two Republicans facing a runoff election in Georgia, began buying large amounts of ultimately profitable shares in a Navy contractor just before taking over as chair of a Senate subcommittee  that oversees the Navy fleet. https://t.co/vDBQzb4SIn",
-    "created_at": "2020-11-19T20:50:07.000Z"
+    "created_at": "2020-11-19T20:50:07.000Z",
+    "public_metrics": {
+      "retweet_count": 5129,
+      "reply_count": 808,
+      "like_count": 10996,
+      "quote_count": 1203
+    },
+    "author_id": "807095",
+    "text": "Sen. David Perdue, one of two Republicans facing a runoff election in Georgia, began buying large amounts of ultimately profitable shares in a Navy contractor just before taking over as chair of a Senate subcommittee  that oversees the Navy fleet. https://t.co/vDBQzb4SIn"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 192,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
     "entities": {
       "annotations": [
         {
@@ -649,17 +658,17 @@
       ]
     },
     "id": "1329508525626839040",
-    "text": "RT @ShaneGoldmacher: NEW: Astounding sums pouring into Georgia runoffs that will determine control of Senate.\n\nRaphael Warnock has raised a\u2026",
-    "created_at": "2020-11-19T19:35:08.000Z"
+    "created_at": "2020-11-19T19:35:08.000Z",
+    "public_metrics": {
+      "retweet_count": 192,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "807095",
+    "text": "RT @ShaneGoldmacher: NEW: Astounding sums pouring into Georgia runoffs that will determine control of Senate.\n\nRaphael Warnock has raised a\u2026"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 129,
-      "reply_count": 48,
-      "like_count": 862,
-      "quote_count": 26
-    },
     "entities": {
       "annotations": [
         {
@@ -684,18 +693,6 @@
           "normalized_text": "Georgia"
         }
       ],
-      "mentions": [
-        {
-          "start": 18,
-          "end": 32,
-          "username": "andrewrsorkin"
-        },
-        {
-          "start": 40,
-          "end": 49,
-          "username": "dealbook"
-        }
-      ],
       "urls": [
         {
           "start": 247,
@@ -711,20 +708,32 @@
           "expanded_url": "https://twitter.com/nytimes/status/1329215352912404480/video/1",
           "display_url": "pic.twitter.com/1HV6TwqzSb"
         }
+      ],
+      "mentions": [
+        {
+          "start": 18,
+          "end": 32,
+          "username": "andrewrsorkin"
+        },
+        {
+          "start": 40,
+          "end": 49,
+          "username": "dealbook"
+        }
       ]
     },
     "id": "1329215352912404480",
-    "text": "LeBron James told @andrewrsorkin at the @dealbook Online Summit that the voting-access organization he started for the 2020 presidential election is \u201cnot just a one-off.\u201d It will remain active in the Senate runoff elections in Georgia and beyond. https://t.co/dU9iaZEk59 https://t.co/1HV6TwqzSb",
-    "created_at": "2020-11-19T00:10:10.000Z"
+    "created_at": "2020-11-19T00:10:10.000Z",
+    "public_metrics": {
+      "retweet_count": 130,
+      "reply_count": 48,
+      "like_count": 861,
+      "quote_count": 26
+    },
+    "author_id": "807095",
+    "text": "LeBron James told @andrewrsorkin at the @dealbook Online Summit that the voting-access organization he started for the 2020 presidential election is \u201cnot just a one-off.\u201d It will remain active in the Senate runoff elections in Georgia and beyond. https://t.co/dU9iaZEk59 https://t.co/1HV6TwqzSb"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 89,
-      "reply_count": 95,
-      "like_count": 562,
-      "quote_count": 22
-    },
     "entities": {
       "annotations": [
         {
@@ -753,17 +762,17 @@
       ]
     },
     "id": "1329177600737112078",
-    "text": "President-elect Joe Biden predicts running into \u201cbrick walls\u201d in the Senate \u201cunless we\u2019re able to turn around Georgia and pick up those two seats.\u201d But in a call with supporters he expressed confidence in his ability to serve as a unifying figure. https://t.co/lkvtCPR0sT",
-    "created_at": "2020-11-18T21:40:09.000Z"
+    "created_at": "2020-11-18T21:40:09.000Z",
+    "public_metrics": {
+      "retweet_count": 90,
+      "reply_count": 95,
+      "like_count": 563,
+      "quote_count": 22
+    },
+    "author_id": "807095",
+    "text": "President-elect Joe Biden predicts running into \u201cbrick walls\u201d in the Senate \u201cunless we\u2019re able to turn around Georgia and pick up those two seats.\u201d But in a call with supporters he expressed confidence in his ability to serve as a unifying figure. https://t.co/lkvtCPR0sT"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 223,
-      "reply_count": 83,
-      "like_count": 1412,
-      "quote_count": 34
-    },
     "entities": {
       "annotations": [
         {
@@ -799,17 +808,17 @@
       ]
     },
     "id": "1329139839216848896",
-    "text": "Georgia\u2019s ballot recount in the presidential race is nearly complete. Officials said they expected to finish by tonight\u2019s deadline and reiterated that the count would not alter President-elect Joe Biden\u2019s narrow victory in the state over President Trump. https://t.co/edK6dp2h7y",
-    "created_at": "2020-11-18T19:10:06.000Z"
+    "created_at": "2020-11-18T19:10:06.000Z",
+    "public_metrics": {
+      "retweet_count": 223,
+      "reply_count": 83,
+      "like_count": 1412,
+      "quote_count": 34
+    },
+    "author_id": "807095",
+    "text": "Georgia\u2019s ballot recount in the presidential race is nearly complete. Officials said they expected to finish by tonight\u2019s deadline and reiterated that the count would not alter President-elect Joe Biden\u2019s narrow victory in the state over President Trump. https://t.co/edK6dp2h7y"
   },
   {
-    "author_id": "807095",
-    "public_metrics": {
-      "retweet_count": 87,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
     "entities": {
       "annotations": [
         {
@@ -829,17 +838,17 @@
       ]
     },
     "id": "1328915861651017728",
-    "text": "RT @nytpolitics: With unsubstantiated claims of vote-counting errors and calls to officials in several states, Senator Lindsey Graham seems\u2026",
-    "created_at": "2020-11-18T04:20:06.000Z"
-  },
-  {
-    "author_id": "807095",
+    "created_at": "2020-11-18T04:20:06.000Z",
     "public_metrics": {
-      "retweet_count": 56,
+      "retweet_count": 87,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
     },
+    "author_id": "807095",
+    "text": "RT @nytpolitics: With unsubstantiated claims of vote-counting errors and calls to officials in several states, Senator Lindsey Graham seems\u2026"
+  },
+  {
     "entities": {
       "annotations": [
         {
@@ -873,17 +882,17 @@
       ]
     },
     "id": "1328908294090596353",
-    "text": "RT @jmartNYT: New: By enabling Trump\u2019s conspiracy-mongering, Loeffler and Perdue are depriving selves of their best potential message - tha\u2026",
-    "created_at": "2020-11-18T03:50:01.000Z"
-  },
-  {
-    "author_id": "807095",
+    "created_at": "2020-11-18T03:50:01.000Z",
     "public_metrics": {
-      "retweet_count": 873,
+      "retweet_count": 56,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
     },
+    "author_id": "807095",
+    "text": "RT @jmartNYT: New: By enabling Trump\u2019s conspiracy-mongering, Loeffler and Perdue are depriving selves of their best potential message - tha\u2026"
+  },
+  {
     "entities": {
       "annotations": [
         {
@@ -910,17 +919,24 @@
       ]
     },
     "id": "1328885656286801921",
-    "text": "RT @Nate_Cohn: How Georgia turned blue: Huge gains in the Atlanta suburbs make up for a decline in the Black share of the electorate\nhttps:\u2026",
-    "created_at": "2020-11-18T02:20:04.000Z"
+    "created_at": "2020-11-18T02:20:04.000Z",
+    "public_metrics": {
+      "retweet_count": 874,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "807095",
+    "text": "RT @Nate_Cohn: How Georgia turned blue: Huge gains in the Atlanta suburbs make up for a decline in the Black share of the electorate\nhttps:\u2026"
   },
   {
+    "author_id": "807095",
     "public_metrics": {
       "retweet_count": 113,
       "reply_count": 84,
       "like_count": 611,
       "quote_count": 20
     },
-    "author_id": "807095",
     "entities": {
       "annotations": [
         {
@@ -964,18 +980,18 @@
         }
       ]
     },
-    "created_at": "2020-11-18T00:20:09.000Z",
+    "id": "1328855477170614280",
     "text": "As Georgia election officials work to complete a recount of nearly five million ballots by Wednesday, President Trump is trying to cast doubt on the legitimacy of the process \u2014 a hand recount that his own campaign demanded. https://t.co/5mFOmUxjBR",
-    "id": "1328855477170614280"
+    "created_at": "2020-11-18T00:20:09.000Z"
   },
   {
+    "author_id": "807095",
     "public_metrics": {
-      "retweet_count": 406,
-      "reply_count": 233,
-      "like_count": 1225,
+      "retweet_count": 410,
+      "reply_count": 235,
+      "like_count": 1229,
       "quote_count": 87
     },
-    "author_id": "807095",
     "entities": {
       "annotations": [
         {
@@ -1019,18 +1035,18 @@
         }
       ]
     },
-    "created_at": "2020-11-17T17:40:11.000Z",
+    "id": "1328754821604773889",
     "text": "Democrats have long dreamed of turning Georgia blue. But the winning coalition of voters that flipped the state this year might have stunned the party not that long ago. https://t.co/244SDWqNip",
-    "id": "1328754821604773889"
+    "created_at": "2020-11-17T17:40:11.000Z"
   },
   {
+    "author_id": "807095",
     "public_metrics": {
       "retweet_count": 289,
       "reply_count": 109,
-      "like_count": 1653,
+      "like_count": 1652,
       "quote_count": 55
     },
-    "author_id": "807095",
     "entities": {
       "annotations": [
         {
@@ -1081,18 +1097,18 @@
         }
       ]
     },
-    "created_at": "2020-11-17T01:00:10.000Z",
+    "id": "1328503158558109697",
     "text": "Georgia\u2019s secretary of state accused fellow Republicans of trying to undermine the validity of the state\u2019s election in order to help President Trump. https://t.co/Kwf1mDZPmq",
-    "id": "1328503158558109697"
+    "created_at": "2020-11-17T01:00:10.000Z"
   },
   {
+    "author_id": "807095",
     "public_metrics": {
       "retweet_count": 646,
       "reply_count": 161,
-      "like_count": 3513,
+      "like_count": 3510,
       "quote_count": 145
     },
-    "author_id": "807095",
     "entities": {
       "annotations": [
         {
@@ -1150,40 +1166,19 @@
         }
       ]
     },
-    "created_at": "2020-11-16T23:40:05.000Z",
+    "id": "1328483008358326272",
     "text": "The plaintiffs in four federal lawsuits challenging the integrity of the presidential election in Michigan, Georgia, Pennsylvania and Wisconsin all filed notice Monday that they were dropping their cases. https://t.co/boyJbZGxlR",
-    "id": "1328483008358326272"
+    "created_at": "2020-11-16T23:40:05.000Z"
   },
   {
+    "public_metrics": {
+      "retweet_count": 15,
+      "reply_count": 9,
+      "like_count": 64,
+      "quote_count": 10
+    },
     "author_id": "2347049341",
-    "created_at": "2020-11-22T15:04:45.000Z",
-    "id": "1330527645969379330",
     "entities": {
-      "urls": [
-        {
-          "start": 242,
-          "end": 265,
-          "url": "https://t.co/yhQZo0xoUB",
-          "expanded_url": "https://www.vox.com/2020/11/22/21589645/kelly-loeffler-positive-coronavirus-georgia-runoff?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/11/22/215\u2026",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1330527654769025024/mXu4qjdW?format=jpg&name=orig",
-              "width": 1200,
-              "height": 600
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1330527654769025024/mXu4qjdW?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Georgia Sen. Kelly Loeffler has tested positive for the coronavirus",
-          "description": "Loeffler, running to keep her seat in a competitive special election, plans to quarantine.",
-          "unwound_url": "https://www.vox.com/2020/11/22/21589645/kelly-loeffler-positive-coronavirus-georgia-runoff?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
-        }
-      ],
       "annotations": [
         {
           "start": 0,
@@ -1213,30 +1208,46 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ]
-    },
-    "text": "Georgia Sen. Kelly Loeffler, running to keep her seat in a January special election, has tested positive for coronavirus. She has begun quarantining. \n\nThe Trump campaign, meanwhile, has requested a recount of Georgia\u2019s presidential results. https://t.co/yhQZo0xoUB",
-    "public_metrics": {
-      "retweet_count": 14,
-      "reply_count": 8,
-      "like_count": 61,
-      "quote_count": 9
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T23:17:04.000Z",
-    "id": "1329926765276508160",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 127,
-          "end": 150,
-          "url": "https://t.co/RiOcjTG0yb",
-          "expanded_url": "https://trib.al/C2KLWKp",
-          "display_url": "trib.al/C2KLWKp"
+          "start": 242,
+          "end": 265,
+          "url": "https://t.co/yhQZo0xoUB",
+          "expanded_url": "https://www.vox.com/2020/11/22/21589645/kelly-loeffler-positive-coronavirus-georgia-runoff?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/22/215\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1330527654769025024/mXu4qjdW?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1330527654769025024/mXu4qjdW?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Georgia Sen. Kelly Loeffler has tested positive for the coronavirus",
+          "description": "Loeffler, running to keep her seat in a competitive special election, plans to quarantine.",
+          "unwound_url": "https://www.vox.com/2020/11/22/21589645/kelly-loeffler-positive-coronavirus-georgia-runoff?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-22T15:04:45.000Z",
+    "text": "Georgia Sen. Kelly Loeffler, running to keep her seat in a January special election, has tested positive for coronavirus. She has begun quarantining. \n\nThe Trump campaign, meanwhile, has requested a recount of Georgia\u2019s presidential results. https://t.co/yhQZo0xoUB",
+    "id": "1330527645969379330"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 19,
+      "reply_count": 5,
+      "like_count": 169,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "entities": {
       "annotations": [
         {
           "start": 20,
@@ -1266,30 +1277,29 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ]
-    },
-    "text": "Today, the state of Georgia officially certified Joe Biden\u2019s victory over Donald Trump.\n\nHere's what happens next for Georgia: https://t.co/RiOcjTG0yb",
-    "public_metrics": {
-      "retweet_count": 19,
-      "reply_count": 5,
-      "like_count": 169,
-      "quote_count": 3
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T21:13:06.000Z",
-    "id": "1329895570203430915",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/sSf1oO5Dqc",
-          "expanded_url": "https://trib.al/amtgCWZ",
-          "display_url": "trib.al/amtgCWZ"
+          "start": 127,
+          "end": 150,
+          "url": "https://t.co/RiOcjTG0yb",
+          "expanded_url": "https://trib.al/C2KLWKp",
+          "display_url": "trib.al/C2KLWKp"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-20T23:17:04.000Z",
+    "text": "Today, the state of Georgia officially certified Joe Biden\u2019s victory over Donald Trump.\n\nHere's what happens next for Georgia: https://t.co/RiOcjTG0yb",
+    "id": "1329926765276508160"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 11,
+      "like_count": 161,
+      "quote_count": 1
+    },
+    "entities": {
       "mentions": [
         {
           "start": 69,
@@ -1305,46 +1315,31 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ]
-    },
-    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/sSf1oO5Dqc",
-    "public_metrics": {
-      "retweet_count": 40,
-      "reply_count": 11,
-      "like_count": 161,
-      "quote_count": 1
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T20:13:02.000Z",
-    "id": "1329880451415220224",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 170,
-          "end": 193,
-          "url": "https://t.co/oYGyNoEoWg",
-          "expanded_url": "https://trib.al/j3aXnYk",
-          "display_url": "trib.al/j3aXnYk",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1329847025022754822/EfGtmCys?format=jpg&name=orig",
-              "width": 1200,
-              "height": 600
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1329847025022754822/EfGtmCys?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Georgia\u2019s Republican secretary of state has now certified Biden\u2019s win",
-          "description": "It\u2019s a blow to Trump\u2019s effort to overturn the election results.",
-          "unwound_url": "https://www.vox.com/2020/11/20/21578548/georgia-certifies-biden-win-raffensperger-recount?utm_content=voxdotcom&utm_source=twitter&utm_medium=social&utm_campaign=vox.social"
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/sSf1oO5Dqc",
+          "expanded_url": "https://trib.al/amtgCWZ",
+          "display_url": "trib.al/amtgCWZ"
         }
-      ],
+      ]
+    },
+    "author_id": "2347049341",
+    "created_at": "2020-11-20T21:13:06.000Z",
+    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/sSf1oO5Dqc",
+    "id": "1329895570203430915"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 24,
+      "reply_count": 11,
+      "like_count": 171,
+      "quote_count": 4
+    },
+    "author_id": "2347049341",
+    "entities": {
       "annotations": [
         {
           "start": 13,
@@ -1374,30 +1369,46 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ]
-    },
-    "text": "The state of Georgia officially certified Joe Biden\u2019s victory over Donald Trump \u2014 a blow to Trump\u2019s ongoing effort to overturn election results.\n\nHere's what comes next: https://t.co/oYGyNoEoWg",
-    "public_metrics": {
-      "retweet_count": 24,
-      "reply_count": 11,
-      "like_count": 171,
-      "quote_count": 4
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T18:11:48.000Z",
-    "id": "1329849941305470979",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 126,
-          "end": 149,
-          "url": "https://t.co/Jyckp6cMII",
-          "expanded_url": "https://trib.al/82uUg6P",
-          "display_url": "trib.al/82uUg6P"
+          "start": 170,
+          "end": 193,
+          "url": "https://t.co/oYGyNoEoWg",
+          "expanded_url": "https://trib.al/j3aXnYk",
+          "display_url": "trib.al/j3aXnYk",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1329847025022754822/EfGtmCys?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1329847025022754822/EfGtmCys?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Georgia\u2019s Republican secretary of state has now certified Biden\u2019s win",
+          "description": "It\u2019s a blow to Trump\u2019s effort to overturn the election results.",
+          "unwound_url": "https://www.vox.com/2020/11/20/21578548/georgia-certifies-biden-win-raffensperger-recount?utm_content=voxdotcom&utm_source=twitter&utm_medium=social&utm_campaign=vox.social"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-20T20:13:02.000Z",
+    "text": "The state of Georgia officially certified Joe Biden\u2019s victory over Donald Trump \u2014 a blow to Trump\u2019s ongoing effort to overturn election results.\n\nHere's what comes next: https://t.co/oYGyNoEoWg",
+    "id": "1329880451415220224"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 74,
+      "reply_count": 15,
+      "like_count": 469,
+      "quote_count": 8
+    },
+    "author_id": "2347049341",
+    "entities": {
       "annotations": [
         {
           "start": 28,
@@ -1409,7 +1420,7 @@
         {
           "start": 50,
           "end": 58,
-          "probability": 0.992,
+          "probability": 0.9919,
           "type": "Person",
           "normalized_text": "Joe Biden"
         },
@@ -1427,30 +1438,30 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ]
-    },
-    "text": "It\u2019s official: The state of Georgia has certified Joe Biden\u2019s victory over Donald Trump.\n\nHere's what comes next for Georgia: https://t.co/Jyckp6cMII",
-    "public_metrics": {
-      "retweet_count": 74,
-      "reply_count": 15,
-      "like_count": 468,
-      "quote_count": 8
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T18:00:11.000Z",
-    "id": "1329847019750502403",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 70,
-          "end": 93,
-          "url": "https://t.co/HfGi7vxSdo",
-          "expanded_url": "https://www.vox.com/2020/11/20/21578548/georgia-certifies-biden-win-raffensperger-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/11/20/215\u2026"
+          "start": 126,
+          "end": 149,
+          "url": "https://t.co/Jyckp6cMII",
+          "expanded_url": "https://trib.al/82uUg6P",
+          "display_url": "trib.al/82uUg6P"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-20T18:11:48.000Z",
+    "text": "It\u2019s official: The state of Georgia has certified Joe Biden\u2019s victory over Donald Trump.\n\nHere's what comes next for Georgia: https://t.co/Jyckp6cMII",
+    "id": "1329849941305470979"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 31,
+      "reply_count": 1,
+      "like_count": 225,
+      "quote_count": 8
+    },
+    "author_id": "2347049341",
+    "entities": {
       "annotations": [
         {
           "start": 0,
@@ -1473,30 +1484,29 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ]
-    },
-    "text": "Georgia\u2019s Republican secretary of state has now certified Biden\u2019s win https://t.co/HfGi7vxSdo",
-    "public_metrics": {
-      "retweet_count": 31,
-      "reply_count": 1,
-      "like_count": 225,
-      "quote_count": 8
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T14:52:06.000Z",
-    "id": "1329799687457615879",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/Zeu9MIKTUg",
-          "expanded_url": "https://trib.al/zgu8D9p",
-          "display_url": "trib.al/zgu8D9p"
+          "start": 70,
+          "end": 93,
+          "url": "https://t.co/HfGi7vxSdo",
+          "expanded_url": "https://www.vox.com/2020/11/20/21578548/georgia-certifies-biden-win-raffensperger-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/20/215\u2026"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-20T18:00:11.000Z",
+    "text": "Georgia\u2019s Republican secretary of state has now certified Biden\u2019s win https://t.co/HfGi7vxSdo",
+    "id": "1329847019750502403"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 60,
+      "reply_count": 11,
+      "like_count": 253,
+      "quote_count": 2
+    },
+    "entities": {
       "mentions": [
         {
           "start": 69,
@@ -1512,30 +1522,31 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ]
-    },
-    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/Zeu9MIKTUg",
-    "public_metrics": {
-      "retweet_count": 60,
-      "reply_count": 11,
-      "like_count": 252,
-      "quote_count": 2
-    }
-  },
-  {
-    "author_id": "2347049341",
-    "created_at": "2020-11-20T14:20:08.000Z",
-    "id": "1329791641973088257",
-    "entities": {
+      ],
       "urls": [
         {
-          "start": 72,
-          "end": 95,
-          "url": "https://t.co/3WZm5lNgVt",
-          "expanded_url": "https://www.vox.com/21575301/trump-lawsuits-election-rudy-giuliani-pennsylvania-georgia-michigan?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/21575301/trump\u2026"
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/Zeu9MIKTUg",
+          "expanded_url": "https://trib.al/zgu8D9p",
+          "display_url": "trib.al/zgu8D9p"
         }
-      ],
+      ]
+    },
+    "author_id": "2347049341",
+    "created_at": "2020-11-20T14:52:06.000Z",
+    "text": "\"I can\u2019t believe that I even have to write this next sentence,\" says @imillhiser. \"But courts typically do not resolve election disputes by allowing one of the campaigns to determine who won the election.\"\n\nWhy Trump's election lawsuits don't hold water:\nhttps://t.co/Zeu9MIKTUg",
+    "id": "1329799687457615879"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 20,
+      "reply_count": 18,
+      "like_count": 147,
+      "quote_count": 6
+    },
+    "author_id": "2347049341",
+    "entities": {
       "annotations": [
         {
           "start": 0,
@@ -1544,21 +1555,28 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
+      ],
+      "urls": [
+        {
+          "start": 72,
+          "end": 95,
+          "url": "https://t.co/3WZm5lNgVt",
+          "expanded_url": "https://www.vox.com/21575301/trump-lawsuits-election-rudy-giuliani-pennsylvania-georgia-michigan?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/21575301/trump\u2026"
+        }
       ]
     },
+    "created_at": "2020-11-20T14:20:08.000Z",
     "text": "Trump\u2019s lawsuits challenging the election have turned into a clown show https://t.co/3WZm5lNgVt",
-    "public_metrics": {
-      "retweet_count": 20,
-      "reply_count": 18,
-      "like_count": 147,
-      "quote_count": 6
-    }
+    "id": "1329791641973088257"
   },
   {
-    "author_id": "2347049341",
-    "created_at": "2020-11-18T22:13:24.000Z",
-    "id": "1329185965869584390",
-    "text": "RT @nicolenarea: Immigration policy is thought of as a federal matter, but Democrats shouldn\u2019t sleep on these local victories against pro-I\u2026",
+    "public_metrics": {
+      "retweet_count": 31,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
     "entities": {
       "mentions": [
         {
@@ -1577,27 +1595,20 @@
         }
       ]
     },
-    "public_metrics": {
-      "retweet_count": 31,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    }
+    "author_id": "2347049341",
+    "created_at": "2020-11-18T22:13:24.000Z",
+    "text": "RT @nicolenarea: Immigration policy is thought of as a federal matter, but Democrats shouldn\u2019t sleep on these local victories against pro-I\u2026",
+    "id": "1329185965869584390"
   },
   {
+    "public_metrics": {
+      "retweet_count": 16,
+      "reply_count": 5,
+      "like_count": 40,
+      "quote_count": 6
+    },
     "author_id": "2347049341",
-    "created_at": "2020-11-18T14:40:07.000Z",
-    "id": "1329071894964760578",
     "entities": {
-      "urls": [
-        {
-          "start": 81,
-          "end": 104,
-          "url": "https://t.co/djzHrkUWED",
-          "expanded_url": "https://www.vox.com/2020/11/18/21571684/lindsey-graham-brad-raffensperger-georgia-ballots?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/11/18/215\u2026"
-        }
-      ],
       "annotations": [
         {
           "start": 0,
@@ -1613,17 +1624,29 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
+      ],
+      "urls": [
+        {
+          "start": 81,
+          "end": 104,
+          "url": "https://t.co/djzHrkUWED",
+          "expanded_url": "https://www.vox.com/2020/11/18/21571684/lindsey-graham-brad-raffensperger-georgia-ballots?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/18/215\u2026"
+        }
       ]
     },
+    "created_at": "2020-11-18T14:40:07.000Z",
     "text": "Lindsey Graham\u2019s controversial call with Georgia\u2019s secretary of state, explained https://t.co/djzHrkUWED",
-    "public_metrics": {
-      "retweet_count": 16,
-      "reply_count": 5,
-      "like_count": 40,
-      "quote_count": 6
-    }
+    "id": "1329071894964760578"
   },
   {
+    "public_metrics": {
+      "retweet_count": 76,
+      "reply_count": 5,
+      "like_count": 409,
+      "quote_count": 6
+    },
+    "author_id": "2347049341",
     "entities": {
       "annotations": [
         {
@@ -1667,18 +1690,18 @@
         }
       ]
     },
-    "id": "1328737187345670147",
     "created_at": "2020-11-17T16:30:06.000Z",
-    "public_metrics": {
-      "retweet_count": 76,
-      "reply_count": 5,
-      "like_count": 409,
-      "quote_count": 6
-    },
-    "author_id": "2347049341",
-    "text": "New Democratic sheriffs in Georgia and North Carolina have vowed to cut ties with ICE https://t.co/zNF3fEctP9"
+    "text": "New Democratic sheriffs in Georgia and North Carolina have vowed to cut ties with ICE https://t.co/zNF3fEctP9",
+    "id": "1328737187345670147"
   },
   {
+    "public_metrics": {
+      "retweet_count": 284,
+      "reply_count": 47,
+      "like_count": 827,
+      "quote_count": 44
+    },
+    "author_id": "2347049341",
     "entities": {
       "annotations": [
         {
@@ -1743,108 +1766,22 @@
         }
       ]
     },
-    "id": "1328446266276253698",
     "created_at": "2020-11-16T21:14:05.000Z",
-    "public_metrics": {
-      "retweet_count": 284,
-      "reply_count": 47,
-      "like_count": 827,
-      "quote_count": 44
-    },
-    "author_id": "2347049341",
-    "text": "If the two Georgia seats go to the Democrats, the Senate will be split 50-50, but the Democratic half will represent 41,549,808 more people than the Republican half.\n\nThis is America\u2019s anti-democratic Senate, by the numbers: https://t.co/eXuwGZGmDx"
+    "text": "If the two Georgia seats go to the Democrats, the Senate will be split 50-50, but the Democratic half will represent 41,549,808 more people than the Republican half.\n\nThis is America\u2019s anti-democratic Senate, by the numbers: https://t.co/eXuwGZGmDx",
+    "id": "1328446266276253698"
   },
   {
-    "entities": {
-      "annotations": [
-        {
-          "start": 11,
-          "end": 17,
-          "probability": 0.903,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        },
-        {
-          "start": 35,
-          "end": 43,
-          "probability": 0.9453,
-          "type": "Organization",
-          "normalized_text": "Democrats"
-        },
-        {
-          "start": 50,
-          "end": 55,
-          "probability": 0.8241,
-          "type": "Organization",
-          "normalized_text": "Senate"
-        },
-        {
-          "start": 149,
-          "end": 158,
-          "probability": 0.6289,
-          "type": "Organization",
-          "normalized_text": "Republican"
-        },
-        {
-          "start": 175,
-          "end": 181,
-          "probability": 0.9833,
-          "type": "Place",
-          "normalized_text": "America"
-        }
-      ],
-      "urls": [
-        {
-          "start": 225,
-          "end": 248,
-          "url": "https://t.co/5iHPJSMFxq",
-          "expanded_url": "https://trib.al/LVO9QSR",
-          "display_url": "trib.al/LVO9QSR",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1330273533943894016/O-Cudq3a?format=jpg&name=orig",
-              "width": 1200,
-              "height": 600
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1330273533943894016/O-Cudq3a?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "America\u2019s anti-democratic Senate, by the numbers",
-          "description": "If the United States chose its leaders in free and fair elections, Republicans would be firmly out of power.",
-          "unwound_url": "https://www.vox.com/2020/11/6/21550979/senate-malapportionment-20-million-democrats-republicans-supreme-court?utm_content=voxdotcom&utm_source=twitter&utm_campaign=vox.social&utm_medium=social"
-        }
-      ]
-    },
-    "id": "1328027058933522432",
-    "created_at": "2020-11-15T17:28:19.000Z",
+    "id": "1330547122106740737",
+    "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 11703,
-      "reply_count": 1700,
-      "like_count": 34155,
-      "quote_count": 2097
-    },
-    "author_id": "2347049341",
-    "text": "If the two Georgia seats go to the Democrats, the Senate will be split 50-50, but the Democratic half will represent 41,549,808 more people than the Republican half.\n\nThis is America\u2019s anti-democratic Senate, by the numbers: https://t.co/5iHPJSMFxq"
-  },
-  {
-    "public_metrics": {
-      "retweet_count": 126,
+      "retweet_count": 467,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
     },
+    "text": "RT @CNNSotu: Maryland Gov. Larry Hogan, a Republican, says he is \"embarrassed that more people in the party aren't speaking up\" regarding P\u2026",
+    "created_at": "2020-11-22T16:22:08.000Z",
     "entities": {
-      "mentions": [
-        {
-          "start": 3,
-          "end": 11,
-          "username": "CNNSotu"
-        }
-      ],
       "annotations": [
         {
           "start": 13,
@@ -1860,22 +1797,37 @@
           "type": "Person",
           "normalized_text": "Larry Hogan"
         }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 11,
+          "username": "CNNSotu"
+        }
       ]
-    },
-    "author_id": "759251",
-    "created_at": "2020-11-22T16:22:08.000Z",
-    "text": "RT @CNNSotu: Maryland Gov. Larry Hogan, a Republican, says he is \"embarrassed that more people in the party aren't speaking up\" regarding P\u2026",
-    "id": "1330547122106740737"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 1423,
-      "reply_count": 733,
-      "like_count": 8647,
-      "quote_count": 352
-    },
+    "id": "1330466100396560384",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 2073,
+      "reply_count": 920,
+      "like_count": 11663,
+      "quote_count": 491
+    },
+    "text": "Trump's campaign and Fox News host Tucker Carlson alleged last week that a vote cast by a Georgia woman named Deborah Jean Christiansen was fraudulent. But the voter, who the Trump campaign claimed was deceased, answered the door when CNN showed up. https://t.co/IFp2pXViS6",
+    "created_at": "2020-11-22T11:00:11.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/IFp2pXViS6",
+          "expanded_url": "https://cnn.it/35QEerK",
+          "display_url": "cnn.it/35QEerK"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1926,46 +1878,21 @@
           "type": "Organization",
           "normalized_text": "CNN"
         }
-      ],
-      "urls": [
-        {
-          "start": 250,
-          "end": 273,
-          "url": "https://t.co/IFp2pXViS6",
-          "expanded_url": "https://cnn.it/35QEerK",
-          "display_url": "cnn.it/35QEerK"
-        }
       ]
-    },
-    "created_at": "2020-11-22T11:00:11.000Z",
-    "text": "Trump's campaign and Fox News host Tucker Carlson alleged last week that a vote cast by a Georgia woman named Deborah Jean Christiansen was fraudulent. But the voter, who the Trump campaign claimed was deceased, answered the door when CNN showed up. https://t.co/IFp2pXViS6",
-    "id": "1330466100396560384"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 214,
-      "reply_count": 941,
-      "like_count": 1518,
-      "quote_count": 292
-    },
+    "id": "1330385752681820165",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 235,
+      "reply_count": 1036,
+      "like_count": 1683,
+      "quote_count": 342
+    },
+    "text": "Trump campaign requests Georgia recount that's unlikely to change his loss in the state https://t.co/wri5BbYjSI",
+    "created_at": "2020-11-22T05:40:55.000Z",
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 4,
-          "probability": 0.9971,
-          "type": "Person",
-          "normalized_text": "Trump"
-        },
-        {
-          "start": 24,
-          "end": 30,
-          "probability": 0.7818,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        }
-      ],
       "urls": [
         {
           "start": 88,
@@ -1990,21 +1917,46 @@
           "description": "Georgia will conduct another recount of its presidential ballots following a Trump campaign request Saturday.",
           "unwound_url": "https://www.cnn.com/2020/11/21/politics/georgia-presidential-election-recount/index.html?utm_source=twCNN&utm_medium=social&utm_term=link&utm_content=2020-11-22T05%3A40%3A55"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9971,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 24,
+          "end": 30,
+          "probability": 0.7818,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
       ]
-    },
-    "created_at": "2020-11-22T05:40:55.000Z",
-    "text": "Trump campaign requests Georgia recount that's unlikely to change his loss in the state https://t.co/wri5BbYjSI",
-    "id": "1330385752681820165"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 173,
-      "reply_count": 429,
-      "like_count": 1374,
-      "quote_count": 72
-    },
+    "id": "1330288652522573832",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 174,
+      "reply_count": 443,
+      "like_count": 1399,
+      "quote_count": 75
+    },
+    "text": "In stating the simple truth that Joe Biden won Georgia, even if the margin was by a slim 12,000 votes, Georgia Secretary of State Brad Raffensperger has opened himself up to the wrath of his own party https://t.co/zkSMMHepKr",
+    "created_at": "2020-11-21T23:15:04.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 201,
+          "end": 224,
+          "url": "https://t.co/zkSMMHepKr",
+          "expanded_url": "https://cnn.it/2UQSFWi",
+          "display_url": "cnn.it/2UQSFWi"
+        }
+      ],
       "annotations": [
         {
           "start": 33,
@@ -2034,30 +1986,30 @@
           "type": "Person",
           "normalized_text": "Brad Raffensperger"
         }
-      ],
-      "urls": [
-        {
-          "start": 201,
-          "end": 224,
-          "url": "https://t.co/zkSMMHepKr",
-          "expanded_url": "https://cnn.it/2UQSFWi",
-          "display_url": "cnn.it/2UQSFWi"
-        }
       ]
-    },
-    "created_at": "2020-11-21T23:15:04.000Z",
-    "text": "In stating the simple truth that Joe Biden won Georgia, even if the margin was by a slim 12,000 votes, Georgia Secretary of State Brad Raffensperger has opened himself up to the wrath of his own party https://t.co/zkSMMHepKr",
-    "id": "1330288652522573832"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 201,
-      "reply_count": 365,
-      "like_count": 2456,
-      "quote_count": 51
-    },
+    "id": "1330247139755257856",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 204,
+      "reply_count": 372,
+      "like_count": 2513,
+      "quote_count": 55
+    },
+    "text": "The truth, as confirmed by an audit of Georgia's votes, is that Joe Biden won this election, writes Harry Enten. It's highly unlikely that any recounts will change that, Enten adds. https://t.co/89Qxk7U834",
+    "created_at": "2020-11-21T20:30:07.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 182,
+          "end": 205,
+          "url": "https://t.co/89Qxk7U834",
+          "expanded_url": "https://cnn.it/3kZlF9e",
+          "display_url": "cnn.it/3kZlF9e"
+        }
+      ],
       "annotations": [
         {
           "start": 39,
@@ -2087,30 +2039,30 @@
           "type": "Person",
           "normalized_text": "Enten"
         }
-      ],
-      "urls": [
-        {
-          "start": 182,
-          "end": 205,
-          "url": "https://t.co/89Qxk7U834",
-          "expanded_url": "https://cnn.it/3kZlF9e",
-          "display_url": "cnn.it/3kZlF9e"
-        }
       ]
-    },
-    "created_at": "2020-11-21T20:30:07.000Z",
-    "text": "The truth, as confirmed by an audit of Georgia's votes, is that Joe Biden won this election, writes Harry Enten. It's highly unlikely that any recounts will change that, Enten adds. https://t.co/89Qxk7U834",
-    "id": "1330247139755257856"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 452,
-      "reply_count": 559,
-      "like_count": 4418,
-      "quote_count": 143
-    },
+    "id": "1330213142975098889",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 466,
+      "reply_count": 571,
+      "like_count": 4550,
+      "quote_count": 147
+    },
+    "text": "In the next six weeks, Black women said they will use the same strategies that helped Joe Biden win in addition to reaching voters who sat out of the general election to help Rev. Raphael Warnock and Jon Ossoff win their races in Georgia\nhttps://t.co/vjzacx582b",
+    "created_at": "2020-11-21T18:15:02.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 238,
+          "end": 261,
+          "url": "https://t.co/vjzacx582b",
+          "expanded_url": "https://cnn.it/3fll6oJ",
+          "display_url": "cnn.it/3fll6oJ"
+        }
+      ],
       "annotations": [
         {
           "start": 86,
@@ -2147,30 +2099,37 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ],
-      "urls": [
-        {
-          "start": 238,
-          "end": 261,
-          "url": "https://t.co/vjzacx582b",
-          "expanded_url": "https://cnn.it/3fll6oJ",
-          "display_url": "cnn.it/3fll6oJ"
-        }
       ]
-    },
-    "created_at": "2020-11-21T18:15:02.000Z",
-    "text": "In the next six weeks, Black women said they will use the same strategies that helped Joe Biden win in addition to reaching voters who sat out of the general election to help Rev. Raphael Warnock and Jon Ossoff win their races in Georgia\nhttps://t.co/vjzacx582b",
-    "id": "1330213142975098889"
+    }
   },
   {
-    "public_metrics": {
-      "retweet_count": 2357,
-      "reply_count": 913,
-      "like_count": 29738,
-      "quote_count": 533
-    },
+    "id": "1329947685185593345",
     "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 2362,
+      "reply_count": 917,
+      "like_count": 29858,
+      "quote_count": 535
+    },
+    "text": "Republican Georgia Gov. Brian Kemp has signed the paperwork that officially grants the state's 16 electoral votes to President-elect Joe Biden https://t.co/t3WNNYiToA https://t.co/uLkC4p3dU2",
+    "created_at": "2020-11-21T00:40:12.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 143,
+          "end": 166,
+          "url": "https://t.co/t3WNNYiToA",
+          "expanded_url": "https://cnn.it/2UMEP7C",
+          "display_url": "cnn.it/2UMEP7C"
+        },
+        {
+          "start": 167,
+          "end": 190,
+          "url": "https://t.co/uLkC4p3dU2",
+          "expanded_url": "https://twitter.com/CNN/status/1329947685185593345/photo/1",
+          "display_url": "pic.twitter.com/uLkC4p3dU2"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2193,60 +2152,21 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 143,
-          "end": 166,
-          "url": "https://t.co/t3WNNYiToA",
-          "expanded_url": "https://cnn.it/2UMEP7C",
-          "display_url": "cnn.it/2UMEP7C"
-        },
-        {
-          "start": 167,
-          "end": 190,
-          "url": "https://t.co/uLkC4p3dU2",
-          "expanded_url": "https://twitter.com/CNN/status/1329947685185593345/photo/1",
-          "display_url": "pic.twitter.com/uLkC4p3dU2"
-        }
       ]
-    },
-    "created_at": "2020-11-21T00:40:12.000Z",
-    "text": "Republican Georgia Gov. Brian Kemp has signed the paperwork that officially grants the state's 16 electoral votes to President-elect Joe Biden https://t.co/t3WNNYiToA https://t.co/uLkC4p3dU2",
-    "id": "1329947685185593345"
+    }
   },
   {
+    "id": "1329879291937644545",
+    "author_id": "759251",
     "public_metrics": {
       "retweet_count": 90,
       "reply_count": 235,
       "like_count": 506,
       "quote_count": 41
     },
-    "author_id": "759251",
+    "text": "Georgia\u2019s secretary of state issued a correction and said its certification of Joe Biden\u2019s election victory is still to come, shortly after issuing a statement saying Biden\u2019s win had already been certified https://t.co/de30Mcb8DQ",
+    "created_at": "2020-11-20T20:08:25.000Z",
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 6,
-          "probability": 0.6695,
-          "type": "Organization",
-          "normalized_text": "Georgia"
-        },
-        {
-          "start": 79,
-          "end": 87,
-          "probability": 0.9955,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        },
-        {
-          "start": 167,
-          "end": 171,
-          "probability": 0.9887,
-          "type": "Person",
-          "normalized_text": "Biden"
-        }
-      ],
       "urls": [
         {
           "start": 206,
@@ -2255,21 +2175,7 @@
           "expanded_url": "https://cnn.it/3nHIMXp",
           "display_url": "cnn.it/3nHIMXp"
         }
-      ]
-    },
-    "created_at": "2020-11-20T20:08:25.000Z",
-    "text": "Georgia\u2019s secretary of state issued a correction and said its certification of Joe Biden\u2019s election victory is still to come, shortly after issuing a statement saying Biden\u2019s win had already been certified https://t.co/de30Mcb8DQ",
-    "id": "1329879291937644545"
-  },
-  {
-    "public_metrics": {
-      "retweet_count": 51,
-      "reply_count": 92,
-      "like_count": 433,
-      "quote_count": 22
-    },
-    "author_id": "759251",
-    "entities": {
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2292,7 +2198,21 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ],
+      ]
+    }
+  },
+  {
+    "id": "1329878319815221252",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 51,
+      "reply_count": 92,
+      "like_count": 436,
+      "quote_count": 22
+    },
+    "text": "Georgia\u2019s secretary of state issued a correction and said its certification of Joe Biden\u2019s election victory is still to come, shortly after issuing a statement saying Biden\u2019s win had already been certified https://t.co/cfYEw19icn",
+    "created_at": "2020-11-20T20:04:34.000Z",
+    "entities": {
       "urls": [
         {
           "start": 206,
@@ -2301,21 +2221,53 @@
           "expanded_url": "https://cnn.it/3lORlz6",
           "display_url": "cnn.it/3lORlz6"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.6695,
+          "type": "Organization",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 79,
+          "end": 87,
+          "probability": 0.9955,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 167,
+          "end": 171,
+          "probability": 0.9887,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
       ]
-    },
-    "created_at": "2020-11-20T20:04:34.000Z",
-    "text": "Georgia\u2019s secretary of state issued a correction and said its certification of Joe Biden\u2019s election victory is still to come, shortly after issuing a statement saying Biden\u2019s win had already been certified https://t.co/cfYEw19icn",
-    "id": "1329878319815221252"
+    }
   },
   {
+    "id": "1329846998430846978",
+    "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 284,
+      "retweet_count": 281,
       "reply_count": 281,
-      "like_count": 3366,
+      "like_count": 3368,
       "quote_count": 69
     },
-    "author_id": "759251",
+    "text": "President-elect Joe Biden's narrow victory in Georgia is formalized, dealing a major blow to President Trump's longshot efforts to overturn the election. https://t.co/SL1hU2epny",
+    "created_at": "2020-11-20T18:00:06.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 154,
+          "end": 177,
+          "url": "https://t.co/SL1hU2epny",
+          "expanded_url": "https://cnn.it/38XVWLT",
+          "display_url": "cnn.it/38XVWLT"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -2338,20 +2290,8 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 154,
-          "end": 177,
-          "url": "https://t.co/SL1hU2epny",
-          "expanded_url": "https://cnn.it/38XVWLT",
-          "display_url": "cnn.it/38XVWLT"
-        }
       ]
-    },
-    "created_at": "2020-11-20T18:00:06.000Z",
-    "text": "President-elect Joe Biden's narrow victory in Georgia is formalized, dealing a major blow to President Trump's longshot efforts to overturn the election. https://t.co/SL1hU2epny",
-    "id": "1329846998430846978"
+    }
   },
   {
     "author_id": "759251",
@@ -2414,9 +2354,9 @@
     },
     "text": "Georgia Secretary of State Brad Raffensperger says he'll certify President-elect Joe Biden's victory over President Donald Trump after a statewide audit confirmed Biden got more votes: \"Numbers don't lie\" https://t.co/cP0ewPDw9V https://t.co/cYq9FzyQxn",
     "public_metrics": {
-      "retweet_count": 209,
+      "retweet_count": 210,
       "reply_count": 173,
-      "like_count": 1673,
+      "like_count": 1674,
       "quote_count": 61
     }
   },
@@ -2492,7 +2432,7 @@
     "public_metrics": {
       "retweet_count": 220,
       "reply_count": 138,
-      "like_count": 1757,
+      "like_count": 1756,
       "quote_count": 42
     }
   },
@@ -2550,9 +2490,9 @@
     },
     "text": "Georgia Secretary of State Brad Raffensperger says that he'll certify President-elect Joe Biden's victory Friday, formalizing the razor-thin presidential results after a statewide audit confirmed that Biden got more votes than President Donald Trump. https://t.co/kd8oqeOREz",
     "public_metrics": {
-      "retweet_count": 471,
+      "retweet_count": 470,
       "reply_count": 340,
-      "like_count": 5424,
+      "like_count": 5427,
       "quote_count": 89
     }
   },
@@ -2656,9 +2596,9 @@
     },
     "text": "JUST IN: After a statewide audit, Georgia election officials have confirmed President-elect Biden's victory over President Trump https://t.co/aReuY9s9d2",
     "public_metrics": {
-      "retweet_count": 2372,
-      "reply_count": 1528,
-      "like_count": 24636,
+      "retweet_count": 2373,
+      "reply_count": 1531,
+      "like_count": 24640,
       "quote_count": 882
     }
   },
@@ -2712,23 +2652,7 @@
           "end": 206,
           "url": "https://t.co/xWgh3P4OoK",
           "expanded_url": "https://cnn.it/2UGc6kQ",
-          "display_url": "cnn.it/2UGc6kQ",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1329201107109900288/5_nftyyD?format=jpg&name=orig",
-              "width": 1100,
-              "height": 619
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1329201107109900288/5_nftyyD?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Republicans hold $28 million ad advantage In Georgia Senate runoff races",
-          "description": "Republican Sens. Kelly Loeffler and David Perdue hold an early advantage over the airways in their two runoff races in Georgia that will determine the control of the Senate next year.",
-          "unwound_url": "https://www.cnn.com/2020/11/18/politics/georgia-senate-runoff-races-republican-cash/index.html?utm_medium=social&utm_source=twCNN&utm_content=2020-11-19T03%3A23%3A45&utm_term=link"
+          "display_url": "cnn.it/2UGc6kQ"
         }
       ],
       "annotations": [
@@ -2819,7 +2743,7 @@
     "public_metrics": {
       "retweet_count": 112,
       "reply_count": 84,
-      "like_count": 1040,
+      "like_count": 1038,
       "quote_count": 21
     }
   },
@@ -2908,7 +2832,7 @@
     "text": "Trump's campaign and Fox News host Tucker Carlson alleged last week that a vote cast by a Georgia woman named Deborah Jean Christiansen was fraudulent. But the voter, who the Trump campaign claimed was deceased, answered the door when CNN showed up. https://t.co/Yi8ehiVIS9",
     "public_metrics": {
       "retweet_count": 1735,
-      "reply_count": 840,
+      "reply_count": 841,
       "like_count": 8573,
       "quote_count": 494
     }
@@ -2962,7 +2886,7 @@
     "public_metrics": {
       "retweet_count": 120,
       "reply_count": 97,
-      "like_count": 1072,
+      "like_count": 1073,
       "quote_count": 20
     }
   },
@@ -2983,7 +2907,23 @@
           "end": 199,
           "url": "https://t.co/IgH8zC6c8w",
           "expanded_url": "https://cnn.it/3lG15vn",
-          "display_url": "cnn.it/3lG15vn"
+          "display_url": "cnn.it/3lG15vn",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1328795214392283141/QIeQ0WpQ?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1328795214392283141/QIeQ0WpQ?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Georgia audit on track to finish Wednesday and affirm Biden win, official says",
+          "description": "Georgia is on a \"good schedule right now\" to finish an audit of the presidential election by Wednesday and thus certify its results by Friday, a top state voting official says, and the vast majority of counties are reporting results that are \"spot dead on\" to the initial tallies or finding only minor discrepancies.",
+          "unwound_url": "https://www.cnn.com/2020/11/17/politics/georgia-recount/index.html?utm_content=2020-11-17T21%3A57%3A43&utm_term=link&utm_medium=social&utm_source=twCNN"
         }
       ]
     },
@@ -3104,8 +3044,8 @@
     "created_at": "2020-11-17T20:17:21.000Z",
     "public_metrics": {
       "retweet_count": 433,
-      "reply_count": 877,
-      "like_count": 3339,
+      "reply_count": 878,
+      "like_count": 3340,
       "quote_count": 133
     },
     "author_id": "759251",
@@ -3158,7 +3098,7 @@
     "public_metrics": {
       "retweet_count": 258,
       "reply_count": 209,
-      "like_count": 1260,
+      "like_count": 1259,
       "quote_count": 71
     },
     "author_id": "759251",
@@ -3211,7 +3151,7 @@
     "public_metrics": {
       "retweet_count": 375,
       "reply_count": 239,
-      "like_count": 1611,
+      "like_count": 1612,
       "quote_count": 88
     },
     "author_id": "759251",
@@ -3262,9 +3202,9 @@
     "id": "1328529326212608001",
     "created_at": "2020-11-17T02:44:08.000Z",
     "public_metrics": {
-      "retweet_count": 1572,
+      "retweet_count": 1571,
       "reply_count": 717,
-      "like_count": 6321,
+      "like_count": 6320,
       "quote_count": 398
     },
     "author_id": "759251",
@@ -3326,9 +3266,9 @@
     "id": "1328420093680881664",
     "created_at": "2020-11-16T19:30:05.000Z",
     "public_metrics": {
-      "retweet_count": 1084,
-      "reply_count": 1864,
-      "like_count": 5821,
+      "retweet_count": 1085,
+      "reply_count": 1865,
+      "like_count": 5823,
       "quote_count": 379
     },
     "author_id": "759251",
@@ -3360,14 +3300,13 @@
     "public_metrics": {
       "retweet_count": 578,
       "reply_count": 338,
-      "like_count": 4841,
+      "like_count": 4844,
       "quote_count": 104
     },
     "author_id": "759251",
     "text": "Voters in four states who had brought longshot lawsuits to disrupt President-elect Joe Biden's win and went nowhere in court have dropped their cases https://t.co/5eWnhWsF2Q"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3395,18 +3334,18 @@
         }
       ]
     },
-    "created_at": "2020-11-22T11:15:05.000Z",
     "id": "1330469849450106880",
-    "text": "Georgia recount formally requested by Trump campaign https://t.co/4LpQ8Dmrk6",
+    "created_at": "2020-11-22T11:15:05.000Z",
     "public_metrics": {
-      "retweet_count": 252,
-      "reply_count": 598,
-      "like_count": 2190,
-      "quote_count": 63
-    }
+      "retweet_count": 299,
+      "reply_count": 712,
+      "like_count": 2625,
+      "quote_count": 78
+    },
+    "author_id": "1367531",
+    "text": "Georgia recount formally requested by Trump campaign https://t.co/4LpQ8Dmrk6"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3434,18 +3373,18 @@
         }
       ]
     },
-    "created_at": "2020-11-21T11:52:45.000Z",
     "id": "1330116940120154114",
-    "text": "Georgia Gov. Brian Kemp certifies election results, calls for another hand recount https://t.co/sFMVE1QYiL",
+    "created_at": "2020-11-21T11:52:45.000Z",
     "public_metrics": {
-      "retweet_count": 261,
-      "reply_count": 1071,
-      "like_count": 1911,
+      "retweet_count": 263,
+      "reply_count": 1070,
+      "like_count": 1918,
       "quote_count": 163
-    }
+    },
+    "author_id": "1367531",
+    "text": "Georgia Gov. Brian Kemp certifies election results, calls for another hand recount https://t.co/sFMVE1QYiL"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3473,18 +3412,18 @@
         }
       ]
     },
-    "created_at": "2020-11-21T02:01:37.000Z",
     "id": "1329968174922600448",
-    "text": "Georgia's Floyd County fires election director after finding uncounted ballots https://t.co/iNjH7mjQmF",
+    "created_at": "2020-11-21T02:01:37.000Z",
     "public_metrics": {
-      "retweet_count": 278,
-      "reply_count": 219,
-      "like_count": 1561,
-      "quote_count": 38
-    }
+      "retweet_count": 280,
+      "reply_count": 224,
+      "like_count": 1575,
+      "quote_count": 39
+    },
+    "author_id": "1367531",
+    "text": "Georgia's Floyd County fires election director after finding uncounted ballots https://t.co/iNjH7mjQmF"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3512,18 +3451,18 @@
         }
       ]
     },
-    "created_at": "2020-11-20T23:09:36.000Z",
     "id": "1329924887243337729",
-    "text": "Georgia certifies Joe Biden victory in 2020 presidential election https://t.co/fJwTDKGNG1",
+    "created_at": "2020-11-20T23:09:36.000Z",
     "public_metrics": {
-      "retweet_count": 188,
-      "reply_count": 916,
-      "like_count": 2067,
+      "retweet_count": 189,
+      "reply_count": 919,
+      "like_count": 2076,
       "quote_count": 140
-    }
+    },
+    "author_id": "1367531",
+    "text": "Georgia certifies Joe Biden victory in 2020 presidential election https://t.co/fJwTDKGNG1"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3551,18 +3490,18 @@
         }
       ]
     },
-    "created_at": "2020-11-20T21:09:49.000Z",
     "id": "1329894741002113024",
-    "text": "Georgia's military voters seen as pivotal bloc in runoffs that will decide Senate control https://t.co/5DK0LjEvYQ",
+    "created_at": "2020-11-20T21:09:49.000Z",
     "public_metrics": {
       "retweet_count": 49,
       "reply_count": 112,
       "like_count": 397,
       "quote_count": 8
-    }
+    },
+    "author_id": "1367531",
+    "text": "Georgia's military voters seen as pivotal bloc in runoffs that will decide Senate control https://t.co/5DK0LjEvYQ"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3606,18 +3545,18 @@
         }
       ]
     },
-    "created_at": "2020-11-20T14:34:25.000Z",
     "id": "1329795238261649408",
-    "text": "Ga. Senate hopeful Raphael Warnock's support for Jeremiah Wright comes under new scrutiny\nhttps://t.co/wZKh5Za48G",
+    "created_at": "2020-11-20T14:34:25.000Z",
     "public_metrics": {
       "retweet_count": 89,
-      "reply_count": 207,
+      "reply_count": 208,
       "like_count": 331,
       "quote_count": 24
-    }
+    },
+    "author_id": "1367531",
+    "text": "Ga. Senate hopeful Raphael Warnock's support for Jeremiah Wright comes under new scrutiny\nhttps://t.co/wZKh5Za48G"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3652,18 +3591,18 @@
         }
       ]
     },
-    "created_at": "2020-11-20T01:54:42.000Z",
     "id": "1329604048023154688",
-    "text": "Joe Biden wins presidential race in Georgia, defeating Trump https://t.co/hoQQUw7eDv",
+    "created_at": "2020-11-20T01:54:42.000Z",
     "public_metrics": {
-      "retweet_count": 764,
-      "reply_count": 3184,
-      "like_count": 7269,
+      "retweet_count": 765,
+      "reply_count": 3188,
+      "like_count": 7268,
       "quote_count": 618
-    }
+    },
+    "author_id": "1367531",
+    "text": "Joe Biden wins presidential race in Georgia, defeating Trump https://t.co/hoQQUw7eDv"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3698,18 +3637,18 @@
         }
       ]
     },
-    "created_at": "2020-11-19T22:49:57.000Z",
     "id": "1329557553789931520",
-    "text": "Lindsey Graham tells Georgia voters: 'Let\u2019s make the Squad\u2019s life miserable by holding on to the Senate' https://t.co/lotGykTGLF",
+    "created_at": "2020-11-19T22:49:57.000Z",
     "public_metrics": {
       "retweet_count": 290,
       "reply_count": 790,
-      "like_count": 2639,
+      "like_count": 2644,
       "quote_count": 112
-    }
+    },
+    "author_id": "1367531",
+    "text": "Lindsey Graham tells Georgia voters: 'Let\u2019s make the Squad\u2019s life miserable by holding on to the Senate' https://t.co/lotGykTGLF"
   },
   {
-    "author_id": "1367531",
     "entities": {
       "annotations": [
         {
@@ -3737,19 +3676,18 @@
         }
       ]
     },
-    "created_at": "2020-11-19T00:02:36.000Z",
     "id": "1329213447129755657",
-    "text": "GOP effort to raise big bucks for Georgia Senate runoffs is a 50-state effort https://t.co/qVbRfAybj7",
+    "created_at": "2020-11-19T00:02:36.000Z",
     "public_metrics": {
       "retweet_count": 68,
       "reply_count": 152,
-      "like_count": 424,
+      "like_count": 423,
       "quote_count": 17
-    }
+    },
+    "author_id": "1367531",
+    "text": "GOP effort to raise big bucks for Georgia Senate runoffs is a 50-state effort https://t.co/qVbRfAybj7"
   },
   {
-    "author_id": "1367531",
-    "created_at": "2020-11-18T13:23:41.000Z",
     "entities": {
       "urls": [
         {
@@ -3762,26 +3700,34 @@
       ]
     },
     "id": "1329052659458973697",
-    "text": "Ga. election audit turns up 3,039 more uncounted ballots, in addition to 2,600 previously untallied votes\nhttps://t.co/qcKp4Lg8Lz",
+    "created_at": "2020-11-18T13:23:41.000Z",
     "public_metrics": {
-      "retweet_count": 562,
+      "retweet_count": 563,
       "reply_count": 509,
-      "like_count": 2543,
+      "like_count": 2544,
       "quote_count": 154
-    }
+    },
+    "author_id": "1367531",
+    "text": "Ga. election audit turns up 3,039 more uncounted ballots, in addition to 2,600 previously untallied votes\nhttps://t.co/qcKp4Lg8Lz"
   },
   {
-    "id": "1328680563998388224",
-    "author_id": "1367531",
     "public_metrics": {
       "retweet_count": 169,
       "reply_count": 487,
       "like_count": 878,
       "quote_count": 77
     },
-    "text": "Georgia state official issues warning after Californians say they want to move to the state and vote in critical runoff elections \nhttps://t.co/kIhFIBxliw",
-    "created_at": "2020-11-17T12:45:06.000Z",
+    "author_id": "1367531",
     "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.55,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
       "urls": [
         {
           "start": 131,
@@ -3806,30 +3752,37 @@
           "description": "A host of California residents and California-based political organizations are prepared to descend on Georgia to campaign for two Democratic U.S. Senate candidates whose victory would have profound implications for the direction of the country.",
           "unwound_url": "https://www.foxnews.com/politics/californians-georgia-help-democrats-senate-races"
         }
-      ],
+      ]
+    },
+    "created_at": "2020-11-17T12:45:06.000Z",
+    "text": "Georgia state official issues warning after Californians say they want to move to the state and vote in critical runoff elections \nhttps://t.co/kIhFIBxliw",
+    "id": "1328680563998388224"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 581,
+      "reply_count": 854,
+      "like_count": 3451,
+      "quote_count": 146
+    },
+    "author_id": "1367531",
+    "entities": {
       "annotations": [
         {
           "start": 0,
           "end": 6,
-          "probability": 0.55,
+          "probability": 0.9619,
           "type": "Place",
           "normalized_text": "Georgia"
+        },
+        {
+          "start": 62,
+          "end": 73,
+          "probability": 0.9846,
+          "type": "Place",
+          "normalized_text": "Floyd County"
         }
-      ]
-    }
-  },
-  {
-    "id": "1328493644777709569",
-    "author_id": "1367531",
-    "public_metrics": {
-      "retweet_count": 581,
-      "reply_count": 854,
-      "like_count": 3449,
-      "quote_count": 146
-    },
-    "text": "Georgia recount unearths more than 2,600 uncounted ballots in Floyd County https://t.co/AXPJ5zPQUu",
-    "created_at": "2020-11-17T00:22:21.000Z",
-    "entities": {
+      ],
       "urls": [
         {
           "start": 75,
@@ -3854,140 +3807,10 @@
           "description": "More than 2,600 ballots in Georgia\u2019s Floyd County that have not been tallied were recently found during a recount in the state for the 2020 presidential election, according to reports.",
           "unwound_url": "https://www.foxnews.com/politics/2600-uncounted-ballots-found-recount-efforts-georgia"
         }
-      ],
-      "annotations": [
-        {
-          "start": 0,
-          "end": 6,
-          "probability": 0.9619,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        },
-        {
-          "start": 62,
-          "end": 73,
-          "probability": 0.9846,
-          "type": "Place",
-          "normalized_text": "Floyd County"
-        }
       ]
-    }
-  },
-  {
-    "id": "1328106935787417600",
-    "author_id": "1367531",
-    "public_metrics": {
-      "retweet_count": 106,
-      "reply_count": 223,
-      "like_count": 559,
-      "quote_count": 27
     },
-    "text": "Democratic Senate candidate in high-profile Georgia runoff slams Schumer over controlling the narrative\nhttps://t.co/7IaTJ2tGmS",
-    "created_at": "2020-11-15T22:45:43.000Z",
-    "entities": {
-      "urls": [
-        {
-          "start": 104,
-          "end": 127,
-          "url": "https://t.co/7IaTJ2tGmS",
-          "expanded_url": "https://www.foxnews.com/politics/dem-candidate-senate-runoff-georgia-slams-fight-for-power-focus",
-          "display_url": "foxnews.com/politics/dem-c\u2026",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1328069652841283584/Ae3k9Q7f?format=jpg&name=orig",
-              "width": 1024,
-              "height": 512
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1328069652841283584/Ae3k9Q7f?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Warnock slams Schumer's focus on control of Senate in Georgia runoff election",
-          "description": "Raphael Warnock, the Democratic candidate running in the high-profile U.S. Senate runoff in Georgia, tried on Sunday to refocus the race as not about regaining control of the Senate, but as \u201cabout the people of Georgia.\u201d",
-          "unwound_url": "https://www.foxnews.com/politics/dem-candidate-senate-runoff-georgia-slams-fight-for-power-focus"
-        }
-      ],
-      "annotations": [
-        {
-          "start": 0,
-          "end": 16,
-          "probability": 0.6072,
-          "type": "Organization",
-          "normalized_text": "Democratic Senate"
-        },
-        {
-          "start": 44,
-          "end": 50,
-          "probability": 0.7048,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        },
-        {
-          "start": 65,
-          "end": 71,
-          "probability": 0.9523,
-          "type": "Person",
-          "normalized_text": "Schumer"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1328035788462886914",
-    "author_id": "1367531",
-    "public_metrics": {
-      "retweet_count": 63,
-      "reply_count": 241,
-      "like_count": 438,
-      "quote_count": 13
-    },
-    "text": "Perdue, Ossoff cast Georgia Senate runoff as battle for control of the nation https://t.co/h3nNaCQ1Dl",
-    "created_at": "2020-11-15T18:03:00.000Z",
-    "entities": {
-      "urls": [
-        {
-          "start": 78,
-          "end": 101,
-          "url": "https://t.co/h3nNaCQ1Dl",
-          "expanded_url": "https://www.foxnews.com/politics/perdue-ossoff-georgia-senate-runoff-biden-coronavirus-aoc-socialism",
-          "display_url": "foxnews.com/politics/perdu\u2026",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1328024515759181826/LCnCJImf?format=jpg&name=orig",
-              "width": 1024,
-              "height": 512
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1328024515759181826/LCnCJImf?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Perdue, Ossoff cast Georgia Senate runoff as battle for control of the nation",
-          "description": "Georgia Senate rivals David Perdue, the Republican incumbent, and Jon Ossoff, the Democratic challenger, both framed\u00a0the Jan. 5 runoff elections as a battle\u00a0for the fate of the nation\u00a0on Sunday.",
-          "unwound_url": "https://www.foxnews.com/politics/perdue-ossoff-georgia-senate-runoff-biden-coronavirus-aoc-socialism"
-        }
-      ],
-      "annotations": [
-        {
-          "start": 8,
-          "end": 13,
-          "probability": 0.3743,
-          "type": "Person",
-          "normalized_text": "Ossoff"
-        },
-        {
-          "start": 20,
-          "end": 33,
-          "probability": 0.8391,
-          "type": "Organization",
-          "normalized_text": "Georgia Senate"
-        }
-      ]
-    }
+    "created_at": "2020-11-17T00:22:21.000Z",
+    "text": "Georgia recount unearths more than 2,600 uncounted ballots in Floyd County https://t.co/AXPJ5zPQUu",
+    "id": "1328493644777709569"
   }
 ]
