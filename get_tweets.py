@@ -35,8 +35,11 @@ orgs = {
 	}
 }
 
-# function for getting tweets, specifying with or without org URL, and search text
+# function for getting tweets, specifying with or without org URL and search text
 def get_tweets(has_org_url, search_text):
+
+	# print function inputs for reference
+	print('\n\nget tweets\nurl: ' + str(has_org_url) + '\nsearch text: ' + search_text)
 
 	# empty variable for storing results
 	all_data = []
@@ -47,7 +50,7 @@ def get_tweets(has_org_url, search_text):
 		# print org name
 		print('\n', org_id, sep='')
 
-		# define as empty initially for each org
+		# define next_token as empty initially for each org - will be overwritten below if it isn't the first loop through
 		next_token = None
 
 		# reset result count for each org
@@ -55,11 +58,11 @@ def get_tweets(has_org_url, search_text):
 
 		# create parameters for query string (tweets by the organization, containing the organization's URL if specified, containing the specified search words)
 
-		# handle
+		# twitter handle parameter
 		handle = orgs[org_id]['handle']
 		handle_param = f'from:{handle}'
 
-		# url
+		# url parameter (if true was specified in function)
 		url = orgs[org_id]['url']
 		if has_org_url == False:
 			url_param = ''
@@ -75,7 +78,7 @@ def get_tweets(has_org_url, search_text):
 		# create query string
 		query = handle_param + url_param + search_text_param
 
-		# make requests, using next_token to combine multiple responses into one json file until there is no next token or 10 requests have been made
+		# make requests, using next_token to combine multiple responses into one json file until there is no next token or max_results number of requests have been made
 
 		# limit iterations to avoid hitting hitting request limit
 		iterations = 4
@@ -88,7 +91,7 @@ def get_tweets(has_org_url, search_text):
 				# include these fields in response
 				'tweet.fields': 'author_id,id,created_at,public_metrics,text,entities',
 				# number of results per response (can be 10-100)
-				'max_results': 10,
+				'max_results': 100,
 				# specify next_token (page to start on)
 				'next_token': next_token
 			}
@@ -117,7 +120,7 @@ def get_tweets(has_org_url, search_text):
 				# store new next_token
 				next_token = page_data['meta']['next_token']
 
-				# if it's the final iteration
+				# and if it's the final iteration
 				if i == iterations:
 
 					# print number of results
@@ -142,10 +145,10 @@ def get_tweets(has_org_url, search_text):
 	#data = 
 
 	# write output of get_tweets() as json file
-	json.dump(all_data, open(f'output__URL_{has_org_url}__Search_{search_text}.json', 'w'), indent = 2)
+	json.dump(all_data, open(f'output/output__URL_{has_org_url}__Search_{search_text}.json', 'w'), indent = 2)
 
 
 # get tweets 
 get_tweets(has_org_url = True, search_text = 'Georgia')
-
-
+get_tweets(has_org_url = False, search_text = 'Georgia')
+get_tweets(has_org_url = True, search_text = 'Trump')
