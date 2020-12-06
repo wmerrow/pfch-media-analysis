@@ -31,8 +31,9 @@ orgs = {
 	}
 }
 
-# empty list for storing results
+# empty lists for storing results
 articles = []
+text = []
 
 # load json file
 with open("output/output__URL_True__Search_Trump.json") as f:
@@ -43,6 +44,7 @@ for org in orgs:
 
 	# reset org articles
 	org_articles = []
+	org_articles_unique = []
 
 	# filter to just tweets by the current org
 	org_tweets = [d for d in tweets if d['author_id'] == orgs[org]['author_id']]
@@ -135,19 +137,57 @@ for org in orgs:
 					})	
 
 
-	print(len(org_articles), 'articles')
-	# write org output for reference
+	print(len(org_articles), 'total articles')
+
+
+	# filter to just those that have unique article_urls
+
+	# empty list for compiling running list of URLs as it loops through
+	existing_urls = []
+
+	# loop through articles
+	for a in org_articles:
+
+		# if the article's URL is not already in running list of URLs, add the article to the list of unique articles and add the URL to the running list of URLs
+		if a['article_url'] not in existing_urls:
+			org_articles_unique.append(a)
+			# org_articles_unique.append({
+			# 	'org': a['org'],
+			# 	'article_url': a['article_url'],
+			# 	'h1': a['h1'],
+			# 	'first_p': a['first_p'],
+			# 	'article_text': a['article_text']
+			# 	})	
+			# add URL to running list of URLs
+			existing_urls.append(a['article_url'])
+
+	# overwrite org articles with unique articles
+	org_articles = org_articles_unique
+	print(len(org_articles), 'unique articles')
+
+	# write output org articles for reference
 	json.dump(org_articles, open(f'output/{org}_articles.json', 'w'), indent = 2)
 
 	# add org list to list of all articles
 	articles = articles + org_articles
-	#articles.append(org_list)
 
-# filter master list to unique article_urls
+	# combine article text from all of org's articles
+	org_text = ''
+	for a in org_articles:
+		org_text = org_text + a['article_text']
+
+	# add org name and text to text list (for processing later)
+	text.append({
+				'org': org,
+				'org_text': org_text
+				})
+	print(len(text), 'dicts in text list')
+
 
 print('\n\n')
 print(len(articles), 'total articles')
 
 # write output
 json.dump(articles, open(f'output/articles.json', 'w'), indent = 2)
+json.dump(text, open(f'output/text.json', 'w'), indent = 2)
 
