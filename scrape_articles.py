@@ -4,30 +4,30 @@ import json
 
 # list of media organizations
 orgs = {
-	# 'nyt': {
-	# 	'handle': 'nytimes',
-	# 	'url': 'https://www.nytimes.com/',
-	# 	'author_id': '807095',
-	# 	'div_class': 'StoryBodyCompanionColumn'
-	# },
-	# 'vox': {
-	# 	'handle': 'voxdotcom',
-	# 	'url': 'https://www.vox.com/',
-	# 	'author_id': '2347049341',
-	# 	'div_class': 'c-entry-content'
-	# },
-	# 'cnn': {
-	# 	'handle': 'cnn',
-	# 	'url': 'https://www.cnn.com/',
-	# 	'author_id': '759251',
-	# 	'div_class': 'l-container'
-	# },
-	# 'fox': {
-	# 	'handle': 'foxnews',
-	# 	'url': 'https://www.foxnews.com/',
-	# 	'author_id': '1367531',
-	# 	'div_class': 'article-body'
-	# },
+	'nyt': {
+		'handle': 'nytimes',
+		'url': 'https://www.nytimes.com/',
+		'author_id': '807095',
+		'div_class': 'StoryBodyCompanionColumn'
+	},
+	'vox': {
+		'handle': 'voxdotcom',
+		'url': 'https://www.vox.com/',
+		'author_id': '2347049341',
+		'div_class': 'c-entry-content'
+	},
+	'cnn': {
+		'handle': 'cnn',
+		'url': 'https://www.cnn.com/',
+		'author_id': '759251',
+		'div_class': 'l-container'
+	},
+	'fox': {
+		'handle': 'foxnews',
+		'url': 'https://www.foxnews.com/',
+		'author_id': '1367531',
+		'div_class': 'article-body'
+	},
 	'oan': {
 		'handle': 'oann',
 		'url': 'https://www.oann.com/',
@@ -85,34 +85,51 @@ for org in orgs:
 				# get p tags
 
 				if org == 'nyt':
+					
+					# ignore articles with "transiton highlights" in the title
+					### may be better to replace this with a check for live-blog classes since seems like there are other live blogs than just transition highlights
+					if 'Transition Highlights: ' not in h1:
 
-					p_container = article_soup.find('div', {'class': 'StoryBodyCompanionColumn'})
-					p = p_container.find('p').text
+						p_container = article_soup.find('section', {'name': 'articleBody'})
+						if p_container is not None:
+							p_list = p_container.findAll('p')
+							p = p_list[0].text
+
+					##### need to reset p stuff each time so that it doesn't use p stuff from previous one in cases like transition highlights
 
 				elif org == 'vox':
 
+					# some articles have empty p tags at start, not a problem
 					p_container = article_soup.find('div', {'class': 'c-entry-content'})
-					p = p_container.find('p').text
+					if p_container is not None:
+						p_list = p_container.findChildren('p', recursive=False) # recursive false specifies only direct children
+						p = p_list[0].text
 				
 				elif org == 'cnn':
-					
+
+					# could remove p tags with class zn-body__footer ("x y z contributed to this report...")
 					p_container = article_soup.find('section', {'id': 'body-text'})
-					p = p_container.find('p').text
+					if p_container is not None:
+						p_list = p_container.findAll('p')
+						p = p_list[0].text
 
 				elif org == 'fox':
 
 					p_container = article_soup.find('div', {'class': 'article-body'})
-					p = p_container.findChild('p', recursive=False).text  # recursive false specifies only direct children
+					if p_container is not None:
+						p_list = p_container.findChildren('p', recursive=False) # recursive false specifies only direct children
+						p = p_list[0].text  
 
 				elif org == 'oan':
 
 					p_container = article_soup.find('div', {'class': 'entry-content'})
-					p_el = p_container.findChild('p', recursive=False)
-					# handle cases when there are no p elements
-					if p_el is None:
-						p = ''
-					else:
-						p = p_el.text  # recursive false specifies only direct children
+					if p_container is not None:
+						p_list = p_container.findChildren('p', recursive=False) # recursive false specifies only direct children
+						# handle cases when there are no p elements
+						if len(p_list) == 0:
+							p = ''
+						else:
+							p = p_list[0].text  
 
 
 				print(p)
