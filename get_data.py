@@ -57,7 +57,7 @@ def get_data(has_org_url, search_text):
 	# print function inputs for reference
 	print('\n\nGET DATA')
 	print('url: ' + str(has_org_url))
-	print('search text: ' + search_text)
+	print('search text: ' + str(search_text))
 
 	
 	# 1. GET TWEETS
@@ -209,7 +209,10 @@ def get_data(has_org_url, search_text):
 
 				# store headline (assumes all orgs' pages have a title and it's the first h1 on the page)
 				h1_list = article_soup.find_all('h1')
-				h1 = h1_list[0].text
+				if len(h1_list) > 0:
+					h1 = h1_list[0].text
+				else:
+					h1 = ''
 
 
 				# store list of p tags, using the appropriate scraping approach depending on the org
@@ -331,7 +334,7 @@ def get_data(has_org_url, search_text):
 		print(len(org_articles_unique), 'unique articles')
 
 		# write output org articles (just for reference)
-		json.dump(org_articles_unique, open(f'output/articles/articles__URL_{has_org_url}__Search_{search_text}__{org}.json', 'w'), indent = 2)
+		#json.dump(org_articles_unique, open(f'output/articles/articles__URL_{has_org_url}__Search_{search_text}__{org}.json', 'w'), indent = 2)
 
 
 		# add org list to list of all articles, to be written out
@@ -360,10 +363,22 @@ def get_data(has_org_url, search_text):
 
 
 # call function to get data
-#get_data(has_org_url = True, search_text = 'Trump')
+#get_data(has_org_url = True, search_text = None)
+get_data(has_org_url = True, search_text = 'Trump')
 get_data(has_org_url = True, search_text = 'Biden')
-get_data(has_org_url = True, search_text = 'transition')
-get_data(has_org_url = True, search_text = 'election results')
-get_data(has_org_url = True, search_text = 'certify')
-get_data(has_org_url = True, search_text = 'Georgia')
-get_data(has_org_url = True, search_text = 'QAnon')
+get_data(has_org_url = True, search_text = '(covid-19 OR covid OR coronavirus OR pandemic)')
+get_data(has_org_url = True, search_text = 'vaccine')
+get_data(has_org_url = True, search_text = '(Georgia OR GA OR Ga.) -runoff')
+#get_data(has_org_url = True, search_text = '(Georgia OR GA OR Ga.) runoff')
+#get_data(has_org_url = True, search_text = '(Georgia OR Ga. OR GA OR Arizona OR Pennsylvania OR Nevada) -runoff')
+
+# unused:
+#get_data(has_org_url = True, search_text = 'transition')
+#get_data(has_org_url = True, search_text = 'election results')
+#get_data(has_org_url = True, search_text = 'certify')
+#get_data(has_org_url = True, search_text = 'Georgia')
+#get_data(has_org_url = True, search_text = 'QAnon')
+#get_data(has_org_url = True, search_text = 'pandemic')
+#get_data(has_org_url = True, search_text = 'mask')
+#get_data(has_org_url = True, search_text = 'economy')
+#get_data(has_org_url = True, search_text = 'immigration')

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>PFCH Final Project</title>
+      <script type="text/javascript" src= "https://d3js.org/d3.v6.js"></script>
+      <style type="text/css"> 
+
+      	svg {
+          width:500px;
+          height:500px;
+        }
+
+        .label {
+          font-family: Arial;
+          font-size: 13px;
+        }
+
+        h1 {
+          font-family: sans-serif;
+          padding-left: 50px;
+          font-weight: 200;
+        }
+
+      </style>
+  </head>
+
+  <body>  
+    
+    <h1>Media Analysis</h1>
+    <svg></svg>
+    <script type="text/javascript">
+
+    d3.csv("output/articles__URL_True__Search_Trump.json")
+         .then(function(data) {
+
+          console.log(data);
+      
+      // margins
+      const margin = {
+        top: 100,
+        left: 50
+      };
+
+      // category values for easier reference
+      const values = ["D not up for reelection", "Solid D", "Likely D", "Lean D", "Toss up", "Lean R", "Likely R", "Solid R", "R not up for reelection"]
+
+      // SVG dimensions
+      const svg = d3.select('svg')
+        .attr('width', 500)
+        .attr('height', 500);
+
+      // add g for each state in appropriate position
+      // const g = svg.append('g')
+      //   .selectAll('g')
+      //   .data(data)
+      //   .enter()
+      //   .append('g')
+      //   .attr('transform', d=>{return 'translate(' + (d.col * square.w + margin.left) + ',' + (d.row * square.h + margin.top) + ')';});
+
+      // // labels
+      // g.append('text')
+      //   .attr('x', square.w / 2)
+      //   .attr('y', square.h / 2 + 2)
+      //   .style('text-anchor', 'middle')
+      //   .attr('class', 'label')
+      //   .attr('transform', 'translate(0,-15)')
+      //   .style('fill', '#000000')
+      //   .text(d=> {return d.code;});
+
+    
+    })
+        .catch(function(error){
+                       // handle error   
+    });
+
+      </script>
+  </body>
+</html>
