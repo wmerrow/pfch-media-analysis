@@ -1,0 +1,681 @@
+[
+  {
+    "text": "As head of Obama's National Economic Council, Jeffrey Zients won praise from progressives. But now they're concerned that Zients, currently the co-chairman of Joe Biden's transition team, would defend corporate America if given a top economic policy job. https://t.co/kdXt10qojt",
+    "entities": {
+      "annotations": [
+        {
+          "start": 11,
+          "end": 15,
+          "probability": 0.9894,
+          "type": "Person",
+          "normalized_text": "Obama"
+        },
+        {
+          "start": 19,
+          "end": 43,
+          "probability": 0.5154,
+          "type": "Organization",
+          "normalized_text": "National Economic Council"
+        },
+        {
+          "start": 46,
+          "end": 59,
+          "probability": 0.9901,
+          "type": "Person",
+          "normalized_text": "Jeffrey Zients"
+        },
+        {
+          "start": 122,
+          "end": 127,
+          "probability": 0.5664,
+          "type": "Person",
+          "normalized_text": "Zients"
+        },
+        {
+          "start": 159,
+          "end": 167,
+          "probability": 0.9944,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 211,
+          "end": 217,
+          "probability": 0.9933,
+          "type": "Place",
+          "normalized_text": "America"
+        }
+      ],
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/kdXt10qojt",
+          "expanded_url": "https://nyti.ms/39wRh3V",
+          "display_url": "nyti.ms/39wRh3V",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333796271430144001/QCmREpXR?format=jpg&name=orig",
+              "width": 1600,
+              "height": 900
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333796271430144001/QCmREpXR?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Biden Faces a Balancing Act in Choosing Top Aides With Business Ties",
+          "description": "Jeffrey Zients, a candidate to lead the administration\u2019s coronavirus response team, is arousing resistance from some progressive Democrats.",
+          "unwound_url": "https://www.nytimes.com/2020/12/01/us/politics/biden-staff-business-zients.html?smtyp=cur&smid=tw-nytimes"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 23,
+      "reply_count": 31,
+      "like_count": 103,
+      "quote_count": 5
+    },
+    "created_at": "2020-12-01T23:30:08.000Z",
+    "id": "1333916319536861185",
+    "author_id": "807095"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 24,
+          "end": 28,
+          "probability": 0.995,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 53,
+          "end": 57,
+          "probability": 0.9978,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 9,
+          "username": "drvox"
+        }
+      ]
+    },
+    "id": "1333904185205538816",
+    "public_metrics": {
+      "retweet_count": 884,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T22:41:55.000Z",
+    "text": "RT @drvox: My new post: Biden should take a cue from Trump and run a full-on blitz the second he takes power. Fix the agencies, restore the\u2026",
+    "author_id": "2347049341"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 38,
+          "end": 42,
+          "probability": 0.9066,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 13,
+          "username": "ezraklein"
+        }
+      ]
+    },
+    "id": "1333899771841548289",
+    "public_metrics": {
+      "retweet_count": 2365,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T22:24:22.000Z",
+    "text": "RT @ezraklein: I agree with this. The Biden administration needs to resist clever theories about sequencing. They need, to the fullest exte\u2026",
+    "author_id": "2347049341"
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9984,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 141,
+          "end": 145,
+          "probability": 0.934,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 185,
+          "end": 191,
+          "username": "drvox"
+        }
+      ],
+      "urls": [
+        {
+          "start": 227,
+          "end": 250,
+          "url": "https://t.co/wG8dGnYr8x",
+          "expanded_url": "https://www.vox.com/policy-and-politics/21724758/biden-transition-trump-polarized-climate-change-health-immigration?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/policy-and-pol\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333845863383314442/Jlwv0IsI?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333845863383314442/Jlwv0IsI?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Joe Biden should do everything at once",
+          "description": "How to succeed in hyperpolarized politics: run a blitz.",
+          "unwound_url": "https://www.vox.com/policy-and-politics/21724758/biden-transition-trump-polarized-climate-change-health-immigration?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        }
+      ]
+    },
+    "id": "1333845855800094720",
+    "public_metrics": {
+      "retweet_count": 42,
+      "reply_count": 13,
+      "like_count": 169,
+      "quote_count": 15
+    },
+    "created_at": "2020-12-01T18:50:08.000Z",
+    "text": "Trump understood the main rule of navigating hyperpartisan politics: Always be acting. Stay on the offensive. Do everything at once. Blitz.\n\nBiden should do the same as president, says @drvox \u2014 only to improve lives this time. https://t.co/wG8dGnYr8x",
+    "author_id": "2347049341"
+  },
+  {
+    "created_at": "2020-12-06T20:13:40.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 167,
+          "end": 190,
+          "url": "https://t.co/oQIACGyVVh",
+          "expanded_url": "https://cnn.it/3mQsJqn",
+          "display_url": "cnn.it/3mQsJqn"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 15,
+          "end": 19,
+          "probability": 0.8571,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 81,
+          "end": 88,
+          "probability": 0.8105,
+          "type": "Organization",
+          "normalized_text": "Pentagon"
+        }
+      ]
+    },
+    "text": "Members of the Biden transition team are scheduled to receive briefings from the Pentagon's intelligence agencies beginning on Monday, according to defense officials \nhttps://t.co/oQIACGyVVh",
+    "id": "1335678818665771011",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 108,
+      "reply_count": 124,
+      "like_count": 859,
+      "quote_count": 20
+    }
+  },
+  {
+    "created_at": "2020-12-06T04:30:04.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 173,
+          "end": 196,
+          "url": "https://t.co/druwxenl9I",
+          "expanded_url": "https://cnn.it/36JfYIv",
+          "display_url": "cnn.it/36JfYIv"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 8,
+          "probability": 0.9653,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 51,
+          "end": 59,
+          "probability": 0.9608,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 117,
+          "end": 124,
+          "probability": 0.8167,
+          "type": "Organization",
+          "normalized_text": "Pentagon"
+        }
+      ]
+    },
+    "text": "The Trump administration prevented President-elect Joe Biden's transition team from meeting with its counterparts at Pentagon intelligence agencies this week, a source says https://t.co/druwxenl9I",
+    "id": "1335441354147717120",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 270,
+      "reply_count": 349,
+      "like_count": 911,
+      "quote_count": 68
+    }
+  },
+  {
+    "created_at": "2020-12-05T17:44:05.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 173,
+          "end": 196,
+          "url": "https://t.co/m9u25w9Kn0",
+          "expanded_url": "https://cnn.it/36M2FH2",
+          "display_url": "cnn.it/36M2FH2"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 8,
+          "probability": 0.9653,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 51,
+          "end": 59,
+          "probability": 0.9608,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 117,
+          "end": 124,
+          "probability": 0.8167,
+          "type": "Organization",
+          "normalized_text": "Pentagon"
+        }
+      ]
+    },
+    "text": "The Trump administration prevented President-elect Joe Biden's transition team from meeting with its counterparts at Pentagon intelligence agencies this week, a source says https://t.co/m9u25w9Kn0",
+    "id": "1335278786150084610",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 179,
+      "reply_count": 282,
+      "like_count": 514,
+      "quote_count": 64
+    }
+  },
+  {
+    "created_at": "2020-12-05T02:41:52.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 173,
+          "end": 196,
+          "url": "https://t.co/99Nc3igFao",
+          "expanded_url": "https://cnn.it/36IbMss",
+          "display_url": "cnn.it/36IbMss"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 8,
+          "probability": 0.9653,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 51,
+          "end": 59,
+          "probability": 0.9608,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 117,
+          "end": 124,
+          "probability": 0.8167,
+          "type": "Organization",
+          "normalized_text": "Pentagon"
+        }
+      ]
+    },
+    "text": "The Trump administration prevented President-elect Joe Biden's transition team from meeting with its counterparts at Pentagon intelligence agencies this week, a source says https://t.co/99Nc3igFao",
+    "id": "1335051736239759360",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 444,
+      "reply_count": 441,
+      "like_count": 979,
+      "quote_count": 130
+    }
+  },
+  {
+    "created_at": "2020-12-04T22:45:00.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 207,
+          "end": 230,
+          "url": "https://t.co/IjpCgIDmz4",
+          "expanded_url": "https://cnn.it/2LaLCX1",
+          "display_url": "cnn.it/2LaLCX1"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 16,
+          "end": 24,
+          "probability": 0.9869,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 35,
+          "end": 39,
+          "probability": 0.949,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 156,
+          "end": 160,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ]
+    },
+    "text": "President-elect Joe Biden said the Trump administration had shared information with his transition team about distributing a vaccine to various states, but Biden said his team had not seen a \"detailed plan\" https://t.co/IjpCgIDmz4",
+    "id": "1334992126850064384",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 67,
+      "reply_count": 141,
+      "like_count": 474,
+      "quote_count": 23
+    }
+  },
+  {
+    "created_at": "2020-12-04T20:31:05.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/a6cdfaUCbE",
+          "expanded_url": "https://cnn.it/2LavGUH",
+          "display_url": "cnn.it/2LavGUH"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 15,
+          "probability": 0.964,
+          "type": "Organization",
+          "normalized_text": "State Department"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "probability": 0.6693,
+          "type": "Person",
+          "normalized_text": "Mike Pompeo"
+        },
+        {
+          "start": 161,
+          "end": 169,
+          "probability": 0.9698,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 182,
+          "end": 197,
+          "probability": 0.7498,
+          "type": "Organization",
+          "normalized_text": "State Department"
+        }
+      ]
+    },
+    "text": "State Department officials who work with Secretary of State Mike Pompeo have told the department's career transition team that he will meet with President-elect Joe Biden's incoming State Department team, according to two sources familiar with the message https://t.co/a6cdfaUCbE",
+    "id": "1334958423197278208",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 56,
+      "reply_count": 113,
+      "like_count": 447,
+      "quote_count": 12
+    }
+  },
+  {
+    "entities": {
+      "mentions": [
+        {
+          "start": 235,
+          "end": 245,
+          "username": "lukemcgee"
+        }
+      ],
+      "urls": [
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/r6nXd2YKOs",
+          "expanded_url": "https://cnn.it/2JBgAHc",
+          "display_url": "cnn.it/2JBgAHc"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 82,
+          "end": 83,
+          "probability": 0.8549,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 94,
+          "end": 95,
+          "probability": 0.3792,
+          "type": "Organization",
+          "normalized_text": "EU"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "probability": 0.9165,
+          "type": "Place",
+          "normalized_text": "UK"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T18:30:07.000Z",
+    "text": "With all that has happened in 2020, you could be forgiven for forgetting that the UK left the EU back in January. The UK has been in something called a transition period ever since, but that is set to expire December 31. | Analysis by @LukeMcGee https://t.co/r6nXd2YKOs",
+    "id": "1334565593664647171",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 34,
+      "reply_count": 39,
+      "like_count": 195,
+      "quote_count": 14
+    }
+  },
+  {
+    "created_at": "2020-12-03T15:26:59.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 150,
+          "end": 173,
+          "url": "https://t.co/oNO4js0Jj6",
+          "expanded_url": "https://cnn.it/3oleVo1",
+          "display_url": "cnn.it/3oleVo1"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 16,
+          "probability": 0.92,
+          "type": "Person",
+          "normalized_text": "Dr. Anthony Fauci"
+        },
+        {
+          "start": 76,
+          "end": 84,
+          "probability": 0.9407,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ]
+    },
+    "text": "Dr. Anthony Fauci confirms that he will meet virtually with President-elect Joe Biden's transition team this afternoon about the coronavirus pandemic https://t.co/oNO4js0Jj6",
+    "id": "1334519507159805952",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 162,
+      "reply_count": 116,
+      "like_count": 2203,
+      "quote_count": 31
+    }
+  },
+  {
+    "created_at": "2020-12-02T09:31:47.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 232,
+          "end": 255,
+          "url": "https://t.co/HVxKH9NYDU",
+          "expanded_url": "https://cnn.it/2JyMjsj",
+          "display_url": "cnn.it/2JyMjsj"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 15,
+          "end": 43,
+          "probability": 0.7153,
+          "type": "Organization",
+          "normalized_text": "Congressional Hispanic Caucus"
+        },
+        {
+          "start": 83,
+          "end": 91,
+          "probability": 0.9502,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 124,
+          "end": 137,
+          "probability": 0.4672,
+          "type": "Organization",
+          "normalized_text": "New Mexico Gov"
+        },
+        {
+          "start": 140,
+          "end": 161,
+          "probability": 0.9454,
+          "type": "Person",
+          "normalized_text": "Michelle Lujan Grisham"
+        }
+      ]
+    },
+    "text": "Members of the Congressional Hispanic Caucus have sent a letter to President-elect Joe Biden's transition team lobbying for New Mexico Gov. Michelle Lujan Grisham to be nominated for the role of health and human services secretary. https://t.co/HVxKH9NYDU",
+    "id": "1334067729800818688",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 59,
+      "like_count": 219,
+      "quote_count": 10
+    }
+  },
+  {
+    "entities": {
+      "mentions": [
+        {
+          "start": 41,
+          "end": 52,
+          "username": "ChrisCuomo"
+        }
+      ],
+      "urls": [
+        {
+          "start": 242,
+          "end": 265,
+          "url": "https://t.co/iUK9UHtkpK",
+          "expanded_url": "https://cnn.it/3fU68X6",
+          "display_url": "cnn.it/3fU68X6"
+        },
+        {
+          "start": 266,
+          "end": 289,
+          "url": "https://t.co/SivzZslszY",
+          "expanded_url": "https://twitter.com/CNN/status/1333633449605775360/video/1",
+          "display_url": "pic.twitter.com/SivzZslszY"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 106,
+          "end": 114,
+          "probability": 0.6857,
+          "type": "Person",
+          "normalized_text": "Americans"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T04:46:06.000Z",
+    "text": "\"We are having a collective reset,\" says @ChrisCuomo as the federal government prepares to transition and Americans prepare for the holidays. \"We have a new leader coming into office, we have new problems that are coming sharply into focus.\" https://t.co/iUK9UHtkpK https://t.co/SivzZslszY",
+    "id": "1333633449605775360",
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 132,
+      "reply_count": 218,
+      "like_count": 1093,
+      "quote_count": 35
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "1335613120195211265",
+    "public_metrics": {
+      "retweet_count": 46,
+      "reply_count": 25,
+      "like_count": 121,
+      "quote_count": 5
+    },
+    "created_at": "2020-12-06T15:52:37.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 245,
+          "end": 268,
+          "url": "https://t.co/76iNRWmbNU",
+          "expanded_url": "https://trib.al/y0nrtZl",
+          "display_url": "trib.al/y0nrtZl",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334159221424787456/xKCnk3My?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334159221424787456/xKCnk3My?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Conspiracy theories, explained",
+          "description": "Americans are embracing dangerous conspiratorial beliefs, from QAnon to coronavirus denial.",
+          "unwound_url": "https://www.vox.com/21558524/conspiracy-theories-2020-qanon-covid-conspiracies-why?utm_medium=social&utm_source=twitter&utm_campaign=vox.social&utm_content=voxdotcom"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "text": "Believing in a conspiracy theory doesn\u2019t make someone unintelligent, ignorant, or evil.\n\nIt just means they\u2019ve encountered bad information \u2014 and these days, bad information is everywhere.\n\nThe recent explosion of conspiracy theories, explained: https://t.co/76iNRWmbNU"
+  },
+  {
+    "entities": {
+      "urls": [
+        {
+          "start": 244,
+          "end": 267,
+          "url": "https://t.co/AUzQfWor8x",
+          "expanded_url": "https://cnn.it/39DBwrI",
+          "display_url": "cnn.it/39DBwrI",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334572573368213504/gCDOVDP2?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334572573368213504/gCDOVDP2?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Trump praised QAnon during meeting about keeping the Senate",
+          "description": "President Donald Trump brought up Rep.-elect Marjorie Taylor Greene's support for the dangerous QAnon conspiracy theory during a meeting on keeping the Senate with Majority Leader Mitch McConnell and other aides, a source familiar with the matter confirmed to CNN.",
+          "unwound_url": "https://www.cnn.com/2020/12/03/politics/donald-trump-qanon/index.html?utm_medium=social&utm_content=2020-12-03T20%3A50%3A06&utm_term=link&utm_source=twCNN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 68,
+          "end": 87,
+          "probability": 0.9171,
+          "type": "Person",
+          "normalized_text": "Sen. Mitch McConnell"
+        },
+        {
+          "start": 106,
+          "end": 120,
+          "probability": 0.939,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ]
+    },
+    "author_id": "759251",
+    "id": "1334600824606089219",
+    "public_metrics": {
+      "retweet_count": 634,
+      "reply_count": 778,
+      "like_count": 1817,
+      "quote_count": 377
+    },
+    "created_at": "2020-12-03T20:50:06.000Z",
+    "text": "Referencing the dangerous QAnon conspiracy theory at a meeting with Sen. Mitch McConnell and other aides, President Trump said QAnon consists of people who \u201cbasically believe in good government,\u201d which led to silence in the room, a source said\nhttps://t.co/AUzQfWor8x"
+  }
+]
