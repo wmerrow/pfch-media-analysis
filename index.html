@@ -7,19 +7,57 @@
       <style type="text/css"> 
 
       	svg {
-          width:500px;
-          height:500px;
+          background: #ffffff;
+          margin-left: 50px;
         }
 
-        .label {
-          font-family: Arial;
+        .headline {
+          font-family: sans-serif;
+          font-size: 15px;
+          font-weight: bold;
+        }
+        
+        .paragraph {
+          font-family: sans-serif;
           font-size: 13px;
+          fill: #666666;
+        }
+
+        .likes {
+          font-family: sans-serif;
+          font-size: 11px;
+          font-weight: 600;
+          text-anchor: end;
+          fill: #1da1f2;
         }
 
         h1 {
           font-family: sans-serif;
-          padding-left: 50px;
+          margin-left: 50px;
+          margin-bottom: 50px;
           font-weight: 200;
+          font-size: 36px;
+        }
+
+        h2 {
+          margin-left: 10px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          font-size: 28px;
+          font-family: sans-serif;
+          font-weight: 400;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        img {
+          margin-left: 50px;
+          width: 40px;
+          height: 40px;
+          display: inline-block;
+          border-radius: 100%;
+          border: 0.5px solid #999999;
+          vertical-align: middle;
         }
 
       </style>
@@ -27,51 +65,134 @@
 
   <body>  
     
-    <h1>Media Analysis</h1>
-    <svg></svg>
+    <h1>How Four Different Media Outlets Are Reporting the News</h1>
+    <div id="nyt">
+      <div>
+        <img src="assets/nyt.png" alt="NYT logo">
+        <h2>The New York Times</h2>
+      </div>
+    </div>
+    <div id="cnn">
+      <div>
+        <img src="assets/cnn.jpg" alt="CNN logo">
+        <h2>CNN</h2>
+      </div>    </div>
+    <div id="fox">
+      <div>
+        <img src="assets/fox.jpg" alt="Fox logo">
+        <h2>Fox News</h2>
+      </div>    </div>
+    <div id="oan">
+      <div>
+        <img src="assets/oan.jpg" alt="OAN logo">
+        <h2>One America News Network</h2>
+      </div>    
+    </div>
     <script type="text/javascript">
 
-    d3.csv("output/articles__URL_True__Search_Trump.json")
-         .then(function(data) {
+    d3.json("output/articles/articles__URL_True__Search_(covid-19 OR covid OR coronavirus OR pandemic).json")
+      .then(function(data) {
 
-          console.log(data);
+      console.log(data);
+
+      // sort data
+      data = data.sort((a,b)=>d3.descending(+a.url_likes, +b.url_likes))
+
+      //data = data.filter(d => d.url_likes>10000)
       
-      // margins
+      // layout
+
+      width = 600;
+      height = 300;
+
       const margin = {
-        top: 100,
-        left: 50
+        top: 20,
+        right: 20,
+        bottom: 20,
+        left: 30
       };
 
-      // category values for easier reference
-      const values = ["D not up for reelection", "Solid D", "Likely D", "Lean D", "Toss up", "Lean R", "Likely R", "Solid R", "R not up for reelection"]
+      const colMargin = 14;
 
-      // SVG dimensions
-      const svg = d3.select('svg')
-        .attr('width', 500)
-        .attr('height', 500);
 
-      // add g for each state in appropriate position
-      // const g = svg.append('g')
-      //   .selectAll('g')
-      //   .data(data)
-      //   .enter()
-      //   .append('g')
-      //   .attr('transform', d=>{return 'translate(' + (d.col * square.w + margin.left) + ',' + (d.row * square.h + margin.top) + ')';});
+      function table(media_org) {
 
-      // // labels
-      // g.append('text')
-      //   .attr('x', square.w / 2)
-      //   .attr('y', square.h / 2 + 2)
-      //   .style('text-anchor', 'middle')
-      //   .attr('class', 'label')
-      //   .attr('transform', 'translate(0,-15)')
-      //   .style('fill', '#000000')
-      //   .text(d=> {return d.code;});
+          const org_data = data.filter(d => d.org == media_org)
 
-    
+          // scales
+          const yScale = d3.scaleBand()
+            .domain(data.map(d => d.h1))
+            .range([height - margin.bottom, margin.top]);
+
+          // SVG dimensions
+          const svg = d3.select('#' + media_org)
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+          
+          const rowSize = 60
+
+          const headlines = svg.selectAll('hText')
+            .data(org_data)
+            .enter()
+            .append('text')
+            .attr('class', 'headline')
+            .attr('x', margin.left + colMargin)
+            .attr('y', (d, i)=> i * rowSize + margin.top)
+            .text(d=> d.h1);
+
+          const paragraphs = svg.selectAll('pText')
+            .data(org_data)
+            .enter()
+            .append('text')
+            .attr('class', 'paragraph')
+            .attr('x', margin.left + colMargin)
+            .attr('y', (d, i)=> i * rowSize + margin.top + 20)
+            .text(d=> d.first_p);
+
+          const likes = svg.selectAll('lText')
+            .data(org_data)
+            .enter()
+            .append('text')
+            .attr('class', 'likes')
+            .attr('x', margin.left)
+            .attr('y', (d, i)=> i * rowSize + margin.top)
+            .text(d=> d3.format(".2s")(d.url_likes));
+
+          // const likesLabel = svg
+          //   .append('text')
+          //   .attr('class', 'likes')
+          //   .attr('x', margin.left)
+          //   .attr('y', margin.top + 12)
+          //   .text('likes');
+
+          // // add g for each org in appropriate position
+          // const g = svg.append('g')
+          //   .selectAll('g')
+          //   .data(data)
+          //   .enter()
+          //   .append('g')
+          //   // .attr('x', margin.left)
+          //   // .attr('y', d=> yScale(d.h1));
+          //   .attr('transform', d=>{return 'translate(' + margin.left + ',' + (yScale(d.h1) + margin.top) + ')';});
+
+          // // labels
+          // g.append('text')
+          //   .attr('class', 'headline')
+          //   // .attr('transform', 'translate(0,-15)')
+          //   .text(d=> {return d.h1;});
+
+      }; // end table function
+
+      // create tables
+      table('nyt');
+      table('cnn');
+      table('fox');
+      table('oan');    
     })
         .catch(function(error){
-                       // handle error   
+          // handle error   
+          console.log(error);
     });
 
       </script>
