@@ -11,6 +11,17 @@
           margin-left: 50px;
         }
 
+        .panel {
+          margin-bottom: 30px;
+          display: inline-block;
+        }
+
+        .total {
+          font-family: sans-serif;
+          font-size: 13px;
+          font-style: italic;
+        }
+
         .headline {
           font-family: sans-serif;
           font-size: 15px;
@@ -20,34 +31,45 @@
         .paragraph {
           font-family: sans-serif;
           font-size: 13px;
-          fill: #666666;
+          fill: #888888;
         }
 
-        .likes {
+        .like {
           font-family: sans-serif;
           font-size: 11px;
           font-weight: 600;
-          text-anchor: end;
+          text-anchor: start;
           fill: #1da1f2;
+        }
+
+        .line {
+          stroke: #dddddd;
         }
 
         h1 {
           font-family: sans-serif;
           margin-left: 50px;
-          margin-bottom: 50px;
+          margin-bottom: 20px;
           font-weight: 200;
           font-size: 36px;
         }
 
         h2 {
           margin-left: 10px;
-          margin-bottom: 20px;
-          margin-top: 20px;
+          margin-bottom: 18px;
+          margin-top: 18px;
           font-size: 28px;
           font-family: sans-serif;
           font-weight: 400;
           display: inline-block;
           vertical-align: middle;
+        }
+
+        .subhed {
+          font-family: sans-serif;
+          font-size: 18px;
+          margin-left: 50px;
+          margin-bottom: 40px;
         }
 
         img {
@@ -56,8 +78,26 @@
           height: 40px;
           display: inline-block;
           border-radius: 100%;
-          border: 0.5px solid #999999;
           vertical-align: middle;
+        }
+
+        #oanLogo {
+          border: 1px solid #aaaaaa;
+        }
+
+        #menu {
+          margin-left: 50px;
+          margin-bottom: 20px;
+        }
+
+        .instruction {
+          display: inline-block;
+          font-family: sans-serif;
+          font-size: 16px;
+        }
+
+        #dropdown {
+
         }
 
       </style>
@@ -66,134 +106,191 @@
   <body>  
     
     <h1>How Four Different Media Outlets Are Reporting the News</h1>
-    <div id="nyt">
+    <!-- <p class="subhed">Original articles linked in tweets containing <strong>"Trump"</strong></p> -->
+    <div id="menu">
+    <p class="instruction">Articles linked in tweets about </p>
+      <select class="instruction" id="dropdown" onchange="setTables()">
+        <option value="URL_True__Search_Trump">Trump</option>
+        <option value="URL_True__Search_Biden">Biden</option>
+        <option value="URL_True__Search_(Georgia OR GA OR Ga.) -runoff">Georgia</option>
+        <option value="URL_True__Search_(covid-19 OR covid OR coronavirus OR pandemic)">covid</option>
+        <option value="URL_True__Search_vaccine">vaccine</option>
+      </select>
+    </div>
+
+    <div class="panel" id="nyt">
       <div>
         <img src="assets/nyt.png" alt="NYT logo">
         <h2>The New York Times</h2>
       </div>
     </div>
-    <div id="cnn">
+    <div class="panel" id="vox">
       <div>
-        <img src="assets/cnn.jpg" alt="CNN logo">
-        <h2>CNN</h2>
+        <img src="assets/vox.jpg" alt="Vox logo">
+        <h2>Vox</h2>
       </div>    </div>
-    <div id="fox">
+    <div class="panel" id="fox">
       <div>
         <img src="assets/fox.jpg" alt="Fox logo">
         <h2>Fox News</h2>
       </div>    </div>
-    <div id="oan">
+    <div class="panel" id="oan">
       <div>
-        <img src="assets/oan.jpg" alt="OAN logo">
+        <img src="assets/oan.jpg" alt="OAN logo" id="oanLogo">
         <h2>One America News Network</h2>
       </div>    
     </div>
     <script type="text/javascript">
 
-    d3.json("output/articles/articles__URL_True__Search_(covid-19 OR covid OR coronavirus OR pandemic).json")
-      .then(function(data) {
+    // layout
 
-      console.log(data);
+    width = 500;
+    height = 390;
 
-      // sort data
-      data = data.sort((a,b)=>d3.descending(+a.url_likes, +b.url_likes))
+    const margin = {
+      top: 60,
+      right: 20,
+      bottom: 20,
+      left: 30
+    };
 
-      //data = data.filter(d => d.url_likes>10000)
-      
-      // layout
+    const colMargin = 14;
 
-      width = 600;
-      height = 300;
+    function drawTables(filePath) {
 
-      const margin = {
-        top: 20,
-        right: 20,
-        bottom: 20,
-        left: 30
-      };
+      // removes SVGs
+      d3.selectAll('svg').remove();
 
-      const colMargin = 14;
+      d3.json('output/articles/articles__' + filePath + '.json')
+        .then(function(data) {
+
+        console.log(data);
+
+        // sort data
+        data = data.sort((a,b)=>d3.descending(+a.url_likes, +b.url_likes))
+
+        //data = data.filter(d => d.url_likes>10000)
 
 
-      function table(media_org) {
+        function table(media_org) {
 
-          const org_data = data.filter(d => d.org == media_org)
+            const org_data = data.filter(d => d.org == media_org)
 
-          // scales
-          const yScale = d3.scaleBand()
-            .domain(data.map(d => d.h1))
-            .range([height - margin.bottom, margin.top]);
+            // scales
+            const yScale = d3.scaleBand()
+              .domain(data.map(d => d.h1))
+              .range([height - margin.bottom, margin.top]);
 
-          // SVG dimensions
-          const svg = d3.select('#' + media_org)
-            .append('svg')
-            .attr('width', width)
-            .attr('height', height);
-          
-          const rowSize = 60
+            // SVG dimensions
+            const svg = d3.select('#' + media_org)
+              .append('svg')
+              .attr('width', width)
+              .attr('height', height);
 
-          const headlines = svg.selectAll('hText')
-            .data(org_data)
-            .enter()
-            .append('text')
-            .attr('class', 'headline')
-            .attr('x', margin.left + colMargin)
-            .attr('y', (d, i)=> i * rowSize + margin.top)
-            .text(d=> d.h1);
+            const totals = svg
+              .append('text')
+              .attr('class', 'total')
+              .attr('x', 0)
+              .attr('y', margin.top - 40)
+              .text(org_data.length + ' articles');
+            
+            const rowSize = 115
 
-          const paragraphs = svg.selectAll('pText')
-            .data(org_data)
-            .enter()
-            .append('text')
-            .attr('class', 'paragraph')
-            .attr('x', margin.left + colMargin)
-            .attr('y', (d, i)=> i * rowSize + margin.top + 20)
-            .text(d=> d.first_p);
+            // add g for each org in appropriate position
+            const g = svg.append('g')
+              .selectAll('g')
+              .data(org_data)
+              .enter()
+              .append('g')
+              // .attr('x', margin.left)
+              // .attr('y', d=> yScale(d.h1));
+              .attr('transform', (d, i)=>{return 'translate(0,' + (i * rowSize) + ')';});
 
-          const likes = svg.selectAll('lText')
-            .data(org_data)
-            .enter()
-            .append('text')
-            .attr('class', 'likes')
-            .attr('x', margin.left)
-            .attr('y', (d, i)=> i * rowSize + margin.top)
-            .text(d=> d3.format(".2s")(d.url_likes));
+            const headlines = g.append('text')
+              .attr('class', 'headline')
+              .attr('x', colMargin)
+              .attr('y', margin.top)
+              .text(d=> d.h1)
+              .call(wrap, width - margin.left - colMargin);
 
-          // const likesLabel = svg
-          //   .append('text')
-          //   .attr('class', 'likes')
-          //   .attr('x', margin.left)
-          //   .attr('y', margin.top + 12)
-          //   .text('likes');
+            const paragraphs = g.append('text')
+              .attr('class', 'paragraph')
+              .attr('x', colMargin)
+              .attr('y', margin.top + 40)
+              .text(d=> d.first_p.split(' ').slice(0,30).join(' ') + '...') // put max number of words in slice
+              //.text(d=> d.first_p.substring(0,100))
+              .call(wrap, width - margin.left - colMargin);
 
-          // // add g for each org in appropriate position
-          // const g = svg.append('g')
-          //   .selectAll('g')
-          //   .data(data)
-          //   .enter()
-          //   .append('g')
-          //   // .attr('x', margin.left)
-          //   // .attr('y', d=> yScale(d.h1));
-          //   .attr('transform', d=>{return 'translate(' + margin.left + ',' + (yScale(d.h1) + margin.top) + ')';});
+            const likes = g.append('text')
+              .attr('class', 'like')
+              .attr('x', 0)
+              .attr('y', margin.top)
+              .text(d=> d3.format(".2s")(d.url_likes));
 
-          // // labels
-          // g.append('text')
-          //   .attr('class', 'headline')
-          //   // .attr('transform', 'translate(0,-15)')
-          //   .text(d=> {return d.h1;});
+            const lines = g.append('line')
+              .attr('class', 'line')
+              .attr('x1', 0)
+              .attr('y1', margin.top - 25)
+              .attr('x2', width)
+              .attr('y2', margin.top - 25);
 
-      }; // end table function
+            const likesLabel = svg
+              .append('text')
+              .attr('class', 'like')
+              .attr('x', 0)
+              .attr('y', margin.top + 12)
+              .text('likes');
 
-      // create tables
-      table('nyt');
-      table('cnn');
-      table('fox');
-      table('oan');    
-    })
-        .catch(function(error){
-          // handle error   
-          console.log(error);
-    });
+        }; // end table function
+
+        // draw each table
+        table('nyt');
+        table('vox');
+        table('fox');
+        table('oan'); 
+
+      })
+          .catch(function(error){
+            // handle error   
+            console.log(error);
+      }); // end d3.json
+
+    };// end drawTables
+
+    // initial draw
+    drawTables("URL_True__Search_Trump");
+
+    // function to set up four tables based on dropdown selection
+    function setTables() {
+      drawTables(d3.select('#dropdown').property("value"));
+      // drawGraph($('#dropdown').val());
+    };
+
+    // text wrap function
+    function wrap(text, width) {
+      text.each(function() {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 1.2, // ems
+            y = text.attr("y"),
+            dy = parseFloat(0), // assumes dy should be zero
+            //dy = parseFloat(text.attr("dy")),
+            tspan = text.text(null).append("tspan").attr("x", margin.left + colMargin).attr("y", y).attr("dy", dy + "em");
+        while (word = words.pop()) {
+          line.push(word);
+          tspan.text(line.join(" "));
+          if (tspan.node().getComputedTextLength() > width) {
+            line.pop();
+            tspan.text(line.join(" "));
+            line = [word];
+            tspan = text.append("tspan").attr("x",  margin.left + colMargin).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          }
+        }
+      });
+    }
 
       </script>
   </body>

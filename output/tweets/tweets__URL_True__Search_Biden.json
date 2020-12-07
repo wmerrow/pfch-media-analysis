@@ -1,6 +1,132 @@
 [
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 82,
+      "reply_count": 39,
+      "like_count": 529,
+      "quote_count": 16
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/FKB5bc5duJ",
+          "expanded_url": "https://nyti.ms/36S7PBx",
+          "display_url": "nyti.ms/36S7PBx"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 74,
+          "end": 82,
+          "probability": 0.976,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T16:06:45.000Z",
+    "id": "1335979067858939905",
+    "text": "States with a combined 288 electoral votes have certified President-elect Joe Biden's victory, giving him more than the 270 needed to become president. Only a few states remain to certify their presidential vote totals. https://t.co/FKB5bc5duJ"
+  },
+  {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 405,
+      "reply_count": 221,
+      "like_count": 3335,
+      "quote_count": 180
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 148,
+          "end": 171,
+          "url": "https://t.co/H3ZlAzE0l9",
+          "expanded_url": "https://nyti.ms/33SfI8e",
+          "display_url": "nyti.ms/33SfI8e"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 15,
+          "end": 21,
+          "probability": 0.4155,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 121,
+          "end": 129,
+          "probability": 0.9976,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T15:09:16.000Z",
+    "id": "1335964598768459781",
+    "text": "Breaking News: Georgia officials said they would recertify the state\u2019s election results after a second recount confirmed Joe Biden\u2019s victory there. https://t.co/H3ZlAzE0l9"
+  },
+  {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 58,
+      "reply_count": 41,
+      "like_count": 370,
+      "quote_count": 9
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/2o3eLctkSC",
+          "expanded_url": "https://nyti.ms/37FOXFc",
+          "display_url": "nyti.ms/37FOXFc"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 5,
+          "end": 11,
+          "probability": 0.9258,
+          "type": "Place",
+          "normalized_text": "Atlanta"
+        },
+        {
+          "start": 131,
+          "end": 135,
+          "probability": 0.9883,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T14:58:32.000Z",
+    "id": "1335961900669165569",
+    "text": "Some Atlanta suburbs that used to be \u201cblood red\u201d went blue in November. Senate runoff elections in January will test whether those Biden voters backed his agenda or simply sought to remove a uniquely divisive incumbent. https://t.co/2o3eLctkSC"
+  },
+  {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 57,
+      "reply_count": 62,
+      "like_count": 611,
+      "quote_count": 18
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 237,
+          "end": 260,
+          "url": "https://t.co/8Oyp6ccXon",
+          "expanded_url": "https://nyti.ms/3qybLiK",
+          "display_url": "nyti.ms/3qybLiK"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -16,30 +142,30 @@
           "type": "Person",
           "normalized_text": "Mr. Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 237,
-          "end": 260,
-          "url": "https://t.co/8Oyp6ccXon",
-          "expanded_url": "https://nyti.ms/3qybLiK",
-          "display_url": "nyti.ms/3qybLiK"
-        }
       ]
     },
-    "id": "1335740829961506819",
-    "public_metrics": {
-      "retweet_count": 53,
-      "reply_count": 60,
-      "like_count": 603,
-      "quote_count": 18
-    },
     "created_at": "2020-12-07T00:20:05.000Z",
-    "text": "In Opinion\n\nThe New York Times editorial board writes, \"One of Mr. Biden\u2019s most basic jobs will be to model a different leadership \u2014 to reclaim what it means to be presidential in a way that restores dignity and humanity to the office.\" https://t.co/8Oyp6ccXon",
-    "author_id": "807095"
+    "id": "1335740829961506819",
+    "text": "In Opinion\n\nThe New York Times editorial board writes, \"One of Mr. Biden\u2019s most basic jobs will be to model a different leadership \u2014 to reclaim what it means to be presidential in a way that restores dignity and humanity to the office.\" https://t.co/8Oyp6ccXon"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 716,
+      "reply_count": 344,
+      "like_count": 3799,
+      "quote_count": 400
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 208,
+          "end": 231,
+          "url": "https://t.co/gb7iYa6JlM",
+          "expanded_url": "https://nyti.ms/3orsRNm",
+          "display_url": "nyti.ms/3orsRNm"
+        }
+      ],
       "annotations": [
         {
           "start": 31,
@@ -69,39 +195,21 @@
           "type": "Place",
           "normalized_text": "California"
         }
-      ],
-      "urls": [
-        {
-          "start": 208,
-          "end": 231,
-          "url": "https://t.co/gb7iYa6JlM",
-          "expanded_url": "https://nyti.ms/3orsRNm",
-          "display_url": "nyti.ms/3orsRNm"
-        }
       ]
     },
-    "id": "1335718643582316550",
-    "public_metrics": {
-      "retweet_count": 687,
-      "reply_count": 323,
-      "like_count": 3607,
-      "quote_count": 397
-    },
     "created_at": "2020-12-06T22:51:55.000Z",
-    "text": "Breaking News: President-elect Joe Biden has selected Xavier Becerra, a former congressman who is now the Democratic attorney general of California, as his nominee for secretary of health and human services. https://t.co/gb7iYa6JlM",
-    "author_id": "807095"
+    "id": "1335718643582316550",
+    "text": "Breaking News: President-elect Joe Biden has selected Xavier Becerra, a former congressman who is now the Democratic attorney general of California, as his nominee for secretary of health and human services. https://t.co/gb7iYa6JlM"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 197,
+      "reply_count": 58,
+      "like_count": 1165,
+      "quote_count": 36
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 33,
-          "end": 39,
-          "probability": 0.9893,
-          "type": "Place",
-          "normalized_text": "Georgia"
-        }
-      ],
       "urls": [
         {
           "start": 207,
@@ -110,21 +218,39 @@
           "expanded_url": "https://nyti.ms/3giazet",
           "display_url": "nyti.ms/3giazet"
         }
+      ],
+      "annotations": [
+        {
+          "start": 33,
+          "end": 39,
+          "probability": 0.9893,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
       ]
     },
-    "id": "1335710627638222851",
-    "public_metrics": {
-      "retweet_count": 190,
-      "reply_count": 56,
-      "like_count": 1146,
-      "quote_count": 34
-    },
     "created_at": "2020-12-06T22:20:04.000Z",
-    "text": "Organizers and tribal leaders in Georgia are mobilizing to drive Native American voter registrations before the runoff elections in January, in hopes the community can play a meaningful role in the results. https://t.co/0wWyIGIGJ0",
-    "author_id": "807095"
+    "id": "1335710627638222851",
+    "text": "Organizers and tribal leaders in Georgia are mobilizing to drive Native American voter registrations before the runoff elections in January, in hopes the community can play a meaningful role in the results. https://t.co/0wWyIGIGJ0"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 31,
+      "reply_count": 43,
+      "like_count": 299,
+      "quote_count": 23
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 198,
+          "end": 221,
+          "url": "https://t.co/fNaar8OzDH",
+          "expanded_url": "https://nyti.ms/3mP0IQ3",
+          "display_url": "nyti.ms/3mP0IQ3"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -147,30 +273,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 198,
-          "end": 221,
-          "url": "https://t.co/fNaar8OzDH",
-          "expanded_url": "https://nyti.ms/3mP0IQ3",
-          "display_url": "nyti.ms/3mP0IQ3"
-        }
       ]
     },
-    "id": "1335705614882906119",
-    "public_metrics": {
-      "retweet_count": 30,
-      "reply_count": 42,
-      "like_count": 294,
-      "quote_count": 20
-    },
     "created_at": "2020-12-06T22:00:09.000Z",
-    "text": "Wilmington, Del. has long wrestled with its image problem. Namely, that it doesn't have an image. Then, Joe Biden won the election, thrusting his hometown into the center of the political universe. https://t.co/fNaar8OzDH",
-    "author_id": "807095"
+    "id": "1335705614882906119",
+    "text": "Wilmington, Del. has long wrestled with its image problem. Namely, that it doesn't have an image. Then, Joe Biden won the election, thrusting his hometown into the center of the political universe. https://t.co/fNaar8OzDH"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 103,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-06T19:32:50.000Z",
+    "id": "1335668542218391553",
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 14,
+          "username": "kevinroose"
+        }
+      ],
       "annotations": [
         {
           "start": 34,
@@ -179,28 +305,28 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 14,
-          "username": "kevinroose"
-        }
       ]
     },
-    "id": "1335668542218391553",
-    "public_metrics": {
-      "retweet_count": 102,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-06T19:32:50.000Z",
-    "text": "RT @kevinroose: I wrote about the Biden campaign\u2019s surprisingly successful digital strategy, a \u201cbattle for the soul of the internet\u201d that i\u2026",
-    "author_id": "807095"
+    "text": "RT @kevinroose: I wrote about the Biden campaign\u2019s surprisingly successful digital strategy, a \u201cbattle for the soul of the internet\u201d that i\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 400,
+      "reply_count": 139,
+      "like_count": 2593,
+      "quote_count": 96
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 158,
+          "end": 181,
+          "url": "https://t.co/UwW9t848dQ",
+          "expanded_url": "https://nyti.ms/39KmDE5",
+          "display_url": "nyti.ms/39KmDE5"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -216,30 +342,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 158,
-          "end": 181,
-          "url": "https://t.co/UwW9t848dQ",
-          "expanded_url": "https://nyti.ms/39KmDE5",
-          "display_url": "nyti.ms/39KmDE5"
-        }
       ]
     },
-    "id": "1335335681728581632",
-    "public_metrics": {
-      "retweet_count": 398,
-      "reply_count": 140,
-      "like_count": 2591,
-      "quote_count": 96
-    },
     "created_at": "2020-12-05T21:30:10.000Z",
-    "text": "California certified its electors for the 2020 election on Friday, officially giving Joe Biden more than the 270 pledged electors needed to become president. https://t.co/UwW9t848dQ",
-    "author_id": "807095"
+    "id": "1335335681728581632",
+    "text": "California certified its electors for the 2020 election on Friday, officially giving Joe Biden more than the 270 pledged electors needed to become president. https://t.co/UwW9t848dQ"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 131,
+      "reply_count": 179,
+      "like_count": 470,
+      "quote_count": 47
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 211,
+          "end": 234,
+          "url": "https://t.co/icn1DbAI2Q",
+          "expanded_url": "https://nyti.ms/3oqhPrv",
+          "display_url": "nyti.ms/3oqhPrv"
+        }
+      ],
       "annotations": [
         {
           "start": 33,
@@ -269,37 +395,22 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 211,
-          "end": 234,
-          "url": "https://t.co/icn1DbAI2Q",
-          "expanded_url": "https://nyti.ms/3oqhPrv",
-          "display_url": "nyti.ms/3oqhPrv"
-        }
       ]
     },
-    "id": "1335333153205088257",
-    "public_metrics": {
-      "retweet_count": 131,
-      "reply_count": 179,
-      "like_count": 470,
-      "quote_count": 47
-    },
     "created_at": "2020-12-05T21:20:07.000Z",
-    "text": "Before taking off for a rally in Georgia on Saturday, President Trump called Gov. Brian Kemp to urge him to challenge President-elect Joe Biden's win in the state, which has been confirmed by multiple recounts. https://t.co/icn1DbAI2Q",
-    "author_id": "807095"
+    "id": "1335333153205088257",
+    "text": "Before taking off for a rally in Georgia on Saturday, President Trump called Gov. Brian Kemp to urge him to challenge President-elect Joe Biden's win in the state, which has been confirmed by multiple recounts. https://t.co/icn1DbAI2Q"
   },
   {
-    "id": "1335046252367671296",
+    "author_id": "807095",
     "public_metrics": {
-      "retweet_count": 97,
+      "retweet_count": 98,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
     },
     "created_at": "2020-12-05T02:20:05.000Z",
+    "id": "1335046252367671296",
     "entities": {
       "mentions": [
         {
@@ -309,11 +420,26 @@
         }
       ]
     },
-    "text": "RT @KannoYoungs: NEW The \u201cpublic charge\u201d rule was supposed to ensure self-sufficiency, but it has fueled a chilling effect and discouraged\u2026",
-    "author_id": "807095"
+    "text": "RT @KannoYoungs: NEW The \u201cpublic charge\u201d rule was supposed to ensure self-sufficiency, but it has fueled a chilling effect and discouraged\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 55,
+      "like_count": 617,
+      "quote_count": 6
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/urJrjrv2aJ",
+          "expanded_url": "https://nyti.ms/36FOBPm",
+          "display_url": "nyti.ms/36FOBPm"
+        }
+      ],
       "annotations": [
         {
           "start": 91,
@@ -336,30 +462,14 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 257,
-          "end": 280,
-          "url": "https://t.co/urJrjrv2aJ",
-          "expanded_url": "https://nyti.ms/36FOBPm",
-          "display_url": "nyti.ms/36FOBPm"
-        }
       ]
     },
-    "id": "1335026135789432842",
-    "public_metrics": {
-      "retweet_count": 40,
-      "reply_count": 55,
-      "like_count": 617,
-      "quote_count": 6
-    },
     "created_at": "2020-12-05T01:00:09.000Z",
-    "text": "\"He suffered hairline fractures in his right foot. Even the eventful things that happen to Joe Biden are uneventful.\u201d \u2014Jimmy Kimmel, on President-elect Joe Biden getting hurt\n\nSee the other best quotes from comedy late night hosts this week in our roundup. https://t.co/urJrjrv2aJ",
-    "author_id": "807095"
+    "id": "1335026135789432842",
+    "text": "\"He suffered hairline fractures in his right foot. Even the eventful things that happen to Joe Biden are uneventful.\u201d \u2014Jimmy Kimmel, on President-elect Joe Biden getting hurt\n\nSee the other best quotes from comedy late night hosts this week in our roundup. https://t.co/urJrjrv2aJ"
   },
   {
-    "id": "1334982072780337152",
+    "author_id": "807095",
     "public_metrics": {
       "retweet_count": 38,
       "reply_count": 0,
@@ -367,6 +477,7 @@
       "quote_count": 0
     },
     "created_at": "2020-12-04T22:05:03.000Z",
+    "id": "1334982072780337152",
     "entities": {
       "mentions": [
         {
@@ -376,11 +487,33 @@
         }
       ]
     },
-    "text": "RT @nytgraphics: We\u2019re tracking when every state certifies its presidential election results.\n\nOnly five states (totaling 93 Electoral Coll\u2026",
-    "author_id": "807095"
+    "text": "RT @nytgraphics: We\u2019re tracking when every state certifies its presidential election results.\n\nOnly five states (totaling 93 Electoral Coll\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 49,
+      "reply_count": 149,
+      "like_count": 225,
+      "quote_count": 32
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 241,
+          "end": 264,
+          "url": "https://t.co/oK0sCFb3eQ",
+          "expanded_url": "https://nyti.ms/37wDDuS",
+          "display_url": "nyti.ms/37wDDuS"
+        },
+        {
+          "start": 265,
+          "end": 288,
+          "url": "https://t.co/DnUvBQFgId",
+          "expanded_url": "https://twitter.com/nytimes/status/1334949635140497408/video/1",
+          "display_url": "pic.twitter.com/DnUvBQFgId"
+        }
+      ],
       "annotations": [
         {
           "start": 84,
@@ -410,37 +543,30 @@
           "type": "Organization",
           "normalized_text": "CDC"
         }
-      ],
-      "urls": [
-        {
-          "start": 241,
-          "end": 264,
-          "url": "https://t.co/oK0sCFb3eQ",
-          "expanded_url": "https://nyti.ms/37wDDuS",
-          "display_url": "nyti.ms/37wDDuS"
-        },
-        {
-          "start": 265,
-          "end": 288,
-          "url": "https://t.co/DnUvBQFgId",
-          "expanded_url": "https://twitter.com/nytimes/status/1334949635140497408/video/1",
-          "display_url": "pic.twitter.com/DnUvBQFgId"
-        }
       ]
     },
-    "id": "1334949635140497408",
-    "public_metrics": {
-      "retweet_count": 49,
-      "reply_count": 149,
-      "like_count": 225,
-      "quote_count": 32
-    },
     "created_at": "2020-12-04T19:56:09.000Z",
-    "text": "As coronavirus hospitalizations and daily caseloads shatter records, Vice President Mike Pence sought to offer an upbeat assessment of the pandemic during his visit to the CDC in Atlanta. CDC officials presented a far more sobering picture. https://t.co/oK0sCFb3eQ https://t.co/DnUvBQFgId",
-    "author_id": "807095"
+    "id": "1334949635140497408",
+    "text": "As coronavirus hospitalizations and daily caseloads shatter records, Vice President Mike Pence sought to offer an upbeat assessment of the pandemic during his visit to the CDC in Atlanta. CDC officials presented a far more sobering picture. https://t.co/oK0sCFb3eQ https://t.co/DnUvBQFgId"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 66,
+      "reply_count": 66,
+      "like_count": 555,
+      "quote_count": 14
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 249,
+          "end": 272,
+          "url": "https://t.co/fMLhFqfrpQ",
+          "expanded_url": "https://nyti.ms/3mOyLrC",
+          "display_url": "nyti.ms/3mOyLrC"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -456,39 +582,21 @@
           "type": "Organization",
           "normalized_text": "Congress"
         }
-      ],
-      "urls": [
-        {
-          "start": 249,
-          "end": 272,
-          "url": "https://t.co/fMLhFqfrpQ",
-          "expanded_url": "https://nyti.ms/3mOyLrC",
-          "display_url": "nyti.ms/3mOyLrC"
-        }
       ]
     },
-    "id": "1334933013264805889",
-    "public_metrics": {
-      "retweet_count": 66,
-      "reply_count": 66,
-      "like_count": 555,
-      "quote_count": 14
-    },
     "created_at": "2020-12-04T18:50:06.000Z",
-    "text": "President-elect Joe Biden will give an address about the nation\u2019s economic recovery and slowing job creation on Friday afternoon. He is expected to renew calls for Congress to quickly pass another round of relief for those affected by the pandemic. https://t.co/fMLhFqfrpQ",
-    "author_id": "807095"
+    "id": "1334933013264805889",
+    "text": "President-elect Joe Biden will give an address about the nation\u2019s economic recovery and slowing job creation on Friday afternoon. He is expected to renew calls for Congress to quickly pass another round of relief for those affected by the pandemic. https://t.co/fMLhFqfrpQ"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 56,
+      "reply_count": 83,
+      "like_count": 297,
+      "quote_count": 16
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 8,
-          "end": 19,
-          "probability": 0.7908,
-          "type": "Person",
-          "normalized_text": "Nancy Pelosi"
-        }
-      ],
       "urls": [
         {
           "start": 233,
@@ -497,21 +605,39 @@
           "expanded_url": "https://nyti.ms/3mJEzlV",
           "display_url": "nyti.ms/3mJEzlV"
         }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 19,
+          "probability": 0.7908,
+          "type": "Person",
+          "normalized_text": "Nancy Pelosi"
+        }
       ]
     },
-    "id": "1334916650089533440",
-    "public_metrics": {
-      "retweet_count": 56,
-      "reply_count": 83,
-      "like_count": 297,
-      "quote_count": 16
-    },
     "created_at": "2020-12-04T17:45:05.000Z",
-    "text": "Speaker Nancy Pelosi insisted there would be \"sufficient time\" to close a pandemic stimulus deal before the Dec. 11 government funding deadline, but conceded there were still obstacles to an agreement in a news conference on Friday. https://t.co/eWUtWs3zjM",
-    "author_id": "807095"
+    "id": "1334916650089533440",
+    "text": "Speaker Nancy Pelosi insisted there would be \"sufficient time\" to close a pandemic stimulus deal before the Dec. 11 government funding deadline, but conceded there were still obstacles to an agreement in a news conference on Friday. https://t.co/eWUtWs3zjM"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 61,
+      "like_count": 124,
+      "quote_count": 13
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/1gEMQEtmMF",
+          "expanded_url": "https://nyti.ms/33LyCxn",
+          "display_url": "nyti.ms/33LyCxn"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -548,30 +674,30 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ],
-      "urls": [
-        {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/1gEMQEtmMF",
-          "expanded_url": "https://nyti.ms/33LyCxn",
-          "display_url": "nyti.ms/33LyCxn"
-        }
       ]
     },
-    "id": "1334903315298201601",
-    "public_metrics": {
-      "retweet_count": 25,
-      "reply_count": 61,
-      "like_count": 124,
-      "quote_count": 13
-    },
     "created_at": "2020-12-04T16:52:06.000Z",
-    "text": "Vice President Mike Pence will visit the CDC in Atlanta on Friday to receive a progress report on the development of coronavirus vaccines. He will then attend a rally in Savannah for Georgia\u2019s two Republican Senators who face runoff elections next month. https://t.co/1gEMQEtmMF",
-    "author_id": "807095"
+    "id": "1334903315298201601",
+    "text": "Vice President Mike Pence will visit the CDC in Atlanta on Friday to receive a progress report on the development of coronavirus vaccines. He will then attend a rally in Savannah for Georgia\u2019s two Republican Senators who face runoff elections next month. https://t.co/1gEMQEtmMF"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 112,
+      "reply_count": 54,
+      "like_count": 1169,
+      "quote_count": 23
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 217,
+          "end": 240,
+          "url": "https://t.co/KW57nOsqhP",
+          "expanded_url": "https://nyti.ms/3mJAQES",
+          "display_url": "nyti.ms/3mJAQES"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -594,30 +720,30 @@
           "type": "Person",
           "normalized_text": "Fauci"
         }
-      ],
-      "urls": [
-        {
-          "start": 217,
-          "end": 240,
-          "url": "https://t.co/KW57nOsqhP",
-          "expanded_url": "https://nyti.ms/3mJAQES",
-          "display_url": "nyti.ms/3mJAQES"
-        }
       ]
     },
-    "id": "1334890234400694275",
-    "public_metrics": {
-      "retweet_count": 112,
-      "reply_count": 54,
-      "like_count": 1168,
-      "quote_count": 23
-    },
     "created_at": "2020-12-04T16:00:07.000Z",
-    "text": "President-elect Joe Biden asked Dr. Anthony Fauci to remain in his role as the country\u2019s top infectious disease expert and be his chief medical adviser. Fauci said on Friday he accepted the offer \"right on the spot.\" https://t.co/KW57nOsqhP",
-    "author_id": "807095"
+    "id": "1334890234400694275",
+    "text": "President-elect Joe Biden asked Dr. Anthony Fauci to remain in his role as the country\u2019s top infectious disease expert and be his chief medical adviser. Fauci said on Friday he accepted the offer \"right on the spot.\" https://t.co/KW57nOsqhP"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 89,
+      "reply_count": 82,
+      "like_count": 609,
+      "quote_count": 12
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 184,
+          "end": 207,
+          "url": "https://t.co/JOo2CGOi0Q",
+          "expanded_url": "https://nyti.ms/3lG7iHd",
+          "display_url": "nyti.ms/3lG7iHd"
+        }
+      ],
       "annotations": [
         {
           "start": 8,
@@ -640,37 +766,28 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 184,
-          "end": 207,
-          "url": "https://t.co/JOo2CGOi0Q",
-          "expanded_url": "https://nyti.ms/3lG7iHd",
-          "display_url": "nyti.ms/3lG7iHd"
-        }
       ]
     },
-    "id": "1334836859986468867",
-    "public_metrics": {
-      "retweet_count": 89,
-      "reply_count": 82,
-      "like_count": 609,
-      "quote_count": 12
-    },
     "created_at": "2020-12-04T12:28:02.000Z",
-    "text": "Speaker Nancy Pelosi and Senator Mitch McConnell, the majority leader, spoke on Thursday as Joe Biden\u2019s victory and vaccine breakthroughs added momentum to a push for a stimulus deal. https://t.co/JOo2CGOi0Q",
-    "author_id": "807095"
+    "id": "1334836859986468867",
+    "text": "Speaker Nancy Pelosi and Senator Mitch McConnell, the majority leader, spoke on Thursday as Joe Biden\u2019s victory and vaccine breakthroughs added momentum to a push for a stimulus deal. https://t.co/JOo2CGOi0Q"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
     "entities": {
-      "annotations": [
+      "urls": [
         {
-          "start": 34,
-          "end": 38,
-          "probability": 0.9966,
-          "type": "Person",
-          "normalized_text": "Trump"
+          "start": 92,
+          "end": 115,
+          "url": "https://t.co/X90ckNcHuP",
+          "expanded_url": "https://www.nytimes.com/live/2020/12/03/us/joe-biden-trump/trump-has-raised-207-5-million-since-election-day-combined-with-the-republican-party",
+          "display_url": "nytimes.com/live/2020/12/0\u2026"
         }
       ],
       "mentions": [
@@ -680,29 +797,38 @@
           "username": "ShaneGoldmacher"
         }
       ],
-      "urls": [
+      "annotations": [
         {
-          "start": 92,
-          "end": 115,
-          "url": "https://t.co/X90ckNcHuP",
-          "expanded_url": "https://www.nytimes.com/live/2020/12/03/us/joe-biden-trump/trump-has-raised-207-5-million-since-election-day-combined-with-the-republican-party",
-          "display_url": "nytimes.com/live/2020/12/0\u2026"
+          "start": 34,
+          "end": 38,
+          "probability": 0.9966,
+          "type": "Person",
+          "normalized_text": "Trump"
         }
       ]
     },
-    "id": "1334719094050983938",
-    "public_metrics": {
-      "retweet_count": 40,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
     "created_at": "2020-12-04T04:40:04.000Z",
-    "text": "RT @ShaneGoldmacher: First cut on Trump's continued remarkable fundraising \u2014 even in defeat https://t.co/X90ckNcHuP",
-    "author_id": "807095"
+    "id": "1334719094050983938",
+    "text": "RT @ShaneGoldmacher: First cut on Trump's continued remarkable fundraising \u2014 even in defeat https://t.co/X90ckNcHuP"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 45,
+      "reply_count": 40,
+      "like_count": 105,
+      "quote_count": 12
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 239,
+          "end": 262,
+          "url": "https://t.co/xYdBAEJr6b",
+          "expanded_url": "https://nyti.ms/3qoP00t",
+          "display_url": "nyti.ms/3qoP00t"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -739,30 +865,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 239,
-          "end": 262,
-          "url": "https://t.co/xYdBAEJr6b",
-          "expanded_url": "https://nyti.ms/3qoP00t",
-          "display_url": "nyti.ms/3qoP00t"
-        }
       ]
     },
-    "id": "1334716594845593600",
-    "public_metrics": {
-      "retweet_count": 45,
-      "reply_count": 40,
-      "like_count": 105,
-      "quote_count": 12
-    },
     "created_at": "2020-12-04T04:30:08.000Z",
-    "text": "Christopher Waller, nominated by President Trump to the Federal Reserve\u2019s Board of Governors, was confirmed by a narrow margin on Thursday as Republican senators scramble to fill open slots before President-elect Joe Biden assumes office.\nhttps://t.co/xYdBAEJr6b",
-    "author_id": "807095"
+    "id": "1334716594845593600",
+    "text": "Christopher Waller, nominated by President Trump to the Federal Reserve\u2019s Board of Governors, was confirmed by a narrow margin on Thursday as Republican senators scramble to fill open slots before President-elect Joe Biden assumes office.\nhttps://t.co/xYdBAEJr6b"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 394,
+      "reply_count": 803,
+      "like_count": 4981,
+      "quote_count": 209
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 130,
+          "end": 153,
+          "url": "https://t.co/xx7tq1QJ8k",
+          "expanded_url": "https://nyti.ms/2JNJhAp",
+          "display_url": "nyti.ms/2JNJhAp"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -778,30 +904,30 @@
           "type": "Person",
           "normalized_text": "Americans"
         }
-      ],
-      "urls": [
-        {
-          "start": 130,
-          "end": 153,
-          "url": "https://t.co/xx7tq1QJ8k",
-          "expanded_url": "https://nyti.ms/2JNJhAp",
-          "display_url": "nyti.ms/2JNJhAp"
-        }
       ]
     },
-    "id": "1334696445061062656",
-    "public_metrics": {
-      "retweet_count": 394,
-      "reply_count": 800,
-      "like_count": 4975,
-      "quote_count": 209
-    },
     "created_at": "2020-12-04T03:10:04.000Z",
-    "text": "President-elect Joe Biden said on Thursday that on his first day as president, he would ask Americans to wear masks for 100 days. https://t.co/xx7tq1QJ8k",
-    "author_id": "807095"
+    "id": "1334696445061062656",
+    "text": "President-elect Joe Biden said on Thursday that on his first day as president, he would ask Americans to wear masks for 100 days. https://t.co/xx7tq1QJ8k"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 108,
+      "reply_count": 89,
+      "like_count": 773,
+      "quote_count": 23
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 162,
+          "end": 185,
+          "url": "https://t.co/sSvHslpVnB",
+          "expanded_url": "https://nyti.ms/37O0kLp",
+          "display_url": "nyti.ms/37O0kLp"
+        }
+      ],
       "annotations": [
         {
           "start": 27,
@@ -824,30 +950,30 @@
           "type": "Person",
           "normalized_text": "Mark Leibovich"
         }
-      ],
-      "urls": [
-        {
-          "start": 162,
-          "end": 185,
-          "url": "https://t.co/sSvHslpVnB",
-          "expanded_url": "https://nyti.ms/37O0kLp",
-          "display_url": "nyti.ms/37O0kLp"
-        }
       ]
     },
-    "id": "1334693942152060929",
-    "public_metrics": {
-      "retweet_count": 108,
-      "reply_count": 89,
-      "like_count": 773,
-      "quote_count": 23
-    },
     "created_at": "2020-12-04T03:00:07.000Z",
-    "text": "\"The unwillingness of most Senate and House Republicans to acknowledge an obvious election result has moved beyond absurd,\" writes Mark Leibovich in an analysis.\nhttps://t.co/sSvHslpVnB",
-    "author_id": "807095"
+    "id": "1334693942152060929",
+    "text": "\"The unwillingness of most Senate and House Republicans to acknowledge an obvious election result has moved beyond absurd,\" writes Mark Leibovich in an analysis.\nhttps://t.co/sSvHslpVnB"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 76,
+      "reply_count": 50,
+      "like_count": 564,
+      "quote_count": 8
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/P9VB9Kcs4T",
+          "expanded_url": "https://nyti.ms/33Hukr3",
+          "display_url": "nyti.ms/33Hukr3"
+        }
+      ],
       "annotations": [
         {
           "start": 5,
@@ -870,30 +996,30 @@
           "type": "Organization",
           "normalized_text": "Democrats"
         }
-      ],
-      "urls": [
-        {
-          "start": 257,
-          "end": 280,
-          "url": "https://t.co/P9VB9Kcs4T",
-          "expanded_url": "https://nyti.ms/33Hukr3",
-          "display_url": "nyti.ms/33Hukr3"
-        }
       ]
     },
-    "id": "1334663755783954437",
-    "public_metrics": {
-      "retweet_count": 76,
-      "reply_count": 50,
-      "like_count": 565,
-      "quote_count": 8
-    },
     "created_at": "2020-12-04T01:00:10.000Z",
-    "text": "When Georgia turned blue for Joe Biden, it validated the political vision of a group of Black women who have led a decades-long organizing effort in the state. But those women tell a more complicated story about their relationship with national Democrats. \nhttps://t.co/P9VB9Kcs4T",
-    "author_id": "807095"
+    "id": "1334663755783954437",
+    "text": "When Georgia turned blue for Joe Biden, it validated the political vision of a group of Black women who have led a decades-long organizing effort in the state. But those women tell a more complicated story about their relationship with national Democrats. \nhttps://t.co/P9VB9Kcs4T"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 53,
+      "reply_count": 77,
+      "like_count": 215,
+      "quote_count": 29
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 196,
+          "end": 219,
+          "url": "https://t.co/8vAvIn9dzU",
+          "expanded_url": "https://nyti.ms/36Esl8C",
+          "display_url": "nyti.ms/36Esl8C"
+        }
+      ],
       "annotations": [
         {
           "start": 8,
@@ -909,30 +1035,37 @@
           "type": "Person",
           "normalized_text": "Sen. Mitch McConnell"
         }
-      ],
-      "urls": [
-        {
-          "start": 196,
-          "end": 219,
-          "url": "https://t.co/8vAvIn9dzU",
-          "expanded_url": "https://nyti.ms/36Esl8C",
-          "display_url": "nyti.ms/36Esl8C"
-        }
       ]
     },
-    "id": "1334623465081606144",
-    "public_metrics": {
-      "retweet_count": 53,
-      "reply_count": 77,
-      "like_count": 215,
-      "quote_count": 29
-    },
     "created_at": "2020-12-03T22:20:04.000Z",
-    "text": "Speaker Nancy Pelosi and Sen. Mitch McConnell, the majority leader, talked on Thursday about reaching an agreement on another coronavirus stimulus package \u2014 but a deal still appears out of reach.\nhttps://t.co/8vAvIn9dzU",
-    "author_id": "807095"
+    "id": "1334623465081606144",
+    "text": "Speaker Nancy Pelosi and Sen. Mitch McConnell, the majority leader, talked on Thursday about reaching an agreement on another coronavirus stimulus package \u2014 but a deal still appears out of reach.\nhttps://t.co/8vAvIn9dzU"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 686,
+      "reply_count": 420,
+      "like_count": 3883,
+      "quote_count": 327
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 222,
+          "end": 245,
+          "url": "https://t.co/nZlnpkyWRD",
+          "expanded_url": "https://nyti.ms/36AAbAc",
+          "display_url": "nyti.ms/36AAbAc"
+        },
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/Fac5A1p9wg",
+          "expanded_url": "https://twitter.com/nytimes/status/1334605856156110849/photo/1",
+          "display_url": "pic.twitter.com/Fac5A1p9wg"
+        }
+      ],
       "annotations": [
         {
           "start": 21,
@@ -955,46 +1088,21 @@
           "type": "Place",
           "normalized_text": "U.S."
         }
-      ],
-      "urls": [
-        {
-          "start": 222,
-          "end": 245,
-          "url": "https://t.co/nZlnpkyWRD",
-          "expanded_url": "https://nyti.ms/36AAbAc",
-          "display_url": "nyti.ms/36AAbAc"
-        },
-        {
-          "start": 246,
-          "end": 269,
-          "url": "https://t.co/Fac5A1p9wg",
-          "expanded_url": "https://twitter.com/nytimes/status/1334605856156110849/photo/1",
-          "display_url": "pic.twitter.com/Fac5A1p9wg"
-        }
       ]
     },
-    "id": "1334605856156110849",
-    "public_metrics": {
-      "retweet_count": 688,
-      "reply_count": 419,
-      "like_count": 3882,
-      "quote_count": 327
-    },
     "created_at": "2020-12-03T21:10:06.000Z",
-    "text": "Vice President-elect Kamala Harris\u2019s top aides are almost all women of color. The appointments are part of the campaign\u2019s pledge to make the Biden administration the most diverse and representative of the U.S. in history. https://t.co/nZlnpkyWRD https://t.co/Fac5A1p9wg",
-    "author_id": "807095"
+    "id": "1334605856156110849",
+    "text": "Vice President-elect Kamala Harris\u2019s top aides are almost all women of color. The appointments are part of the campaign\u2019s pledge to make the Biden administration the most diverse and representative of the U.S. in history. https://t.co/nZlnpkyWRD https://t.co/Fac5A1p9wg"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 46,
+      "reply_count": 55,
+      "like_count": 319,
+      "quote_count": 9
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 16,
-          "end": 24,
-          "probability": 0.989,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        }
-      ],
       "urls": [
         {
           "start": 191,
@@ -1003,21 +1111,39 @@
           "expanded_url": "https://nyti.ms/3g4lyYQ",
           "display_url": "nyti.ms/3g4lyYQ"
         }
+      ],
+      "annotations": [
+        {
+          "start": 16,
+          "end": 24,
+          "probability": 0.989,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
       ]
     },
-    "id": "1334597052534304792",
-    "public_metrics": {
-      "retweet_count": 46,
-      "reply_count": 55,
-      "like_count": 319,
-      "quote_count": 9
-    },
     "created_at": "2020-12-03T20:35:07.000Z",
-    "text": "President-elect Joe Biden has made ambitious promises to address climate change. These are the top contenders for roles in his environment and energy team, which will carry out his policies.\nhttps://t.co/ESV05UvQJJ",
-    "author_id": "807095"
+    "id": "1334597052534304792",
+    "text": "President-elect Joe Biden has made ambitious promises to address climate change. These are the top contenders for roles in his environment and energy team, which will carry out his policies.\nhttps://t.co/ESV05UvQJJ"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 602,
+      "reply_count": 370,
+      "like_count": 3842,
+      "quote_count": 173
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 232,
+          "end": 255,
+          "url": "https://t.co/69Zn22eLPY",
+          "expanded_url": "https://nyti.ms/3oqc25v",
+          "display_url": "nyti.ms/3oqc25v"
+        }
+      ],
       "annotations": [
         {
           "start": 19,
@@ -1033,30 +1159,30 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 232,
-          "end": 255,
-          "url": "https://t.co/69Zn22eLPY",
-          "expanded_url": "https://nyti.ms/3oqc25v",
-          "display_url": "nyti.ms/3oqc25v"
-        }
       ]
     },
-    "id": "1334571971925991426",
-    "public_metrics": {
-      "retweet_count": 602,
-      "reply_count": 370,
-      "like_count": 3842,
-      "quote_count": 173
-    },
     "created_at": "2020-12-03T18:55:27.000Z",
-    "text": "Breaking News: The Wisconsin Supreme Court rejected the Trump campaign\u2019s lawsuit that aimed to invalidate more than 200,000 votes in two of the state\u2019s Democratic bastions, a blow to the president's attempt to subvert the election. https://t.co/69Zn22eLPY",
-    "author_id": "807095"
+    "id": "1334571971925991426",
+    "text": "Breaking News: The Wisconsin Supreme Court rejected the Trump campaign\u2019s lawsuit that aimed to invalidate more than 200,000 votes in two of the state\u2019s Democratic bastions, a blow to the president's attempt to subvert the election. https://t.co/69Zn22eLPY"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 116,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-03T02:45:06.000Z",
+    "id": "1334327774752944136",
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 16,
+          "username": "cliffordlevy"
+        }
+      ],
       "annotations": [
         {
           "start": 18,
@@ -1065,28 +1191,28 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 16,
-          "username": "cliffordlevy"
-        }
       ]
     },
-    "id": "1334327774752944136",
-    "public_metrics": {
-      "retweet_count": 116,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-03T02:45:06.000Z",
-    "text": "RT @cliffordlevy: Trump posts video filled with falsehoods \u2014 one day after Justice Dept. found no evidence of widespread election fraud. \nB\u2026",
-    "author_id": "807095"
+    "text": "RT @cliffordlevy: Trump posts video filled with falsehoods \u2014 one day after Justice Dept. found no evidence of widespread election fraud. \nB\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 51,
+      "reply_count": 22,
+      "like_count": 411,
+      "quote_count": 5
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/nPXnmKfv7e",
+          "expanded_url": "https://nyti.ms/3lz35F8",
+          "display_url": "nyti.ms/3lz35F8"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1123,30 +1249,37 @@
           "type": "Person",
           "normalized_text": "Nikema Williams"
         }
-      ],
-      "urls": [
-        {
-          "start": 257,
-          "end": 280,
-          "url": "https://t.co/nPXnmKfv7e",
-          "expanded_url": "https://nyti.ms/3lz35F8",
-          "display_url": "nyti.ms/3lz35F8"
-        }
       ]
     },
-    "id": "1334311402769686528",
-    "public_metrics": {
-      "retweet_count": 51,
-      "reply_count": 22,
-      "like_count": 411,
-      "quote_count": 5
-    },
     "created_at": "2020-12-03T01:40:03.000Z",
-    "text": "Kwanza Hall, a former Atlanta city councilman, won the runoff between two Georgia Democrats to succeed Rep. John Lewis. He will serve for one month and will be replaced by Nikema Williams, a Democrat whom voters elected to a full two-year term in November. https://t.co/nPXnmKfv7e",
-    "author_id": "807095"
+    "id": "1334311402769686528",
+    "text": "Kwanza Hall, a former Atlanta city councilman, won the runoff between two Georgia Democrats to succeed Rep. John Lewis. He will serve for one month and will be replaced by Nikema Williams, a Democrat whom voters elected to a full two-year term in November. https://t.co/nPXnmKfv7e"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 75,
+      "reply_count": 65,
+      "like_count": 628,
+      "quote_count": 14
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 208,
+          "end": 231,
+          "url": "https://t.co/7wDZ86lbUX",
+          "expanded_url": "https://nyti.ms/3g01PK5",
+          "display_url": "nyti.ms/3g01PK5"
+        },
+        {
+          "start": 232,
+          "end": 255,
+          "url": "https://t.co/2EMlTXVdCb",
+          "expanded_url": "https://twitter.com/nytimes/status/1334304852848091136/photo/1",
+          "display_url": "pic.twitter.com/2EMlTXVdCb"
+        }
+      ],
       "annotations": [
         {
           "start": 28,
@@ -1169,46 +1302,21 @@
           "type": "Organization",
           "normalized_text": "Congress"
         }
-      ],
-      "urls": [
-        {
-          "start": 208,
-          "end": 231,
-          "url": "https://t.co/7wDZ86lbUX",
-          "expanded_url": "https://nyti.ms/3g01PK5",
-          "display_url": "nyti.ms/3g01PK5"
-        },
-        {
-          "start": 232,
-          "end": 255,
-          "url": "https://t.co/2EMlTXVdCb",
-          "expanded_url": "https://twitter.com/nytimes/status/1334304852848091136/photo/1",
-          "display_url": "pic.twitter.com/2EMlTXVdCb"
-        }
       ]
     },
-    "id": "1334304852848091136",
-    "public_metrics": {
-      "retweet_count": 75,
-      "reply_count": 65,
-      "like_count": 627,
-      "quote_count": 14
-    },
     "created_at": "2020-12-03T01:14:01.000Z",
-    "text": "In Opinion\n\nPresident-elect Joe Biden's top priority, he told columnist Thomas L. Friedman, is getting a generous stimulus package through Congress, even before he takes office. Read more from the interview: https://t.co/7wDZ86lbUX https://t.co/2EMlTXVdCb",
-    "author_id": "807095"
+    "id": "1334304852848091136",
+    "text": "In Opinion\n\nPresident-elect Joe Biden's top priority, he told columnist Thomas L. Friedman, is getting a generous stimulus package through Congress, even before he takes office. Read more from the interview: https://t.co/7wDZ86lbUX https://t.co/2EMlTXVdCb"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 428,
+      "reply_count": 853,
+      "like_count": 2378,
+      "quote_count": 207
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 14,
-          "probability": 0.6088,
-          "type": "Person",
-          "normalized_text": "President Trump"
-        }
-      ],
       "urls": [
         {
           "start": 245,
@@ -1217,21 +1325,46 @@
           "expanded_url": "https://nyti.ms/36xEWdS",
           "display_url": "nyti.ms/36xEWdS"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6088,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
       ]
     },
-    "id": "1334269894209249281",
-    "public_metrics": {
-      "retweet_count": 428,
-      "reply_count": 853,
-      "like_count": 2378,
-      "quote_count": 207
-    },
     "created_at": "2020-12-02T22:55:06.000Z",
-    "text": "President Trump released a 46-minute, falsehood-filled video on Wednesday in which he ranted about a \u201crigged\u201d election despite the fact that his own attorney general said there was no evidence of widespread fraud that could reverse the outcome. https://t.co/OxhH7E5bUs",
-    "author_id": "807095"
+    "id": "1334269894209249281",
+    "text": "President Trump released a 46-minute, falsehood-filled video on Wednesday in which he ranted about a \u201crigged\u201d election despite the fact that his own attorney general said there was no evidence of widespread fraud that could reverse the outcome. https://t.co/OxhH7E5bUs"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 126,
+      "reply_count": 44,
+      "like_count": 1972,
+      "quote_count": 18
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 212,
+          "end": 235,
+          "url": "https://t.co/P0qqeuhcnA",
+          "expanded_url": "https://nyti.ms/3myCqcQ",
+          "display_url": "nyti.ms/3myCqcQ"
+        },
+        {
+          "start": 236,
+          "end": 259,
+          "url": "https://t.co/tFujmJPBvc",
+          "expanded_url": "https://twitter.com/nytimes/status/1334233397162598406/photo/1",
+          "display_url": "pic.twitter.com/tFujmJPBvc"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1261,37 +1394,30 @@
           "type": "Organization",
           "normalized_text": "Republican"
         }
-      ],
-      "urls": [
-        {
-          "start": 212,
-          "end": 235,
-          "url": "https://t.co/P0qqeuhcnA",
-          "expanded_url": "https://nyti.ms/3myCqcQ",
-          "display_url": "nyti.ms/3myCqcQ"
-        },
-        {
-          "start": 236,
-          "end": 259,
-          "url": "https://t.co/tFujmJPBvc",
-          "expanded_url": "https://twitter.com/nytimes/status/1334233397162598406/photo/1",
-          "display_url": "pic.twitter.com/tFujmJPBvc"
-        }
       ]
     },
-    "id": "1334233397162598406",
-    "public_metrics": {
-      "retweet_count": 126,
-      "reply_count": 44,
-      "like_count": 1972,
-      "quote_count": 18
-    },
     "created_at": "2020-12-02T20:30:05.000Z",
-    "text": "Mark Kelly, the former astronaut, is now a senator. On Wednesday, he became the first of a new class to be formally sworn into the Senate and one of just two Democrats to unseat a Republican incumbent this year. https://t.co/P0qqeuhcnA https://t.co/tFujmJPBvc",
-    "author_id": "807095"
+    "id": "1334233397162598406",
+    "text": "Mark Kelly, the former astronaut, is now a senator. On Wednesday, he became the first of a new class to be formally sworn into the Senate and one of just two Democrats to unseat a Republican incumbent this year. https://t.co/P0qqeuhcnA https://t.co/tFujmJPBvc"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 62,
+      "reply_count": 58,
+      "like_count": 145,
+      "quote_count": 25
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 165,
+          "end": 188,
+          "url": "https://t.co/z9TvMhVyHD",
+          "expanded_url": "https://nyti.ms/3fZo7eI",
+          "display_url": "nyti.ms/3fZo7eI"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -1307,30 +1433,35 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 165,
-          "end": 188,
-          "url": "https://t.co/z9TvMhVyHD",
-          "expanded_url": "https://nyti.ms/3fZo7eI",
-          "display_url": "nyti.ms/3fZo7eI"
-        }
       ]
     },
-    "id": "1334225604485517317",
-    "public_metrics": {
-      "retweet_count": 62,
-      "reply_count": 58,
-      "like_count": 145,
-      "quote_count": 25
-    },
     "created_at": "2020-12-02T19:59:07.000Z",
-    "text": "Breaking News: Iran is boosting nuclear enrichment and threatening to bar inspectors if sanctions aren\u2019t lifted by February, setting up an early test for Joe Biden. https://t.co/z9TvMhVyHD",
-    "author_id": "807095"
+    "id": "1334225604485517317",
+    "text": "Breaking News: Iran is boosting nuclear enrichment and threatening to bar inspectors if sanctions aren\u2019t lifted by February, setting up an early test for Joe Biden. https://t.co/z9TvMhVyHD"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 427,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-02T17:29:19.000Z",
+    "id": "1334187907066720257",
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 13,
+          "username": "maggieNYT"
+        },
+        {
+          "start": 19,
+          "end": 28,
+          "username": "jmartNYT"
+        }
+      ],
       "annotations": [
         {
           "start": 37,
@@ -1360,33 +1491,28 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 13,
-          "username": "maggieNYT"
-        },
-        {
-          "start": 19,
-          "end": 28,
-          "username": "jmartNYT"
-        }
       ]
     },
-    "id": "1334187907066720257",
-    "public_metrics": {
-      "retweet_count": 427,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-02T17:29:19.000Z",
-    "text": "RT @maggieNYT: Via @jmartNYT and me, Biden will keep Wray if Trump doesn\u2019t fire him, per a senior Biden official. It would be a return to t\u2026",
-    "author_id": "807095"
+    "text": "RT @maggieNYT: Via @jmartNYT and me, Biden will keep Wray if Trump doesn\u2019t fire him, per a senior Biden official. It would be a return to t\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 78,
+      "like_count": 774,
+      "quote_count": 17
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 234,
+          "end": 257,
+          "url": "https://t.co/6ktk7RlbYx",
+          "expanded_url": "https://nyti.ms/2JFUHGl",
+          "display_url": "nyti.ms/2JFUHGl"
+        }
+      ],
       "annotations": [
         {
           "start": 56,
@@ -1409,30 +1535,30 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ],
-      "urls": [
-        {
-          "start": 234,
-          "end": 257,
-          "url": "https://t.co/6ktk7RlbYx",
-          "expanded_url": "https://nyti.ms/2JFUHGl",
-          "display_url": "nyti.ms/2JFUHGl"
-        }
       ]
     },
-    "id": "1334182314771877891",
-    "public_metrics": {
-      "retweet_count": 102,
-      "reply_count": 78,
-      "like_count": 774,
-      "quote_count": 17
-    },
     "created_at": "2020-12-02T17:07:06.000Z",
-    "text": "\u201cOur investigators have seen no widespread fraud,\u201d said Georgia\u2019s secretary of state, as a second recount wrapped up on Wednesday. \u201cIt looks like Vice President Biden will be carrying Georgia, and he is our president-elect,\u201d he said. https://t.co/6ktk7RlbYx",
-    "author_id": "807095"
+    "id": "1334182314771877891",
+    "text": "\u201cOur investigators have seen no widespread fraud,\u201d said Georgia\u2019s secretary of state, as a second recount wrapped up on Wednesday. \u201cIt looks like Vice President Biden will be carrying Georgia, and he is our president-elect,\u201d he said. https://t.co/6ktk7RlbYx"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 56,
+      "reply_count": 55,
+      "like_count": 494,
+      "quote_count": 10
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/l2oKXsXImm",
+          "expanded_url": "https://nyti.ms/33A9sBW",
+          "display_url": "nyti.ms/33A9sBW"
+        }
+      ],
       "annotations": [
         {
           "start": 34,
@@ -1462,39 +1588,21 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 256,
-          "end": 279,
-          "url": "https://t.co/l2oKXsXImm",
-          "expanded_url": "https://nyti.ms/33A9sBW",
-          "display_url": "nyti.ms/33A9sBW"
-        }
       ]
     },
-    "id": "1334157390464299010",
-    "public_metrics": {
-      "retweet_count": 56,
-      "reply_count": 55,
-      "like_count": 494,
-      "quote_count": 10
-    },
     "created_at": "2020-12-02T15:28:03.000Z",
-    "text": "Pre-election tensions ran high in Bucks County, Pennsylvania. But supporters of President-elect Joe Biden there are increasingly comfortable tuning President Trump out and moving on. \"People are seeing the light at the end of the tunnel,\" a resident said. https://t.co/l2oKXsXImm",
-    "author_id": "807095"
+    "id": "1334157390464299010",
+    "text": "Pre-election tensions ran high in Bucks County, Pennsylvania. But supporters of President-elect Joe Biden there are increasingly comfortable tuning President Trump out and moving on. \"People are seeing the light at the end of the tunnel,\" a resident said. https://t.co/l2oKXsXImm"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 78,
+      "reply_count": 233,
+      "like_count": 1556,
+      "quote_count": 54
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 82,
-          "end": 90,
-          "probability": 0.9843,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        }
-      ],
       "urls": [
         {
           "start": 191,
@@ -1503,21 +1611,39 @@
           "expanded_url": "https://nyti.ms/3mAmNl6",
           "display_url": "nyti.ms/3mAmNl6"
         }
+      ],
+      "annotations": [
+        {
+          "start": 82,
+          "end": 90,
+          "probability": 0.9843,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
       ]
     },
-    "id": "1334135291767115780",
-    "public_metrics": {
-      "retweet_count": 78,
-      "reply_count": 233,
-      "like_count": 1556,
-      "quote_count": 54
-    },
     "created_at": "2020-12-02T14:00:15.000Z",
-    "text": "After a slip while playing with one of his dogs over the weekend, President-elect Joe Biden, suffered hairline fractures in his right foot. A black walking boot was a souvenir of the injury. https://t.co/XjECzEGZyM",
-    "author_id": "807095"
+    "id": "1334135291767115780",
+    "text": "After a slip while playing with one of his dogs over the weekend, President-elect Joe Biden, suffered hairline fractures in his right foot. A black walking boot was a souvenir of the injury. https://t.co/XjECzEGZyM"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 33,
+      "reply_count": 52,
+      "like_count": 245,
+      "quote_count": 11
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 210,
+          "end": 233,
+          "url": "https://t.co/31O2ebuRpd",
+          "expanded_url": "https://nyti.ms/3gaLwu5",
+          "display_url": "nyti.ms/3gaLwu5"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1547,30 +1673,37 @@
           "type": "Other",
           "normalized_text": "The Daily"
         }
-      ],
-      "urls": [
-        {
-          "start": 210,
-          "end": 233,
-          "url": "https://t.co/31O2ebuRpd",
-          "expanded_url": "https://nyti.ms/3gaLwu5",
-          "display_url": "nyti.ms/3gaLwu5"
-        }
       ]
     },
-    "id": "1334112641489506315",
-    "public_metrics": {
-      "retweet_count": 33,
-      "reply_count": 52,
-      "like_count": 245,
-      "quote_count": 11
-    },
     "created_at": "2020-12-02T12:30:15.000Z",
-    "text": "Antony Blinken is President-elect Joe Biden\u2019s pick for secretary of state. What foreign policy approach would he likely take after President Trump\u2019s era of isolationism? Listen to today\u2019s episode of The Daily. https://t.co/31O2ebuRpd",
-    "author_id": "807095"
+    "id": "1334112641489506315",
+    "text": "Antony Blinken is President-elect Joe Biden\u2019s pick for secretary of state. What foreign policy approach would he likely take after President Trump\u2019s era of isolationism? Listen to today\u2019s episode of The Daily. https://t.co/31O2ebuRpd"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 80,
+      "reply_count": 181,
+      "like_count": 662,
+      "quote_count": 48
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 141,
+          "end": 164,
+          "url": "https://t.co/PEEd7GUqAC",
+          "expanded_url": "https://nyti.ms/36rNSBi",
+          "display_url": "nyti.ms/36rNSBi"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 127,
+          "end": 139,
+          "username": "tomfriedman"
+        }
+      ],
       "annotations": [
         {
           "start": 80,
@@ -1586,37 +1719,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "mentions": [
-        {
-          "start": 127,
-          "end": 139,
-          "username": "tomfriedman"
-        }
-      ],
-      "urls": [
-        {
-          "start": 141,
-          "end": 164,
-          "url": "https://t.co/PEEd7GUqAC",
-          "expanded_url": "https://nyti.ms/36rNSBi",
-          "display_url": "nyti.ms/36rNSBi"
-        }
       ]
     },
-    "id": "1334089997553717249",
-    "public_metrics": {
-      "retweet_count": 80,
-      "reply_count": 181,
-      "like_count": 661,
-      "quote_count": 48
-    },
     "created_at": "2020-12-02T11:00:16.000Z",
-    "text": "In Opinion\n\n\u201cI want to make sure we\u2019re going to fight like hell by investing in America first,\u201d President-elect Joe Biden told @tomfriedman. https://t.co/PEEd7GUqAC",
-    "author_id": "807095"
+    "id": "1334089997553717249",
+    "text": "In Opinion\n\n\u201cI want to make sure we\u2019re going to fight like hell by investing in America first,\u201d President-elect Joe Biden told @tomfriedman. https://t.co/PEEd7GUqAC"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 221,
+      "reply_count": 95,
+      "like_count": 822,
+      "quote_count": 19
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 234,
+          "end": 257,
+          "url": "https://t.co/lIdDDLe5Gc",
+          "expanded_url": "https://nyti.ms/3oajNfu",
+          "display_url": "nyti.ms/3oajNfu"
+        }
+      ],
       "annotations": [
         {
           "start": 13,
@@ -1646,30 +1772,30 @@
           "type": "Person",
           "normalized_text": "Nathan Law Kwun Chung"
         }
-      ],
-      "urls": [
-        {
-          "start": 234,
-          "end": 257,
-          "url": "https://t.co/lIdDDLe5Gc",
-          "expanded_url": "https://nyti.ms/3oajNfu",
-          "display_url": "nyti.ms/3oajNfu"
-        }
       ]
     },
-    "id": "1334072581012529153",
-    "public_metrics": {
-      "retweet_count": 221,
-      "reply_count": 95,
-      "like_count": 822,
-      "quote_count": 19
-    },
     "created_at": "2020-12-02T09:51:03.000Z",
-    "text": "In Opinion\n\n\"Hong Kong is at the front lines of the resistance against Beijing\u2019s authoritarianism; what happens there should matter to anyone anywhere who cares about the future of freedom,\" write Alex Chow and Nathan Law Kwun Chung. https://t.co/lIdDDLe5Gc",
-    "author_id": "807095"
+    "id": "1334072581012529153",
+    "text": "In Opinion\n\n\"Hong Kong is at the front lines of the resistance against Beijing\u2019s authoritarianism; what happens there should matter to anyone anywhere who cares about the future of freedom,\" write Alex Chow and Nathan Law Kwun Chung. https://t.co/lIdDDLe5Gc"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 81,
+      "reply_count": 47,
+      "like_count": 749,
+      "quote_count": 15
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 205,
+          "end": 228,
+          "url": "https://t.co/97D2y30uia",
+          "expanded_url": "https://nyti.ms/2VnaH2T",
+          "display_url": "nyti.ms/2VnaH2T"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1685,30 +1811,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 205,
-          "end": 228,
-          "url": "https://t.co/97D2y30uia",
-          "expanded_url": "https://nyti.ms/2VnaH2T",
-          "display_url": "nyti.ms/2VnaH2T"
-        }
       ]
     },
-    "id": "1333991808565731328",
-    "public_metrics": {
-      "retweet_count": 81,
-      "reply_count": 47,
-      "like_count": 748,
-      "quote_count": 15
-    },
     "created_at": "2020-12-02T04:30:06.000Z",
-    "text": "Cecilia Rouse, President-elect Joe Biden\u2019s nominee to lead the Council of Economic Advisers, has studied education and discrimination, with a particular focus on the struggles of the long-term unemployed.\nhttps://t.co/97D2y30uia",
-    "author_id": "807095"
+    "id": "1333991808565731328",
+    "text": "Cecilia Rouse, President-elect Joe Biden\u2019s nominee to lead the Council of Economic Advisers, has studied education and discrimination, with a particular focus on the struggles of the long-term unemployed.\nhttps://t.co/97D2y30uia"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 130,
+      "reply_count": 74,
+      "like_count": 925,
+      "quote_count": 16
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 241,
+          "end": 264,
+          "url": "https://t.co/t1mpx1eEaY",
+          "expanded_url": "https://nyti.ms/39z8kSE",
+          "display_url": "nyti.ms/39z8kSE"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -1731,30 +1857,30 @@
           "type": "Person",
           "normalized_text": "Janet Yellen"
         }
-      ],
-      "urls": [
-        {
-          "start": 241,
-          "end": 264,
-          "url": "https://t.co/t1mpx1eEaY",
-          "expanded_url": "https://nyti.ms/39z8kSE",
-          "display_url": "nyti.ms/39z8kSE"
-        }
       ]
     },
-    "id": "1333984262916333569",
-    "public_metrics": {
-      "retweet_count": 130,
-      "reply_count": 74,
-      "like_count": 925,
-      "quote_count": 16
-    },
     "created_at": "2020-12-02T04:00:07.000Z",
-    "text": "President-elect Joe Biden on Tuesday called on Congress to pass a pandemic relief package to help keep businesses and households afloat while his Treasury secretary nominee, Janet Yellen, called the damage done so far \u201can American tragedy.\u201d\nhttps://t.co/t1mpx1eEaY",
-    "author_id": "807095"
+    "id": "1333984262916333569",
+    "text": "President-elect Joe Biden on Tuesday called on Congress to pass a pandemic relief package to help keep businesses and households afloat while his Treasury secretary nominee, Janet Yellen, called the damage done so far \u201can American tragedy.\u201d\nhttps://t.co/t1mpx1eEaY"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 117,
+      "like_count": 191,
+      "quote_count": 22
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 233,
+          "end": 256,
+          "url": "https://t.co/lCey2z4pCT",
+          "expanded_url": "https://nyti.ms/39ycV7S",
+          "display_url": "nyti.ms/39ycV7S"
+        }
+      ],
       "annotations": [
         {
           "start": 49,
@@ -1770,30 +1896,30 @@
           "type": "Person",
           "normalized_text": "Neera Tanden"
         }
-      ],
-      "urls": [
-        {
-          "start": 233,
-          "end": 256,
-          "url": "https://t.co/lCey2z4pCT",
-          "expanded_url": "https://nyti.ms/39ycV7S",
-          "display_url": "nyti.ms/39ycV7S"
-        }
       ]
     },
-    "id": "1333972936617811970",
-    "public_metrics": {
-      "retweet_count": 25,
-      "reply_count": 117,
-      "like_count": 191,
-      "quote_count": 22
-    },
     "created_at": "2020-12-02T03:15:06.000Z",
-    "text": "The swift and bitter pushback to President-elect Joe Biden\u2019s choice of Neera Tanden to lead his budget office underscored the difficulties the incoming administration will face in maneuvering its nominees through a polarized Senate.\nhttps://t.co/lCey2z4pCT",
-    "author_id": "807095"
+    "id": "1333972936617811970",
+    "text": "The swift and bitter pushback to President-elect Joe Biden\u2019s choice of Neera Tanden to lead his budget office underscored the difficulties the incoming administration will face in maneuvering its nominees through a polarized Senate.\nhttps://t.co/lCey2z4pCT"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 53,
+      "reply_count": 85,
+      "like_count": 609,
+      "quote_count": 12
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 243,
+          "end": 266,
+          "url": "https://t.co/sz7NYlXUxQ",
+          "expanded_url": "https://nyti.ms/2JixVF3",
+          "display_url": "nyti.ms/2JixVF3"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -1809,30 +1935,30 @@
           "type": "Place",
           "normalized_text": "White House"
         }
-      ],
-      "urls": [
-        {
-          "start": 243,
-          "end": 266,
-          "url": "https://t.co/sz7NYlXUxQ",
-          "expanded_url": "https://nyti.ms/2JixVF3",
-          "display_url": "nyti.ms/2JixVF3"
-        }
       ]
     },
-    "id": "1333954108030676993",
-    "public_metrics": {
-      "retweet_count": 53,
-      "reply_count": 85,
-      "like_count": 609,
-      "quote_count": 12
-    },
     "created_at": "2020-12-02T02:00:17.000Z",
-    "text": "President-elect Joe Biden is entering office with the stated intent of restoring credibility to government \u2014 and to the White House briefing room. Here are the women on the communications team he announced this week who will lead that effort.\nhttps://t.co/sz7NYlXUxQ",
-    "author_id": "807095"
+    "id": "1333954108030676993",
+    "text": "President-elect Joe Biden is entering office with the stated intent of restoring credibility to government \u2014 and to the White House briefing room. Here are the women on the communications team he announced this week who will lead that effort.\nhttps://t.co/sz7NYlXUxQ"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 32,
+      "reply_count": 49,
+      "like_count": 195,
+      "quote_count": 7
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 225,
+          "end": 248,
+          "url": "https://t.co/tmf1IYbLC4",
+          "expanded_url": "https://nyti.ms/3ocCxuR",
+          "display_url": "nyti.ms/3ocCxuR"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -1869,30 +1995,30 @@
           "type": "Person",
           "normalized_text": "Lara Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 225,
-          "end": 248,
-          "url": "https://t.co/tmf1IYbLC4",
-          "expanded_url": "https://nyti.ms/3ocCxuR",
-          "display_url": "nyti.ms/3ocCxuR"
-        }
       ]
     },
-    "id": "1333938978236608516",
-    "public_metrics": {
-      "retweet_count": 32,
-      "reply_count": 49,
-      "like_count": 195,
-      "quote_count": 7
-    },
     "created_at": "2020-12-02T01:00:10.000Z",
-    "text": "Rep. Mark Walker announced that he would run for North Carolina\u2019s open Senate seat in 2022, kicking off what is likely to be a fierce Republican primary that could pit him against Lara Trump, the president\u2019s daughter-in-law. https://t.co/tmf1IYbLC4",
-    "author_id": "807095"
+    "id": "1333938978236608516",
+    "text": "Rep. Mark Walker announced that he would run for North Carolina\u2019s open Senate seat in 2022, kicking off what is likely to be a fierce Republican primary that could pit him against Lara Trump, the president\u2019s daughter-in-law. https://t.co/tmf1IYbLC4"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 23,
+      "reply_count": 31,
+      "like_count": 103,
+      "quote_count": 5
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/kdXt10qojt",
+          "expanded_url": "https://nyti.ms/39wRh3V",
+          "display_url": "nyti.ms/39wRh3V"
+        }
+      ],
       "annotations": [
         {
           "start": 11,
@@ -1936,46 +2062,21 @@
           "type": "Place",
           "normalized_text": "America"
         }
-      ],
-      "urls": [
-        {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/kdXt10qojt",
-          "expanded_url": "https://nyti.ms/39wRh3V",
-          "display_url": "nyti.ms/39wRh3V"
-        }
       ]
     },
-    "id": "1333916319536861185",
-    "public_metrics": {
-      "retweet_count": 23,
-      "reply_count": 31,
-      "like_count": 102,
-      "quote_count": 5
-    },
     "created_at": "2020-12-01T23:30:08.000Z",
-    "text": "As head of Obama's National Economic Council, Jeffrey Zients won praise from progressives. But now they're concerned that Zients, currently the co-chairman of Joe Biden's transition team, would defend corporate America if given a top economic policy job. https://t.co/kdXt10qojt",
-    "author_id": "807095"
+    "id": "1333916319536861185",
+    "text": "As head of Obama's National Economic Council, Jeffrey Zients won praise from progressives. But now they're concerned that Zients, currently the co-chairman of Joe Biden's transition team, would defend corporate America if given a top economic policy job. https://t.co/kdXt10qojt"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 53,
+      "reply_count": 43,
+      "like_count": 404,
+      "quote_count": 14
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 16,
-          "end": 24,
-          "probability": 0.9875,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        },
-        {
-          "start": 110,
-          "end": 120,
-          "probability": 0.9157,
-          "type": "Place",
-          "normalized_text": "White House"
-        }
-      ],
       "urls": [
         {
           "start": 235,
@@ -1991,21 +2092,69 @@
           "expanded_url": "https://twitter.com/nytimes/status/1333914533228924930/photo/1",
           "display_url": "pic.twitter.com/THMhzdCDaP"
         }
+      ],
+      "annotations": [
+        {
+          "start": 16,
+          "end": 24,
+          "probability": 0.9875,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 110,
+          "end": 120,
+          "probability": 0.9156,
+          "type": "Place",
+          "normalized_text": "White House"
+        }
       ]
     },
-    "id": "1333914533228924930",
-    "public_metrics": {
-      "retweet_count": 53,
-      "reply_count": 43,
-      "like_count": 403,
-      "quote_count": 14
-    },
     "created_at": "2020-12-01T23:23:02.000Z",
-    "text": "President-elect Joe Biden introduced key members of his economic team on Tuesday as he prepares to assume the White House with the economic recovery from the pandemic slowing and millions still out of work.\n\nHere's a look at the team. https://t.co/7ouvy19xnE https://t.co/THMhzdCDaP",
-    "author_id": "807095"
+    "id": "1333914533228924930",
+    "text": "President-elect Joe Biden introduced key members of his economic team on Tuesday as he prepares to assume the White House with the economic recovery from the pandemic slowing and millions still out of work.\n\nHere's a look at the team. https://t.co/7ouvy19xnE https://t.co/THMhzdCDaP"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 90,
+      "reply_count": 76,
+      "like_count": 878,
+      "quote_count": 18
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 237,
+          "end": 260,
+          "url": "https://t.co/OLFtso5so5",
+          "expanded_url": "https://nyti.ms/39AUMWS",
+          "display_url": "nyti.ms/39AUMWS",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333825746813546496/khOePSua?format=jpg&name=orig",
+              "width": 3000,
+              "height": 1688
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333825746813546496/khOePSua?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "As uncertainty grows, Biden announces economic team and Congress kick-starts stimulus talks.",
+          "description": "The worsening coronavirus pandemic and its toll on the economy will challenge President-elect Joe Biden, who has warned of a \u201cvery dark winter.\u201d Rudolph Giuliani is said to have discussed receiving a pre-emptive pardon from President Trump. President-elect Joseph R. Biden Jr. in Wilmington, Del., last week. Credit... Anna Moneymaker for The New York Times The country\u2019s economy, like the nation\u2019s politics, is queasily suspended between the Trump and Biden administrations \u2014 at a moment when the rampaging",
+          "unwound_url": "https://www.nytimes.com/live/2020/12/01/us/joe-biden-trump/as-uncertainty-grows-biden-announces-economic-team-and-congress-kick-starts-stimulus-talks?smid=tw-nytimes&smtyp=cur"
+        },
+        {
+          "start": 261,
+          "end": 284,
+          "url": "https://t.co/LiLfB8tlm6",
+          "expanded_url": "https://twitter.com/nytimes/status/1333907580486373377/video/1",
+          "display_url": "pic.twitter.com/LiLfB8tlm6"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -2021,37 +2170,30 @@
           "type": "Place",
           "normalized_text": "America"
         }
-      ],
-      "urls": [
-        {
-          "start": 237,
-          "end": 260,
-          "url": "https://t.co/OLFtso5so5",
-          "expanded_url": "https://nyti.ms/39AUMWS",
-          "display_url": "nyti.ms/39AUMWS"
-        },
-        {
-          "start": 261,
-          "end": 284,
-          "url": "https://t.co/LiLfB8tlm6",
-          "expanded_url": "https://twitter.com/nytimes/status/1333907580486373377/video/1",
-          "display_url": "pic.twitter.com/LiLfB8tlm6"
-        }
       ]
     },
-    "id": "1333907580486373377",
-    "public_metrics": {
-      "retweet_count": 90,
-      "reply_count": 76,
-      "like_count": 878,
-      "quote_count": 18
-    },
     "created_at": "2020-12-01T22:55:24.000Z",
-    "text": "President-elect Joe Biden formally introduced his economic team on Tuesday, calling on them to lead America to a future of shared economic prosperity. \"Our message to everybody struggling right now is this: Help is on the way,\" he said.\nhttps://t.co/OLFtso5so5 https://t.co/LiLfB8tlm6",
-    "author_id": "807095"
+    "id": "1333907580486373377",
+    "text": "President-elect Joe Biden formally introduced his economic team on Tuesday, calling on them to lead America to a future of shared economic prosperity. \"Our message to everybody struggling right now is this: Help is on the way,\" he said.\nhttps://t.co/OLFtso5so5 https://t.co/LiLfB8tlm6"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 86,
+      "reply_count": 93,
+      "like_count": 303,
+      "quote_count": 55
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/AnOTeurij3",
+          "expanded_url": "https://nyti.ms/33wTfx6",
+          "display_url": "nyti.ms/33wTfx6"
+        }
+      ],
       "annotations": [
         {
           "start": 26,
@@ -2074,30 +2216,30 @@
           "type": "Place",
           "normalized_text": "White House"
         }
-      ],
-      "urls": [
-        {
-          "start": 250,
-          "end": 273,
-          "url": "https://t.co/AnOTeurij3",
-          "expanded_url": "https://nyti.ms/33wTfx6",
-          "display_url": "nyti.ms/33wTfx6"
-        }
       ]
     },
-    "id": "1333893681959624713",
-    "public_metrics": {
-      "retweet_count": 86,
-      "reply_count": 93,
-      "like_count": 303,
-      "quote_count": 55
-    },
     "created_at": "2020-12-01T22:00:10.000Z",
-    "text": "Despite the pandemic, the White House is planning at least 20 holiday parties this month. Some invitees joked that since so many people in President Trump\u2019s orbit had already tested positive for the virus, the White House had achieved herd immunity. https://t.co/AnOTeurij3",
-    "author_id": "807095"
+    "id": "1333893681959624713",
+    "text": "Despite the pandemic, the White House is planning at least 20 holiday parties this month. Some invitees joked that since so many people in President Trump\u2019s orbit had already tested positive for the virus, the White House had achieved herd immunity. https://t.co/AnOTeurij3"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 367,
+      "reply_count": 173,
+      "like_count": 1746,
+      "quote_count": 91
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 167,
+          "end": 190,
+          "url": "https://t.co/JplGjsNmqA",
+          "expanded_url": "https://nyti.ms/2Jz4gXI",
+          "display_url": "nyti.ms/2Jz4gXI"
+        }
+      ],
       "annotations": [
         {
           "start": 73,
@@ -2113,39 +2255,21 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 167,
-          "end": 190,
-          "url": "https://t.co/JplGjsNmqA",
-          "expanded_url": "https://nyti.ms/2Jz4gXI",
-          "display_url": "nyti.ms/2Jz4gXI"
-        }
       ]
     },
-    "id": "1333892159062335492",
-    "public_metrics": {
-      "retweet_count": 367,
-      "reply_count": 173,
-      "like_count": 1746,
-      "quote_count": 91
-    },
     "created_at": "2020-12-01T21:54:07.000Z",
-    "text": "Breaking News: \u201cSomeone\u2019s going to get killed.\u201d A Republican official in Georgia urged President Trump to condemn threats and harassment directed at election workers. https://t.co/JplGjsNmqA",
-    "author_id": "807095"
+    "id": "1333892159062335492",
+    "text": "Breaking News: \u201cSomeone\u2019s going to get killed.\u201d A Republican official in Georgia urged President Trump to condemn threats and harassment directed at election workers. https://t.co/JplGjsNmqA"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 79,
+      "reply_count": 71,
+      "like_count": 513,
+      "quote_count": 45
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 127,
-          "end": 134,
-          "probability": 0.5325,
-          "type": "Organization",
-          "normalized_text": "Congress"
-        }
-      ],
       "urls": [
         {
           "start": 224,
@@ -2154,21 +2278,39 @@
           "expanded_url": "https://nyti.ms/3lwJa9z",
           "display_url": "nyti.ms/3lwJa9z"
         }
+      ],
+      "annotations": [
+        {
+          "start": 127,
+          "end": 134,
+          "probability": 0.5325,
+          "type": "Organization",
+          "normalized_text": "Congress"
+        }
       ]
     },
-    "id": "1333878594960044033",
-    "public_metrics": {
-      "retweet_count": 79,
-      "reply_count": 71,
-      "like_count": 513,
-      "quote_count": 45
-    },
     "created_at": "2020-12-01T21:00:13.000Z",
-    "text": "A bipartisan group of senators on Tuesday unveiled a $900 billion compromise stimulus proposal meant to break the stalemate in Congress over delivering economic relief to Americans suffering from the impact of the pandemic. https://t.co/X8uzMV5PBm",
-    "author_id": "807095"
+    "id": "1333878594960044033",
+    "text": "A bipartisan group of senators on Tuesday unveiled a $900 billion compromise stimulus proposal meant to break the stalemate in Congress over delivering economic relief to Americans suffering from the impact of the pandemic. https://t.co/X8uzMV5PBm"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 57,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T20:45:09.000Z",
+    "id": "1333874800591302656",
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 14,
+          "username": "arappeport"
+        }
+      ],
       "annotations": [
         {
           "start": 23,
@@ -2205,28 +2347,28 @@
           "type": "Organization",
           "normalized_text": "CFPB"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 14,
-          "username": "arappeport"
-        }
       ]
     },
-    "id": "1333874800591302656",
-    "public_metrics": {
-      "retweet_count": 57,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-01T20:45:09.000Z",
-    "text": "RT @arappeport: Who is Adewale Adeyemo?\n\nTapped to be Yellen's No. 2 at Treasury, he has been a chief of staff to Elizabeth Warren at CFPB\u2026",
-    "author_id": "807095"
+    "text": "RT @arappeport: Who is Adewale Adeyemo?\n\nTapped to be Yellen's No. 2 at Treasury, he has been a chief of staff to Elizabeth Warren at CFPB\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 879,
+      "reply_count": 398,
+      "like_count": 5187,
+      "quote_count": 463
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 177,
+          "end": 200,
+          "url": "https://t.co/58rhJxArsR",
+          "expanded_url": "https://nyti.ms/36qQAH7",
+          "display_url": "nyti.ms/36qQAH7"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -2242,30 +2384,30 @@
           "type": "Organization",
           "normalized_text": "Justice Department"
         }
-      ],
-      "urls": [
-        {
-          "start": 177,
-          "end": 200,
-          "url": "https://t.co/58rhJxArsR",
-          "expanded_url": "https://nyti.ms/36qQAH7",
-          "display_url": "nyti.ms/36qQAH7"
-        }
       ]
     },
-    "id": "1333859437161934848",
-    "public_metrics": {
-      "retweet_count": 879,
-      "reply_count": 398,
-      "like_count": 5188,
-      "quote_count": 463
-    },
     "created_at": "2020-12-01T19:44:06.000Z",
-    "text": "Breaking News: Attorney General William Barr said that the Justice Department hasn\u2019t uncovered voting fraud at a scale that could have changed the results of the 2020 election. https://t.co/58rhJxArsR",
-    "author_id": "807095"
+    "id": "1333859437161934848",
+    "text": "Breaking News: Attorney General William Barr said that the Justice Department hasn\u2019t uncovered voting fraud at a scale that could have changed the results of the 2020 election. https://t.co/58rhJxArsR"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 51,
+      "reply_count": 110,
+      "like_count": 207,
+      "quote_count": 27
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 202,
+          "end": 225,
+          "url": "https://t.co/zv75RsrQFF",
+          "expanded_url": "https://nyti.ms/3qhH1SN",
+          "display_url": "nyti.ms/3qhH1SN"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2288,30 +2430,30 @@
           "type": "Person",
           "normalized_text": "Tony Evers"
         }
-      ],
-      "urls": [
-        {
-          "start": 202,
-          "end": 225,
-          "url": "https://t.co/zv75RsrQFF",
-          "expanded_url": "https://nyti.ms/3qhH1SN",
-          "display_url": "nyti.ms/3qhH1SN"
-        }
       ]
     },
-    "id": "1333827211238002694",
-    "public_metrics": {
-      "retweet_count": 51,
-      "reply_count": 110,
-      "like_count": 207,
-      "quote_count": 27
-    },
     "created_at": "2020-12-01T17:36:03.000Z",
-    "text": "President Trump\u2019s campaign on Tuesday sued the Wisconsin Elections Commission and Gov. Tony Evers, aiming to throw out hundreds of thousands of absentee ballots cast in two heavily Democratic counties.\nhttps://t.co/zv75RsrQFF",
-    "author_id": "807095"
+    "id": "1333827211238002694",
+    "text": "President Trump\u2019s campaign on Tuesday sued the Wisconsin Elections Commission and Gov. Tony Evers, aiming to throw out hundreds of thousands of absentee ballots cast in two heavily Democratic counties.\nhttps://t.co/zv75RsrQFF"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 38,
+      "reply_count": 44,
+      "like_count": 370,
+      "quote_count": 7
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 187,
+          "end": 210,
+          "url": "https://t.co/HhLuySDaxZ",
+          "expanded_url": "https://nyti.ms/3muA5zp",
+          "display_url": "nyti.ms/3muA5zp"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -2327,30 +2469,30 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 187,
-          "end": 210,
-          "url": "https://t.co/HhLuySDaxZ",
-          "expanded_url": "https://nyti.ms/3muA5zp",
-          "display_url": "nyti.ms/3muA5zp"
-        }
       ]
     },
-    "id": "1333825740538834948",
-    "public_metrics": {
-      "retweet_count": 38,
-      "reply_count": 44,
-      "like_count": 370,
-      "quote_count": 7
-    },
     "created_at": "2020-12-01T17:30:12.000Z",
-    "text": "President-elect Joe Biden will on Tuesday formally introduce his economic team whose governing philosophy marks a stark departure from President Trump\u2019s low-tax, low-regulation approach. https://t.co/HhLuySDaxZ",
-    "author_id": "807095"
+    "id": "1333825740538834948",
+    "text": "President-elect Joe Biden will on Tuesday formally introduce his economic team whose governing philosophy marks a stark departure from President Trump\u2019s low-tax, low-regulation approach. https://t.co/HhLuySDaxZ"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 219,
+      "reply_count": 80,
+      "like_count": 1714,
+      "quote_count": 64
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/icfJMaaF1s",
+          "expanded_url": "https://nyti.ms/3mF2lPS",
+          "display_url": "nyti.ms/3mF2lPS"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2380,30 +2522,30 @@
           "type": "Person",
           "normalized_text": "Janet Yellen"
         }
-      ],
-      "urls": [
-        {
-          "start": 256,
-          "end": 279,
-          "url": "https://t.co/icfJMaaF1s",
-          "expanded_url": "https://nyti.ms/3mF2lPS",
-          "display_url": "nyti.ms/3mF2lPS"
-        }
       ]
     },
-    "id": "1333821936657379329",
-    "public_metrics": {
-      "retweet_count": 219,
-      "reply_count": 80,
-      "like_count": 1716,
-      "quote_count": 64
-    },
     "created_at": "2020-12-01T17:15:05.000Z",
-    "text": "Adewale Adeyemo, President-elect Joe Biden's pick to be deputy Treasury secretary, would be part of a history-making duo at the Treasury Department: He would be the first Black deputy at the Treasury, serving with the first female secretary, Janet Yellen. https://t.co/icfJMaaF1s",
-    "author_id": "807095"
+    "id": "1333821936657379329",
+    "text": "Adewale Adeyemo, President-elect Joe Biden's pick to be deputy Treasury secretary, would be part of a history-making duo at the Treasury Department: He would be the first Black deputy at the Treasury, serving with the first female secretary, Janet Yellen. https://t.co/icfJMaaF1s"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 812,
+      "reply_count": 862,
+      "like_count": 2339,
+      "quote_count": 747
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 148,
+          "end": 171,
+          "url": "https://t.co/kQ49dPLyWt",
+          "expanded_url": "https://nyti.ms/37EosA3",
+          "display_url": "nyti.ms/37EosA3"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -2426,30 +2568,37 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 148,
-          "end": 171,
-          "url": "https://t.co/kQ49dPLyWt",
-          "expanded_url": "https://nyti.ms/37EosA3",
-          "display_url": "nyti.ms/37EosA3"
-        }
       ]
     },
-    "id": "1333794423201701890",
-    "public_metrics": {
-      "retweet_count": 812,
-      "reply_count": 862,
-      "like_count": 2339,
-      "quote_count": 747
-    },
     "created_at": "2020-12-01T15:25:45.000Z",
-    "text": "Breaking News: Rudy Giuliani recently discussed with President Trump the possibility of receiving a pre-emptive pardon before Trump leaves office. \nhttps://t.co/kQ49dPLyWt",
-    "author_id": "807095"
+    "id": "1333794423201701890",
+    "text": "Breaking News: Rudy Giuliani recently discussed with President Trump the possibility of receiving a pre-emptive pardon before Trump leaves office. \nhttps://t.co/kQ49dPLyWt"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 26,
+      "reply_count": 55,
+      "like_count": 179,
+      "quote_count": 13
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/YuHJT68uFj",
+          "expanded_url": "https://nyti.ms/3ms6tTs",
+          "display_url": "nyti.ms/3ms6tTs"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 155,
+          "end": 166,
+          "username": "damiencave"
+        }
+      ],
       "annotations": [
         {
           "start": 49,
@@ -2486,37 +2635,30 @@
           "type": "Place",
           "normalized_text": "China"
         }
-      ],
-      "mentions": [
-        {
-          "start": 155,
-          "end": 166,
-          "username": "damiencave"
-        }
-      ],
-      "urls": [
-        {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/YuHJT68uFj",
-          "expanded_url": "https://nyti.ms/3ms6tTs",
-          "display_url": "nyti.ms/3ms6tTs"
-        }
       ]
     },
-    "id": "1333784201578094592",
-    "public_metrics": {
-      "retweet_count": 26,
-      "reply_count": 55,
-      "like_count": 179,
-      "quote_count": 13
-    },
     "created_at": "2020-12-01T14:45:08.000Z",
-    "text": "News Analysis: There's widespread concern that a Biden administration will focus less on America's Pacific partners and more on rebuilding ties in Europe, @damiencave says. That has pushed Australia deeper into a position of pleading for help with China. https://t.co/YuHJT68uFj",
-    "author_id": "807095"
+    "id": "1333784201578094592",
+    "text": "News Analysis: There's widespread concern that a Biden administration will focus less on America's Pacific partners and more on rebuilding ties in Europe, @damiencave says. That has pushed Australia deeper into a position of pleading for help with China. https://t.co/YuHJT68uFj"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 27,
+      "reply_count": 33,
+      "like_count": 388,
+      "quote_count": 7
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 173,
+          "end": 196,
+          "url": "https://t.co/P33ZJVAmg9",
+          "expanded_url": "https://nyti.ms/39qpt10",
+          "display_url": "nyti.ms/39qpt10"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2546,38 +2688,20 @@
           "type": "Other",
           "normalized_text": "The Daily"
         }
-      ],
-      "urls": [
-        {
-          "start": 173,
-          "end": 196,
-          "url": "https://t.co/P33ZJVAmg9",
-          "expanded_url": "https://nyti.ms/39qpt10",
-          "display_url": "nyti.ms/39qpt10"
-        }
       ]
     },
-    "id": "1333750205821423618",
-    "public_metrics": {
-      "retweet_count": 27,
-      "reply_count": 33,
-      "like_count": 388,
-      "quote_count": 7
-    },
     "created_at": "2020-12-01T12:30:03.000Z",
-    "text": "Janet Yellen is poised to become Treasury secretary in the Biden administration. If confirmed, she\u2019ll have her work cut out for her. Listen to today\u2019s episode of The Daily. https://t.co/P33ZJVAmg9",
-    "author_id": "807095"
+    "id": "1333750205821423618",
+    "text": "Janet Yellen is poised to become Treasury secretary in the Biden administration. If confirmed, she\u2019ll have her work cut out for her. Listen to today\u2019s episode of The Daily. https://t.co/P33ZJVAmg9"
   },
   {
-    "id": "1333697392525385733",
+    "author_id": "807095",
     "public_metrics": {
       "retweet_count": 16,
       "reply_count": 30,
       "like_count": 146,
       "quote_count": 6
     },
-    "created_at": "2020-12-01T09:00:11.000Z",
-    "text": "Here's a look at some of the highlights worth watching from late-night TV. https://t.co/IFBanL8ZMm",
     "entities": {
       "urls": [
         {
@@ -2589,10 +2713,28 @@
         }
       ]
     },
-    "author_id": "807095"
+    "created_at": "2020-12-01T09:00:11.000Z",
+    "id": "1333697392525385733",
+    "text": "Here's a look at some of the highlights worth watching from late-night TV. https://t.co/IFBanL8ZMm"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 65,
+      "reply_count": 108,
+      "like_count": 220,
+      "quote_count": 20
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 187,
+          "end": 210,
+          "url": "https://t.co/wpNoZGey6X",
+          "expanded_url": "https://nyti.ms/37ozOrG",
+          "display_url": "nyti.ms/37ozOrG"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2615,30 +2757,30 @@
           "type": "Person",
           "normalized_text": "Michael Flynn"
         }
-      ],
-      "urls": [
-        {
-          "start": 187,
-          "end": 210,
-          "url": "https://t.co/wpNoZGey6X",
-          "expanded_url": "https://nyti.ms/37ozOrG",
-          "display_url": "nyti.ms/37ozOrG"
-        }
       ]
     },
-    "id": "1333601729179488257",
-    "public_metrics": {
-      "retweet_count": 65,
-      "reply_count": 108,
-      "like_count": 220,
-      "quote_count": 20
-    },
     "created_at": "2020-12-01T02:40:04.000Z",
-    "text": "The Justice Department asked a federal judge on Monday to dismiss the criminal case against President Trump\u2019s former national security adviser Michael Flynn, citing his pardon last week. https://t.co/wpNoZGey6X",
-    "author_id": "807095"
+    "id": "1333601729179488257",
+    "text": "The Justice Department asked a federal judge on Monday to dismiss the criminal case against President Trump\u2019s former national security adviser Michael Flynn, citing his pardon last week. https://t.co/wpNoZGey6X"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 131,
+      "reply_count": 73,
+      "like_count": 803,
+      "quote_count": 24
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 176,
+          "end": 199,
+          "url": "https://t.co/FQRyDoT04Q",
+          "expanded_url": "https://nyti.ms/3lmzHlq",
+          "display_url": "nyti.ms/3lmzHlq"
+        }
+      ],
       "annotations": [
         {
           "start": 37,
@@ -2654,30 +2796,30 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 176,
-          "end": 199,
-          "url": "https://t.co/FQRyDoT04Q",
-          "expanded_url": "https://nyti.ms/3lmzHlq",
-          "display_url": "nyti.ms/3lmzHlq"
-        }
       ]
     },
-    "id": "1333591721658245126",
-    "public_metrics": {
-      "retweet_count": 131,
-      "reply_count": 73,
-      "like_count": 803,
-      "quote_count": 24
-    },
     "created_at": "2020-12-01T02:00:18.000Z",
-    "text": "All of the battleground states where President Trump was contesting election results have now certified that President-elect Joe Biden won. We're tracking all the states here. https://t.co/FQRyDoT04Q",
-    "author_id": "807095"
+    "id": "1333591721658245126",
+    "text": "All of the battleground states where President Trump was contesting election results have now certified that President-elect Joe Biden won. We're tracking all the states here. https://t.co/FQRyDoT04Q"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 426,
+      "reply_count": 508,
+      "like_count": 3336,
+      "quote_count": 328
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 247,
+          "end": 270,
+          "url": "https://t.co/EzATapRSp4",
+          "expanded_url": "https://nyti.ms/3lo3Dxm",
+          "display_url": "nyti.ms/3lo3Dxm"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2714,30 +2856,30 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 247,
-          "end": 270,
-          "url": "https://t.co/EzATapRSp4",
-          "expanded_url": "https://nyti.ms/3lo3Dxm",
-          "display_url": "nyti.ms/3lo3Dxm"
-        }
       ]
     },
-    "id": "1333586628162543616",
-    "public_metrics": {
-      "retweet_count": 426,
-      "reply_count": 508,
-      "like_count": 3336,
-      "quote_count": 328
-    },
     "created_at": "2020-12-01T01:40:03.000Z",
-    "text": "Sen. Joe Manchin, a conservative Democrat from West Virginia, has made no secret of his disdain for Washington's dysfunction. Now, with an incoming Biden administration, he thinks there's \"a golden opportunity to bring the country back together.\" https://t.co/EzATapRSp4",
-    "author_id": "807095"
+    "id": "1333586628162543616",
+    "text": "Sen. Joe Manchin, a conservative Democrat from West Virginia, has made no secret of his disdain for Washington's dysfunction. Now, with an incoming Biden administration, he thinks there's \"a golden opportunity to bring the country back together.\" https://t.co/EzATapRSp4"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 29,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T01:20:02.000Z",
+    "id": "1333581589763289088",
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 15,
+          "username": "reidepstein"
+        }
+      ],
       "annotations": [
         {
           "start": 17,
@@ -2760,28 +2902,28 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 15,
-          "username": "reidepstein"
-        }
       ]
     },
-    "id": "1333581589763289088",
-    "public_metrics": {
-      "retweet_count": 29,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-01T01:20:02.000Z",
-    "text": "RT @reidepstein: Arizona and Wisconsin certify Joe Biden's victories, yet another headline that would be unremarkable in a year in which th\u2026",
-    "author_id": "807095"
+    "text": "RT @reidepstein: Arizona and Wisconsin certify Joe Biden's victories, yet another headline that would be unremarkable in a year in which th\u2026"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 53,
+      "reply_count": 46,
+      "like_count": 347,
+      "quote_count": 25
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 252,
+          "end": 275,
+          "url": "https://t.co/JzoEfumnud",
+          "expanded_url": "https://nyti.ms/37q4Y1R",
+          "display_url": "nyti.ms/37q4Y1R"
+        }
+      ],
       "annotations": [
         {
           "start": 12,
@@ -2797,30 +2939,30 @@
           "type": "Organization",
           "normalized_text": "Defense Department"
         }
-      ],
-      "urls": [
-        {
-          "start": 252,
-          "end": 275,
-          "url": "https://t.co/JzoEfumnud",
-          "expanded_url": "https://nyti.ms/37q4Y1R",
-          "display_url": "nyti.ms/37q4Y1R"
-        }
       ]
     },
-    "id": "1333576582238265352",
-    "public_metrics": {
-      "retweet_count": 54,
-      "reply_count": 46,
-      "like_count": 347,
-      "quote_count": 25
-    },
     "created_at": "2020-12-01T01:00:08.000Z",
-    "text": "In Opinion\n\nRosa Brooks writes: National security leaders have long argued that there weren\u2019t enough qualified female candidates for senior positions in the Defense Department \u2014 an excuse that might once have had some validity, but rings hollow today.\nhttps://t.co/JzoEfumnud",
-    "author_id": "807095"
+    "id": "1333576582238265352",
+    "text": "In Opinion\n\nRosa Brooks writes: National security leaders have long argued that there weren\u2019t enough qualified female candidates for senior positions in the Defense Department \u2014 an excuse that might once have had some validity, but rings hollow today.\nhttps://t.co/JzoEfumnud"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 58,
+      "reply_count": 83,
+      "like_count": 559,
+      "quote_count": 14
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 184,
+          "end": 207,
+          "url": "https://t.co/wF5EBvbmLY",
+          "expanded_url": "https://nyti.ms/3lqNlUm",
+          "display_url": "nyti.ms/3lqNlUm"
+        }
+      ],
       "annotations": [
         {
           "start": 16,
@@ -2850,30 +2992,30 @@
           "type": "Person",
           "normalized_text": "Neera Tanden"
         }
-      ],
-      "urls": [
-        {
-          "start": 184,
-          "end": 207,
-          "url": "https://t.co/wF5EBvbmLY",
-          "expanded_url": "https://nyti.ms/3lqNlUm",
-          "display_url": "nyti.ms/3lqNlUm"
-        }
       ]
     },
-    "id": "1333571531759259649",
-    "public_metrics": {
-      "retweet_count": 58,
-      "reply_count": 83,
-      "like_count": 558,
-      "quote_count": 14
-    },
     "created_at": "2020-12-01T00:40:04.000Z",
-    "text": "President-elect Joe Biden\u2019s choice of top economic advisers, Janet Yellen, Cecilia Rouse and Neera Tanden, signals that his administration plans to focus on spreading economic wealth.\nhttps://t.co/wF5EBvbmLY",
-    "author_id": "807095"
+    "id": "1333571531759259649",
+    "text": "President-elect Joe Biden\u2019s choice of top economic advisers, Janet Yellen, Cecilia Rouse and Neera Tanden, signals that his administration plans to focus on spreading economic wealth.\nhttps://t.co/wF5EBvbmLY"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 261,
+      "reply_count": 145,
+      "like_count": 2040,
+      "quote_count": 52
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 178,
+          "end": 201,
+          "url": "https://t.co/oHNTDPAtrv",
+          "expanded_url": "https://nyti.ms/3oa9aJF",
+          "display_url": "nyti.ms/3oa9aJF"
+        }
+      ],
       "annotations": [
         {
           "start": 15,
@@ -2903,39 +3045,21 @@
           "type": "Person",
           "normalized_text": "President Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 178,
-          "end": 201,
-          "url": "https://t.co/oHNTDPAtrv",
-          "expanded_url": "https://nyti.ms/3oa9aJF",
-          "display_url": "nyti.ms/3oa9aJF"
-        }
       ]
     },
-    "id": "1333493131124334592",
-    "public_metrics": {
-      "retweet_count": 261,
-      "reply_count": 145,
-      "like_count": 2041,
-      "quote_count": 52
-    },
     "created_at": "2020-11-30T19:28:32.000Z",
-    "text": "Breaking News: Arizona certified President-elect Joe Biden\u2019s victory and Wisconsin is expected to do so today, further undermining President Trump\u2019s efforts to dispute his loss.\nhttps://t.co/oHNTDPAtrv",
-    "author_id": "807095"
+    "id": "1333493131124334592",
+    "text": "Breaking News: Arizona certified President-elect Joe Biden\u2019s victory and Wisconsin is expected to do so today, further undermining President Trump\u2019s efforts to dispute his loss.\nhttps://t.co/oHNTDPAtrv"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 55,
+      "reply_count": 74,
+      "like_count": 191,
+      "quote_count": 10
+    },
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 14,
-          "probability": 0.6415,
-          "type": "Person",
-          "normalized_text": "President Trump"
-        }
-      ],
       "urls": [
         {
           "start": 177,
@@ -2944,21 +3068,39 @@
           "expanded_url": "https://nyti.ms/3mrWc9G",
           "display_url": "nyti.ms/3mrWc9G"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6415,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
       ]
     },
-    "id": "1333483447852167176",
-    "public_metrics": {
-      "retweet_count": 55,
-      "reply_count": 74,
-      "like_count": 191,
-      "quote_count": 10
-    },
     "created_at": "2020-11-30T18:50:03.000Z",
-    "text": "President Trump has launched numerous unsuccessful election-related lawsuits in recent weeks. Here\u2019s what to know about his remaining legal fights in state and federal courts. \nhttps://t.co/QtCLUWbK4C",
-    "author_id": "807095"
+    "id": "1333483447852167176",
+    "text": "President Trump has launched numerous unsuccessful election-related lawsuits in recent weeks. Here\u2019s what to know about his remaining legal fights in state and federal courts. \nhttps://t.co/QtCLUWbK4C"
   },
   {
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 172,
+      "like_count": 740,
+      "quote_count": 79
+    },
     "entities": {
+      "urls": [
+        {
+          "start": 251,
+          "end": 274,
+          "url": "https://t.co/jvzHvFEnE1",
+          "expanded_url": "https://nyti.ms/37nSfwu",
+          "display_url": "nyti.ms/37nSfwu"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -2981,69 +3123,100 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 251,
-          "end": 274,
-          "url": "https://t.co/jvzHvFEnE1",
-          "expanded_url": "https://nyti.ms/37nSfwu",
-          "display_url": "nyti.ms/37nSfwu"
-        }
       ]
-    },
-    "id": "1333478456420683777",
-    "public_metrics": {
-      "retweet_count": 102,
-      "reply_count": 172,
-      "like_count": 740,
-      "quote_count": 79
     },
     "created_at": "2020-11-30T18:30:13.000Z",
-    "text": "Ajit Pai, the Republican FCC chairman, said he would leave office on President-elect Joe Biden\u2019s Inauguration Day. His most prominent effort was rolling back\u00a0net neutrality rules\u00a0that forbid internet providers from blocking content on their networks.\nhttps://t.co/jvzHvFEnE1",
-    "author_id": "807095"
+    "id": "1333478456420683777",
+    "text": "Ajit Pai, the Republican FCC chairman, said he would leave office on President-elect Joe Biden\u2019s Inauguration Day. His most prominent effort was rolling back\u00a0net neutrality rules\u00a0that forbid internet providers from blocking content on their networks.\nhttps://t.co/jvzHvFEnE1"
   },
   {
+    "created_at": "2020-12-07T17:11:26.000Z",
     "entities": {
-      "annotations": [
-        {
-          "start": 19,
-          "end": 27,
-          "probability": 0.984,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        },
-        {
-          "start": 108,
-          "end": 111,
-          "probability": 0.8183,
-          "type": "Place",
-          "normalized_text": "Asia"
-        }
-      ],
       "urls": [
         {
-          "start": 192,
-          "end": 215,
-          "url": "https://t.co/N9hYO0lXNc",
-          "expanded_url": "https://nyti.ms/2VkVhvO",
-          "display_url": "nyti.ms/2VkVhvO"
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/R9M0VwL0l3",
+          "expanded_url": "https://trib.al/A4Dsazn",
+          "display_url": "trib.al/A4Dsazn"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 60,
+          "end": 64,
+          "probability": 0.9786,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 167,
+          "end": 171,
+          "probability": 0.9863,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 188,
+          "end": 198,
+          "probability": 0.6902,
+          "type": "Organization",
+          "normalized_text": "Republicans"
         }
       ]
     },
-    "id": "1333455773976891395",
+    "text": "Last Friday afternoon, a federal district judge ordered the Trump administration to fully reinstate DACA.\n\nIt's a big win for immigrants \u2014 but could come back to bite Biden, especially if Republicans control the Senate: https://t.co/R9M0VwL0l3",
+    "id": "1335995346812608516",
+    "author_id": "2347049341",
     "public_metrics": {
-      "retweet_count": 48,
-      "reply_count": 117,
-      "like_count": 229,
-      "quote_count": 14
-    },
-    "created_at": "2020-11-30T17:00:05.000Z",
-    "text": "As President-elect Joe Biden now assembles his foreign-policy team, prominent human rights activists across Asia are expressing reservations about his ability to keep authoritarians in check. https://t.co/N9hYO0lXNc",
-    "author_id": "807095"
+      "retweet_count": 9,
+      "reply_count": 2,
+      "like_count": 31,
+      "quote_count": 0
+    }
   },
   {
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 14,
+          "username": "imillhiser"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 115,
+          "end": 119,
+          "probability": 0.7955,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T15:37:58.000Z",
+    "text": "RT @imillhiser: I wrote about why last night's court decision fully reinstating DACA could create a crisis for the Biden administration.\n\nh\u2026",
+    "id": "1335971824291573760",
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 7,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "created_at": "2020-12-05T20:30:06.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/ndgaeSiFsU",
+          "expanded_url": "https://www.vox.com/2020/12/5/22155858/georgia-election-lawsuit-trump-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/5/2215\u2026"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -3066,39 +3239,21 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 226,
-          "end": 249,
-          "url": "https://t.co/ndgaeSiFsU",
-          "expanded_url": "https://www.vox.com/2020/12/5/22155858/georgia-election-lawsuit-trump-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/12/5/2215\u2026"
-        }
       ]
     },
+    "text": "Georgia is in the midst of its third tally of votes, and there is no indication Biden is at risk of losing his margin of victory. \n\nNevertheless, Trump\u2019s campaign has filed a new lawsuit falsely claiming irregularities there. https://t.co/ndgaeSiFsU",
     "id": "1335320565234741249",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 12,
       "reply_count": 14,
       "like_count": 41,
       "quote_count": 3
-    },
-    "created_at": "2020-12-05T20:30:06.000Z",
-    "text": "Georgia is in the midst of its third tally of votes, and there is no indication Biden is at risk of losing his margin of victory. \n\nNevertheless, Trump\u2019s campaign has filed a new lawsuit falsely claiming irregularities there. https://t.co/ndgaeSiFsU",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-12-05T18:02:53.000Z",
     "entities": {
-      "annotations": [
-        {
-          "start": 71,
-          "end": 75,
-          "probability": 0.9287,
-          "type": "Person",
-          "normalized_text": "Biden"
-        }
-      ],
       "urls": [
         {
           "start": 97,
@@ -3107,21 +3262,39 @@
           "expanded_url": "https://www.vox.com/2020/12/5/22155815/daca-court-nicholas-garaufis-batalla-vidal-chad-wolf-homeland-security-joe-biden-trump?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
           "display_url": "vox.com/2020/12/5/2215\u2026"
         }
+      ],
+      "annotations": [
+        {
+          "start": 71,
+          "end": 75,
+          "probability": 0.9287,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
       ]
     },
+    "text": "A federal judge handed immigrants a big win \u2014 and gave President-elect Biden a potential crisis. https://t.co/J6wy7cm7Ng",
     "id": "1335283518914564097",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 12,
       "reply_count": 1,
       "like_count": 36,
       "quote_count": 2
-    },
-    "created_at": "2020-12-05T18:02:53.000Z",
-    "text": "A federal judge handed immigrants a big win \u2014 and gave President-elect Biden a potential crisis. https://t.co/J6wy7cm7Ng",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-12-05T15:36:10.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 146,
+          "end": 169,
+          "url": "https://t.co/opl0zAOshY",
+          "expanded_url": "https://www.vox.com/2020/12/5/22155730/federal-student-loan-debt-relief-january-31-devos?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/5/2215\u2026"
+        }
+      ],
       "annotations": [
         {
           "start": 78,
@@ -3137,37 +3310,19 @@
           "type": "Organization",
           "normalized_text": "Congress"
         }
-      ],
-      "urls": [
-        {
-          "start": 146,
-          "end": 169,
-          "url": "https://t.co/opl0zAOshY",
-          "expanded_url": "https://www.vox.com/2020/12/5/22155730/federal-student-loan-debt-relief-january-31-devos?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/12/5/2215\u2026"
-        }
       ]
     },
+    "text": "The freeze on federal student loans will now carry through January 31, 2021 \u2014 Biden or Congress will have to decide whether to extend it further. https://t.co/opl0zAOshY",
     "id": "1335246593700884490",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 17,
       "reply_count": 5,
       "like_count": 73,
       "quote_count": 7
-    },
-    "created_at": "2020-12-05T15:36:10.000Z",
-    "text": "The freeze on federal student loans will now carry through January 31, 2021 \u2014 Biden or Congress will have to decide whether to extend it further. https://t.co/opl0zAOshY",
-    "author_id": "2347049341"
+    }
   },
   {
-    "id": "1334955968355053569",
-    "public_metrics": {
-      "retweet_count": 31,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
-    "created_at": "2020-12-04T20:21:19.000Z",
     "entities": {
       "mentions": [
         {
@@ -3202,20 +3357,20 @@
         }
       ]
     },
+    "created_at": "2020-12-04T20:21:19.000Z",
     "text": "RT @dylanlscott: \"About 4 million more people were in poverty by September than were at the beginning of 2020.\"\n\nhttps://t.co/EDRgpNDinU",
-    "author_id": "2347049341"
+    "id": "1334955968355053569",
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 31,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
   },
   {
+    "created_at": "2020-12-03T17:00:12.000Z",
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 8,
-          "probability": 0.9969,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        }
-      ],
       "urls": [
         {
           "start": 49,
@@ -3224,30 +3379,29 @@
           "expanded_url": "https://www.vox.com/future-perfect/21582005/joe-biden-poverty-covid?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
           "display_url": "vox.com/future-perfect\u2026"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
       ]
     },
+    "text": "Joe Biden is taking office amid a poverty crisis https://t.co/QcoWbKnmG6",
     "id": "1334542964568301568",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 12,
       "reply_count": 4,
       "like_count": 39,
       "quote_count": 3
-    },
-    "created_at": "2020-12-03T17:00:12.000Z",
-    "text": "Joe Biden is taking office amid a poverty crisis https://t.co/QcoWbKnmG6",
-    "author_id": "2347049341"
+    }
   },
   {
     "entities": {
-      "annotations": [
-        {
-          "start": 49,
-          "end": 50,
-          "probability": 0.9735,
-          "type": "Place",
-          "normalized_text": "US"
-        }
-      ],
       "mentions": [
         {
           "start": 3,
@@ -3263,21 +3417,40 @@
           "expanded_url": "https://www.vox.com/2020/8/3/21334149/murders-crime-shootings-protests-riots-trump-biden",
           "display_url": "vox.com/2020/8/3/21334\u2026"
         }
+      ],
+      "annotations": [
+        {
+          "start": 49,
+          "end": 50,
+          "probability": 0.9735,
+          "type": "Place",
+          "normalized_text": "US"
+        }
       ]
     },
+    "created_at": "2020-12-02T18:10:58.000Z",
+    "text": "RT @germanrlopez: The murder rate is up a lot in US cities this year. Here's what you need to know. https://t.co/ZrjDhRzbJM",
     "id": "1334198387202252804",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 6,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
-    },
-    "created_at": "2020-12-02T18:10:58.000Z",
-    "text": "RT @germanrlopez: The murder rate is up a lot in US cities this year. Here's what you need to know. https://t.co/ZrjDhRzbJM",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-12-02T13:41:33.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 109,
+          "end": 132,
+          "url": "https://t.co/Kp775JiHGc",
+          "expanded_url": "https://trib.al/Ncl6afa",
+          "display_url": "trib.al/Ncl6afa"
+        }
+      ],
       "annotations": [
         {
           "start": 12,
@@ -3293,30 +3466,27 @@
           "type": "Place",
           "normalized_text": "Georgia"
         }
-      ],
-      "urls": [
-        {
-          "start": 109,
-          "end": 132,
-          "url": "https://t.co/Kp775JiHGc",
-          "expanded_url": "https://trib.al/Ncl6afa",
-          "display_url": "trib.al/Ncl6afa"
-        }
       ]
     },
+    "text": "The fate of Joe Biden\u2019s presidential agenda will be decided by what Georgia voters do in the next few weeks: https://t.co/Kp775JiHGc",
     "id": "1334130588123623428",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 5,
       "reply_count": 4,
       "like_count": 47,
       "quote_count": 3
-    },
-    "created_at": "2020-12-02T13:41:33.000Z",
-    "text": "The fate of Joe Biden\u2019s presidential agenda will be decided by what Georgia voters do in the next few weeks: https://t.co/Kp775JiHGc",
-    "author_id": "2347049341"
+    }
   },
   {
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 9,
+          "username": "drvox"
+        }
+      ],
       "annotations": [
         {
           "start": 24,
@@ -3332,28 +3502,47 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 9,
-          "username": "drvox"
-        }
       ]
     },
+    "created_at": "2020-12-01T22:41:55.000Z",
+    "text": "RT @drvox: My new post: Biden should take a cue from Trump and run a full-on blitz the second he takes power. Fix the agencies, restore the\u2026",
     "id": "1333904185205538816",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 883,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
-    },
-    "created_at": "2020-12-01T22:41:55.000Z",
-    "text": "RT @drvox: My new post: Biden should take a cue from Trump and run a full-on blitz the second he takes power. Fix the agencies, restore the\u2026",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-12-01T22:30:05.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/zQJvidD5Do",
+          "expanded_url": "https://www.vox.com/2020/12/1/21755390/trump-uae-f35-israel-weapons-sale?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/1/2175\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333901218079514624/Idb-RGGw?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333901218079514624/Idb-RGGw?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "The battle over Trump\u2019s huge UAE arms deal, explained",
+          "description": "Trump wants to send $23 billion in advanced weapons to the Middle Eastern autocracy. Some aim to stop him.",
+          "unwound_url": "https://www.vox.com/2020/12/1/21755390/trump-uae-f35-israel-weapons-sale?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        }
+      ],
       "annotations": [
         {
           "start": 10,
@@ -3383,46 +3572,27 @@
           "type": "Place",
           "normalized_text": "Oval Office"
         }
-      ],
-      "urls": [
-        {
-          "start": 255,
-          "end": 278,
-          "url": "https://t.co/zQJvidD5Do",
-          "expanded_url": "https://www.vox.com/2020/12/1/21755390/trump-uae-f35-israel-weapons-sale?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/12/1/2175\u2026",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1333901218079514624/Idb-RGGw?format=jpg&name=orig",
-              "width": 1200,
-              "height": 600
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1333901218079514624/Idb-RGGw?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "The battle over Trump\u2019s huge UAE arms deal, explained",
-          "description": "Trump wants to send $23 billion in advanced weapons to the Middle Eastern autocracy. Some aim to stop him.",
-          "unwound_url": "https://www.vox.com/2020/12/1/21755390/trump-uae-f35-israel-weapons-sale?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
-        }
       ]
     },
+    "text": "President Donald Trump wants to sell up to 50 F-35 fighter jets, nearly 20 Reaper drones, and around 14,000 bombs and munitions to the UAE \u2014 and he wants to do it before President-elect Joe Biden enters the Oval Office and potentially scuttles the sale.  https://t.co/zQJvidD5Do",
     "id": "1333901208428437510",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 22,
       "reply_count": 11,
       "like_count": 34,
       "quote_count": 7
-    },
-    "created_at": "2020-12-01T22:30:05.000Z",
-    "text": "President Donald Trump wants to sell up to 50 F-35 fighter jets, nearly 20 Reaper drones, and around 14,000 bombs and munitions to the UAE \u2014 and he wants to do it before President-elect Joe Biden enters the Oval Office and potentially scuttles the sale.  https://t.co/zQJvidD5Do",
-    "author_id": "2347049341"
+    }
   },
   {
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 13,
+          "username": "ezraklein"
+        }
+      ],
       "annotations": [
         {
           "start": 38,
@@ -3431,44 +3601,21 @@
           "type": "Person",
           "normalized_text": "Biden"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 13,
-          "username": "ezraklein"
-        }
       ]
     },
+    "created_at": "2020-12-01T22:24:22.000Z",
+    "text": "RT @ezraklein: I agree with this. The Biden administration needs to resist clever theories about sequencing. They need, to the fullest exte\u2026",
     "id": "1333899771841548289",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 2368,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
-    },
-    "created_at": "2020-12-01T22:24:22.000Z",
-    "text": "RT @ezraklein: I agree with this. The Biden administration needs to resist clever theories about sequencing. They need, to the fullest exte\u2026",
-    "author_id": "2347049341"
+    }
   },
   {
     "entities": {
-      "annotations": [
-        {
-          "start": 0,
-          "end": 4,
-          "probability": 0.9984,
-          "type": "Person",
-          "normalized_text": "Trump"
-        },
-        {
-          "start": 141,
-          "end": 145,
-          "probability": 0.934,
-          "type": "Person",
-          "normalized_text": "Biden"
-        }
-      ],
       "mentions": [
         {
           "start": 185,
@@ -3484,28 +3631,44 @@
           "expanded_url": "https://www.vox.com/policy-and-politics/21724758/biden-transition-trump-polarized-climate-change-health-immigration?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
           "display_url": "vox.com/policy-and-pol\u2026"
         }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9984,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 141,
+          "end": 145,
+          "probability": 0.934,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
       ]
     },
+    "created_at": "2020-12-01T18:50:08.000Z",
+    "text": "Trump understood the main rule of navigating hyperpartisan politics: Always be acting. Stay on the offensive. Do everything at once. Blitz.\n\nBiden should do the same as president, says @drvox \u2014 only to improve lives this time. https://t.co/wG8dGnYr8x",
     "id": "1333845855800094720",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 42,
       "reply_count": 13,
       "like_count": 169,
       "quote_count": 15
-    },
-    "created_at": "2020-12-01T18:50:08.000Z",
-    "text": "Trump understood the main rule of navigating hyperpartisan politics: Always be acting. Stay on the offensive. Do everything at once. Blitz.\n\nBiden should do the same as president, says @drvox \u2014 only to improve lives this time. https://t.co/wG8dGnYr8x",
-    "author_id": "2347049341"
+    }
   },
   {
-    "id": "1333827095152238595",
-    "public_metrics": {
-      "retweet_count": 18,
-      "reply_count": 0,
-      "like_count": 0,
-      "quote_count": 0
-    },
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 15,
+          "username": "SigalSamuel"
+        }
+      ],
       "hashtags": [
         {
           "start": 26,
@@ -3517,21 +3680,31 @@
           "end": 119,
           "tag": "ClimateChange"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 15,
-          "username": "SigalSamuel"
-        }
       ]
     },
     "created_at": "2020-12-01T17:35:35.000Z",
     "text": "RT @SigalSamuel: Today is #GivingTuesday and if you're wondering where to donate to make a difference on #ClimateChange \u2014\u00a0here are 3 recomm\u2026",
-    "author_id": "2347049341"
+    "id": "1333827095152238595",
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 18,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
   },
   {
+    "created_at": "2020-12-01T13:00:21.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 138,
+          "end": 161,
+          "url": "https://t.co/8gwXPBd2En",
+          "expanded_url": "https://www.vox.com/21726445/iran-north-korea-russia-afghanistan-joe-biden-foreign-policy?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/21726445/iran-\u2026"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -3568,30 +3741,30 @@
           "type": "Place",
           "normalized_text": "Afghanistan"
         }
-      ],
-      "urls": [
-        {
-          "start": 138,
-          "end": 161,
-          "url": "https://t.co/8gwXPBd2En",
-          "expanded_url": "https://www.vox.com/21726445/iran-north-korea-russia-afghanistan-joe-biden-foreign-policy?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/21726445/iran-\u2026"
-        }
       ]
     },
+    "text": "Biden has big foreign policy plans. But his early agenda could be derailed by crises with Iran, North Korea, Russia, or even Afghanistan. https://t.co/8gwXPBd2En",
     "id": "1333757828985745415",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 3,
       "reply_count": 3,
       "like_count": 19,
       "quote_count": 1
-    },
-    "created_at": "2020-12-01T13:00:21.000Z",
-    "text": "Biden has big foreign policy plans. But his early agenda could be derailed by crises with Iran, North Korea, Russia, or even Afghanistan. https://t.co/8gwXPBd2En",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-12-01T03:23:06.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/3UEVnSwr9i",
+          "expanded_url": "https://trib.al/VdUOlRB",
+          "display_url": "trib.al/VdUOlRB"
+        }
+      ],
       "annotations": [
         {
           "start": 20,
@@ -3621,30 +3794,37 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "urls": [
-        {
-          "start": 256,
-          "end": 279,
-          "url": "https://t.co/3UEVnSwr9i",
-          "expanded_url": "https://trib.al/VdUOlRB",
-          "display_url": "trib.al/VdUOlRB"
-        }
       ]
     },
+    "text": "The lawsuits of the Trump campaign have flopped.\n\nThe key swing states Biden won have certified their results.\n\nAnd GOP state legislative leaders don\u2019t appear to be seriously trying to interfere.\n\nTrump is running out of steam for contesting the election:\nhttps://t.co/3UEVnSwr9i",
     "id": "1333612560218808320",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 13,
       "reply_count": 8,
       "like_count": 82,
       "quote_count": 2
-    },
-    "created_at": "2020-12-01T03:23:06.000Z",
-    "text": "The lawsuits of the Trump campaign have flopped.\n\nThe key swing states Biden won have certified their results.\n\nAnd GOP state legislative leaders don\u2019t appear to be seriously trying to interfere.\n\nTrump is running out of steam for contesting the election:\nhttps://t.co/3UEVnSwr9i",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-11-30T23:26:28.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/7lW17p8JkX",
+          "expanded_url": "https://trib.al/tk1dJ8I",
+          "display_url": "trib.al/tk1dJ8I"
+        },
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/h0vkttRznC",
+          "expanded_url": "https://twitter.com/voxdotcom/status/1333553008513257472/photo/1",
+          "display_url": "pic.twitter.com/h0vkttRznC"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -3681,37 +3861,30 @@
           "type": "Organization",
           "normalized_text": "Federal Reserve"
         }
-      ],
-      "urls": [
-        {
-          "start": 256,
-          "end": 279,
-          "url": "https://t.co/7lW17p8JkX",
-          "expanded_url": "https://trib.al/tk1dJ8I",
-          "display_url": "trib.al/tk1dJ8I"
-        },
-        {
-          "start": 280,
-          "end": 303,
-          "url": "https://t.co/h0vkttRznC",
-          "expanded_url": "https://twitter.com/voxdotcom/status/1333553008513257472/photo/1",
-          "display_url": "pic.twitter.com/h0vkttRznC"
-        }
       ]
     },
+    "text": "Biden announced that he intends to nominate Janet Yellen to head the US Treasury Department.\n\nYellen made history in 2014 when she became the first woman chair of the Federal Reserve. Now she could make history again as the first woman Treasury secretary: https://t.co/7lW17p8JkX https://t.co/h0vkttRznC",
     "id": "1333553008513257472",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 7,
       "reply_count": 6,
       "like_count": 86,
       "quote_count": 1
-    },
-    "created_at": "2020-11-30T23:26:28.000Z",
-    "text": "Biden announced that he intends to nominate Janet Yellen to head the US Treasury Department.\n\nYellen made history in 2014 when she became the first woman chair of the Federal Reserve. Now she could make history again as the first woman Treasury secretary: https://t.co/7lW17p8JkX https://t.co/h0vkttRznC",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-11-30T21:21:41.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 193,
+          "end": 216,
+          "url": "https://t.co/qfPRObs6s9",
+          "expanded_url": "https://trib.al/GiTsOxV",
+          "display_url": "trib.al/GiTsOxV"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -3727,30 +3900,27 @@
           "type": "Person",
           "normalized_text": "Joe Biden"
         }
-      ],
-      "urls": [
-        {
-          "start": 193,
-          "end": 216,
-          "url": "https://t.co/qfPRObs6s9",
-          "expanded_url": "https://trib.al/GiTsOxV",
-          "display_url": "trib.al/GiTsOxV"
-        }
       ]
     },
+    "text": "President Trump still has not conceded his defeat to President-elect Joe Biden, but his bid to overturn the election results has been sputtering out over the past week slowly then all at once:\nhttps://t.co/qfPRObs6s9",
     "id": "1333521608682647555",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 28,
       "reply_count": 14,
       "like_count": 85,
       "quote_count": 4
-    },
-    "created_at": "2020-11-30T21:21:41.000Z",
-    "text": "President Trump still has not conceded his defeat to President-elect Joe Biden, but his bid to overturn the election results has been sputtering out over the past week slowly then all at once:\nhttps://t.co/qfPRObs6s9",
-    "author_id": "2347049341"
+    }
   },
   {
     "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 15,
+          "username": "ella_nilsen"
+        }
+      ],
       "annotations": [
         {
           "start": 17,
@@ -3766,28 +3936,31 @@
           "type": "Person",
           "normalized_text": "Trump"
         }
-      ],
-      "mentions": [
-        {
-          "start": 3,
-          "end": 15,
-          "username": "ella_nilsen"
-        }
       ]
     },
+    "created_at": "2020-11-30T21:15:09.000Z",
+    "text": "RT @ella_nilsen: Biden may be president-elect, but Trump is still the big political factor for both R's and D's in the GA Senate runoffs.\u2026",
     "id": "1333519962225389570",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 11,
       "reply_count": 0,
       "like_count": 0,
       "quote_count": 0
-    },
-    "created_at": "2020-11-30T21:15:09.000Z",
-    "text": "RT @ella_nilsen: Biden may be president-elect, but Trump is still the big political factor for both R's and D's in the GA Senate runoffs.\u2026",
-    "author_id": "2347049341"
+    }
   },
   {
+    "created_at": "2020-11-30T20:10:08.000Z",
     "entities": {
+      "urls": [
+        {
+          "start": 164,
+          "end": 187,
+          "url": "https://t.co/vjusnqOYph",
+          "expanded_url": "https://www.vox.com/2020/11/30/21571672/north-carolina-election-results-why-biden-lost?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/11/30/215\u2026"
+        }
+      ],
       "annotations": [
         {
           "start": 0,
@@ -3817,35 +3990,177 @@
           "type": "Person",
           "normalized_text": "Cal Cunningham"
         }
-      ],
-      "urls": [
-        {
-          "start": 164,
-          "end": 187,
-          "url": "https://t.co/vjusnqOYph",
-          "expanded_url": "https://www.vox.com/2020/11/30/21571672/north-carolina-election-results-why-biden-lost?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
-          "display_url": "vox.com/2020/11/30/215\u2026"
-        }
       ]
     },
+    "text": "Democrats hoped to turn North Carolina blue. Instead, Joe Biden and Cal Cunningham lost. Activists say the party must make major changes to strategy ahead of 2022. https://t.co/vjusnqOYph",
     "id": "1333503601839366144",
+    "author_id": "2347049341",
     "public_metrics": {
       "retweet_count": 12,
       "reply_count": 25,
       "like_count": 52,
       "quote_count": 9
-    },
-    "created_at": "2020-11-30T20:10:08.000Z",
-    "text": "Democrats hoped to turn North Carolina blue. Instead, Joe Biden and Cal Cunningham lost. Activists say the party must make major changes to strategy ahead of 2022. https://t.co/vjusnqOYph",
-    "author_id": "2347049341"
+    }
   },
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 85,
-      "reply_count": 160,
-      "like_count": 463,
+      "retweet_count": 81,
+      "reply_count": 91,
+      "like_count": 733,
+      "quote_count": 42
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/NkAZvU8gIV",
+          "expanded_url": "https://cnn.it/3oAh0wD",
+          "display_url": "cnn.it/3oAh0wD"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.6832,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 85,
+          "end": 93,
+          "probability": 0.998,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 163,
+          "end": 180,
+          "probability": 0.7665,
+          "type": "Person",
+          "normalized_text": "Brad Raffensperger"
+        },
+        {
+          "start": 239,
+          "end": 253,
+          "probability": 0.6899,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T17:24:54.000Z",
+    "id": "1335998735680212993",
+    "text": "Georgia is set to recertify its presidential election results, which will again find Joe Biden as the winner following three counts of ballots, Secretary of State Brad Raffensperger says. News of the recertification is yet another blow to President Trump. https://t.co/NkAZvU8gIV"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 88,
+      "reply_count": 40,
+      "like_count": 771,
+      "quote_count": 21
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 191,
+          "end": 214,
+          "url": "https://t.co/okRURnEjwg",
+          "expanded_url": "https://cnn.it/3lRJArm",
+          "display_url": "cnn.it/3lRJArm"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 16,
+          "probability": 0.9,
+          "type": "Person",
+          "normalized_text": "Dr. Anthony Fauci"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T15:16:00.000Z",
+    "id": "1335966294407933952",
+    "text": "Dr. Anthony Fauci will serve as chief medical adviser to the President on Covid-19 and will also continue in his role as director of the National Institute of Allergy and Infectious Diseases https://t.co/okRURnEjwg"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 192,
+      "reply_count": 107,
+      "like_count": 1163,
       "quote_count": 25
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/7DliYdTEgr",
+          "expanded_url": "https://cnn.it/3gjyudJ",
+          "display_url": "cnn.it/3gjyudJ"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9902,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 70,
+          "end": 83,
+          "probability": 0.97,
+          "type": "Person",
+          "normalized_text": "Xavier Becerra"
+        },
+        {
+          "start": 105,
+          "end": 120,
+          "probability": 0.6579,
+          "type": "Person",
+          "normalized_text": "Dr. Vivek Murthy"
+        },
+        {
+          "start": 144,
+          "end": 164,
+          "probability": 0.6613,
+          "type": "Person",
+          "normalized_text": "Dr. Rochelle Walensky"
+        },
+        {
+          "start": 181,
+          "end": 202,
+          "probability": 0.2988,
+          "type": "Person",
+          "normalized_text": "\u25aa\ufe0e Dr. Marcella Nunez"
+        },
+        {
+          "start": 204,
+          "end": 208,
+          "probability": 0.474,
+          "type": "Person",
+          "normalized_text": "Smith"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T15:11:40.000Z",
+    "id": "1335965206615379975",
+    "text": "Biden nominated these people, and more, for his health team:\n\u25aa\ufe0e CA AG Xavier Becerra as HHS secretary\n\u25aa\ufe0e Dr. Vivek Murthy as surgeon general\n\u25aa\ufe0e Dr. Rochelle Walensky as CDC director\n\u25aa\ufe0e Dr. Marcella Nunez-Smith as Covid-19 equity task force chair https://t.co/7DliYdTEgr"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 115,
+      "reply_count": 255,
+      "like_count": 705,
+      "quote_count": 47
     },
     "entities": {
       "urls": [
@@ -3902,10 +4217,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 45,
-      "reply_count": 74,
-      "like_count": 319,
-      "quote_count": 13
+      "retweet_count": 65,
+      "reply_count": 101,
+      "like_count": 416,
+      "quote_count": 17
     },
     "entities": {
       "urls": [
@@ -3962,10 +4277,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 92,
-      "reply_count": 415,
-      "like_count": 1049,
-      "quote_count": 65
+      "retweet_count": 137,
+      "reply_count": 585,
+      "like_count": 1610,
+      "quote_count": 86
     },
     "entities": {
       "urls": [
@@ -4015,10 +4330,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 117,
-      "reply_count": 135,
-      "like_count": 1312,
-      "quote_count": 21
+      "retweet_count": 124,
+      "reply_count": 137,
+      "like_count": 1382,
+      "quote_count": 22
     },
     "entities": {
       "urls": [
@@ -4068,10 +4383,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 76,
-      "reply_count": 87,
-      "like_count": 932,
-      "quote_count": 20
+      "retweet_count": 78,
+      "reply_count": 89,
+      "like_count": 965,
+      "quote_count": 21
     },
     "entities": {
       "urls": [
@@ -4123,7 +4438,7 @@
     "public_metrics": {
       "retweet_count": 62,
       "reply_count": 74,
-      "like_count": 545,
+      "like_count": 548,
       "quote_count": 14
     },
     "entities": {
@@ -4174,10 +4489,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 1092,
-      "reply_count": 1776,
-      "like_count": 11890,
-      "quote_count": 477
+      "retweet_count": 1127,
+      "reply_count": 1904,
+      "like_count": 12336,
+      "quote_count": 507
     },
     "entities": {
       "urls": [
@@ -4213,10 +4528,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 140,
-      "reply_count": 434,
-      "like_count": 322,
-      "quote_count": 74
+      "retweet_count": 142,
+      "reply_count": 443,
+      "like_count": 326,
+      "quote_count": 75
     },
     "entities": {
       "urls": [
@@ -4254,7 +4569,7 @@
     "public_metrics": {
       "retweet_count": 110,
       "reply_count": 127,
-      "like_count": 888,
+      "like_count": 895,
       "quote_count": 22
     },
     "entities": {
@@ -4292,8 +4607,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 112,
-      "reply_count": 471,
-      "like_count": 1202,
+      "reply_count": 472,
+      "like_count": 1204,
       "quote_count": 36
     },
     "entities": {
@@ -4359,8 +4674,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 273,
-      "reply_count": 352,
-      "like_count": 924,
+      "reply_count": 354,
+      "like_count": 927,
       "quote_count": 68
     },
     "entities": {
@@ -4458,8 +4773,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 114,
-      "reply_count": 417,
-      "like_count": 1213,
+      "reply_count": 418,
+      "like_count": 1212,
       "quote_count": 35
     },
     "entities": {
@@ -4524,10 +4839,10 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 812,
-      "reply_count": 1815,
-      "like_count": 2847,
-      "quote_count": 598
+      "retweet_count": 811,
+      "reply_count": 1817,
+      "like_count": 2851,
+      "quote_count": 599
     },
     "entities": {
       "urls": [
@@ -4579,7 +4894,7 @@
     "public_metrics": {
       "retweet_count": 179,
       "reply_count": 283,
-      "like_count": 516,
+      "like_count": 517,
       "quote_count": 65
     },
     "entities": {
@@ -4625,7 +4940,7 @@
     "public_metrics": {
       "retweet_count": 57,
       "reply_count": 126,
-      "like_count": 673,
+      "like_count": 676,
       "quote_count": 28
     },
     "entities": {
@@ -4664,7 +4979,7 @@
     "public_metrics": {
       "retweet_count": 61,
       "reply_count": 180,
-      "like_count": 572,
+      "like_count": 574,
       "quote_count": 12
     },
     "entities": {
@@ -4717,7 +5032,7 @@
     "public_metrics": {
       "retweet_count": 444,
       "reply_count": 441,
-      "like_count": 979,
+      "like_count": 980,
       "quote_count": 130
     },
     "entities": {
@@ -4727,23 +5042,7 @@
           "end": 196,
           "url": "https://t.co/99Nc3igFao",
           "expanded_url": "https://cnn.it/36IbMss",
-          "display_url": "cnn.it/36IbMss",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1335039099175112704/RtLtRJUJ?format=jpg&name=orig",
-              "width": 1100,
-              "height": 619
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1335039099175112704/RtLtRJUJ?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Pentagon blocked Biden's intelligence transition team from meeting with agencies",
-          "description": "The Trump administration prevented President-elect Joe Biden's transition team from meeting with its counterparts at Pentagon intelligence agencies this week, according to a former senior intelligence official familiar with intelligence transition discussions.",
-          "unwound_url": "https://www.cnn.com/2020/12/04/politics/pentagon-biden-transition-intelligence/index.html?utm_medium=social&utm_content=2020-12-05T02%3A41%3A52&utm_term=link&utm_source=twCNN"
+          "display_url": "cnn.it/36IbMss"
         }
       ],
       "annotations": [
@@ -4878,7 +5177,7 @@
     "public_metrics": {
       "retweet_count": 55,
       "reply_count": 113,
-      "like_count": 446,
+      "like_count": 447,
       "quote_count": 12
     },
     "entities": {
@@ -4931,7 +5230,7 @@
     "public_metrics": {
       "retweet_count": 215,
       "reply_count": 399,
-      "like_count": 1747,
+      "like_count": 1748,
       "quote_count": 66
     },
     "entities": {
@@ -4941,23 +5240,7 @@
           "end": 210,
           "url": "https://t.co/J18AXOhSVx",
           "expanded_url": "https://cnn.it/3qqSks2",
-          "display_url": "cnn.it/3qqSks2",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1334884338454855680/ATxjotsO?format=jpg&name=orig",
-              "width": 1100,
-              "height": 619
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1334884338454855680/ATxjotsO?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Biden's popular vote margin over Trump tops 7 million",
-          "description": "President-elect Joe Biden's margin over President Donald Trump in the nationwide popular vote is now more than 7 million votes and may continue to grow as several states continue counting votes.",
-          "unwound_url": "https://www.cnn.com/2020/12/04/politics/biden-popular-vote-margin-7-million/index.html?utm_medium=social&utm_term=link&utm_source=twCNN&utm_content=2020-12-04T19%3A50%3A01"
+          "display_url": "cnn.it/3qqSks2"
         }
       ],
       "annotations": [
@@ -5025,7 +5308,7 @@
     "public_metrics": {
       "retweet_count": 157,
       "reply_count": 488,
-      "like_count": 1850,
+      "like_count": 1852,
       "quote_count": 81
     },
     "entities": {
@@ -5057,8 +5340,8 @@
     "public_metrics": {
       "retweet_count": 323,
       "reply_count": 753,
-      "like_count": 3188,
-      "quote_count": 139
+      "like_count": 3191,
+      "quote_count": 140
     },
     "entities": {
       "urls": [
@@ -5096,7 +5379,7 @@
     "public_metrics": {
       "retweet_count": 49,
       "reply_count": 162,
-      "like_count": 313,
+      "like_count": 314,
       "quote_count": 4
     },
     "entities": {
@@ -5106,7 +5389,23 @@
           "end": 276,
           "url": "https://t.co/H3jy5VO0yH",
           "expanded_url": "https://cnn.it/36Df28y",
-          "display_url": "cnn.it/36Df28y"
+          "display_url": "cnn.it/36Df28y",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334817610546860036/EAAnwss4?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334817610546860036/EAAnwss4?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Biden wrestles with politics in effort to depoliticize the Justice Department",
+          "description": "Political questions from Democrats and a new Republican litmus test have suddenly become complicating factors in one of President-elect Joe Biden's most critical choices: picking a new Attorney General to lead the Justice Department out of its highly politicized era.",
+          "unwound_url": "https://www.cnn.com/2020/12/04/politics/biden-attorney-general-search/index.html?utm_medium=social&utm_content=2020-12-04T12%3A45%3A05&utm_source=twCNN&utm_term=link"
         }
       ],
       "annotations": [
@@ -5149,8 +5448,8 @@
     "public_metrics": {
       "retweet_count": 309,
       "reply_count": 1160,
-      "like_count": 4166,
-      "quote_count": 197
+      "like_count": 4171,
+      "quote_count": 198
     },
     "entities": {
       "urls": [
@@ -5181,7 +5480,7 @@
     "public_metrics": {
       "retweet_count": 73,
       "reply_count": 249,
-      "like_count": 630,
+      "like_count": 631,
       "quote_count": 22
     },
     "entities": {
@@ -5230,7 +5529,7 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 74,
+      "retweet_count": 73,
       "reply_count": 106,
       "like_count": 431,
       "quote_count": 17
@@ -5370,7 +5669,7 @@
     "public_metrics": {
       "retweet_count": 142,
       "reply_count": 232,
-      "like_count": 1478,
+      "like_count": 1479,
       "quote_count": 35
     },
     "entities": {
@@ -5409,7 +5708,7 @@
     "public_metrics": {
       "retweet_count": 187,
       "reply_count": 456,
-      "like_count": 2601,
+      "like_count": 2603,
       "quote_count": 83
     },
     "entities": {
@@ -5447,8 +5746,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 114,
-      "reply_count": 340,
-      "like_count": 981,
+      "reply_count": 339,
+      "like_count": 982,
       "quote_count": 23
     },
     "entities": {
@@ -5458,23 +5757,7 @@
           "end": 243,
           "url": "https://t.co/Hg0dpdtEtG",
           "expanded_url": "https://cnn.it/3onBk3Y",
-          "display_url": "cnn.it/3onBk3Y",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1334700730809274372/oGMB4M88?format=jpg&name=orig",
-              "width": 780,
-              "height": 438
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1334700730809274372/oGMB4M88?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Biden on Trump's possible pardons for family: \"It concerns me\"",
-          "description": "President-elect Joe Biden told CNN's Jake Tapper that he was concerned about reports that President Trump is considering a host of preemptive pardons for his adult children and lawyer Rudy Giuliani, as well as the possibility of one for himself.",
-          "unwound_url": "https://www.cnn.com/politics/live-news/biden-trump-us-election-news-12-03-20/h_d58f958cc30c727786086bc83e861f84?utm_term=link&utm_source=twCNN&utm_content=2020-12-04T03%3A31%3A03&utm_medium=social"
+          "display_url": "cnn.it/3onBk3Y"
         }
       ],
       "annotations": [
@@ -5545,7 +5828,7 @@
     "public_metrics": {
       "retweet_count": 110,
       "reply_count": 235,
-      "like_count": 1354,
+      "like_count": 1356,
       "quote_count": 29
     },
     "entities": {
@@ -5623,7 +5906,7 @@
     "public_metrics": {
       "retweet_count": 110,
       "reply_count": 242,
-      "like_count": 966,
+      "like_count": 967,
       "quote_count": 36
     },
     "entities": {
@@ -5709,7 +5992,23 @@
           "end": 190,
           "url": "https://t.co/suS1iNkmnc",
           "expanded_url": "https://cnn.it/2IcJo8s",
-          "display_url": "cnn.it/2IcJo8s"
+          "display_url": "cnn.it/2IcJo8s",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334624325958324226/aGfM6YmL?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334624325958324226/aGfM6YmL?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "CNN Exclusive: Biden says he has asked Fauci to be a chief medical adviser during his administration",
+          "description": "President-elect Joe Biden told CNN's Jake Tapper on Thursday that he has asked Dr. Anthony Fauci to be a chief medical adviser and part of his Covid-19 response team when his administration begins next year.",
+          "unwound_url": "https://www.cnn.com/2020/12/03/politics/biden-harris-interview-jake-tapper/index.html?utm_medium=social&utm_source=twCNN&utm_term=link&utm_content=2020-12-04T01%3A01%3A08"
         }
       ],
       "annotations": [
@@ -5751,8 +6050,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 359,
-      "reply_count": 1185,
-      "like_count": 5028,
+      "reply_count": 1186,
+      "like_count": 5029,
       "quote_count": 186
     },
     "entities": {
@@ -5805,7 +6104,7 @@
     "public_metrics": {
       "retweet_count": 240,
       "reply_count": 613,
-      "like_count": 2165,
+      "like_count": 2166,
       "quote_count": 120
     },
     "entities": {
@@ -5925,7 +6224,7 @@
     "public_metrics": {
       "retweet_count": 125,
       "reply_count": 203,
-      "like_count": 775,
+      "like_count": 776,
       "quote_count": 18
     },
     "entities": {
@@ -5977,8 +6276,8 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 162,
-      "reply_count": 116,
-      "like_count": 2204,
+      "reply_count": 117,
+      "like_count": 2203,
       "quote_count": 32
     },
     "entities": {
@@ -6016,9 +6315,9 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 290,
-      "reply_count": 360,
-      "like_count": 2217,
-      "quote_count": 80
+      "reply_count": 358,
+      "like_count": 2219,
+      "quote_count": 81
     },
     "entities": {
       "urls": [
@@ -6328,7 +6627,7 @@
     "public_metrics": {
       "retweet_count": 164,
       "reply_count": 209,
-      "like_count": 1108,
+      "like_count": 1109,
       "quote_count": 31
     },
     "entities": {
@@ -6512,7 +6811,7 @@
     "public_metrics": {
       "retweet_count": 174,
       "reply_count": 152,
-      "like_count": 1509,
+      "like_count": 1508,
       "quote_count": 17
     },
     "entities": {
@@ -6578,7 +6877,7 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 31,
-      "reply_count": 70,
+      "reply_count": 69,
       "like_count": 347,
       "quote_count": 9
     },
@@ -6674,23 +6973,7 @@
           "end": 179,
           "url": "https://t.co/GQPEgQW9C7",
           "expanded_url": "https://cnn.it/3lttBzq",
-          "display_url": "cnn.it/3lttBzq",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1333475018580189184/UeLjvzU7?format=jpg&name=orig",
-              "width": 1100,
-              "height": 619
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1333475018580189184/UeLjvzU7?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Trump said the stock market would crash if Biden won. The Dow is having its best month since 1987.",
-          "description": "President Donald Trump repeatedly warned Americans that if they failed to reelect him, the stock market would implode. In reality, the opposite happened.",
-          "unwound_url": "https://www.cnn.com/2020/11/30/business/stock-market-dow-jones-trump-biden/index.html?utm_medium=social&utm_term=link&utm_source=twCNN&utm_content=2020-12-01T19%3A20%3A06"
+          "display_url": "cnn.it/3lttBzq"
         }
       ],
       "annotations": [
@@ -6726,7 +7009,7 @@
     "public_metrics": {
       "retweet_count": 57,
       "reply_count": 160,
-      "like_count": 304,
+      "like_count": 302,
       "quote_count": 25
     },
     "entities": {
@@ -6778,7 +7061,7 @@
     "author_id": "759251",
     "public_metrics": {
       "retweet_count": 31,
-      "reply_count": 104,
+      "reply_count": 105,
       "like_count": 241,
       "quote_count": 13
     },
@@ -6823,7 +7106,7 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 245,
+      "retweet_count": 246,
       "reply_count": 384,
       "like_count": 2477,
       "quote_count": 44
@@ -6864,7 +7147,7 @@
     "public_metrics": {
       "retweet_count": 107,
       "reply_count": 143,
-      "like_count": 1106,
+      "like_count": 1105,
       "quote_count": 11
     },
     "entities": {
@@ -6910,7 +7193,7 @@
     "public_metrics": {
       "retweet_count": 1142,
       "reply_count": 813,
-      "like_count": 7826,
+      "like_count": 7827,
       "quote_count": 294
     },
     "entities": {
@@ -6957,7 +7240,7 @@
       "retweet_count": 132,
       "reply_count": 218,
       "like_count": 1094,
-      "quote_count": 35
+      "quote_count": 34
     },
     "entities": {
       "urls": [
@@ -7146,7 +7429,23 @@
           "end": 140,
           "url": "https://t.co/vU8PwQ4Hgq",
           "expanded_url": "https://cnn.it/36ofhEl",
-          "display_url": "cnn.it/36ofhEl"
+          "display_url": "cnn.it/36ofhEl",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333539344280326146/t1Hxp1GG?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333539344280326146/t1Hxp1GG?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Wisconsin finalizes Biden's victory after partial recount",
+          "description": "The Wisconsin Elections Commission finalized the state's presidential results on Monday, affirming President-elect Joe Biden's victory after a recount in Wisconsin's two most populous counties.",
+          "unwound_url": "https://www.cnn.com/2020/11/30/politics/joe-biden-wisconsin-victory-finalized/index.html?utm_content=2020-11-30T23%3A47%3A12&utm_source=twCNN&utm_term=link&utm_medium=social"
         }
       ],
       "annotations": [
@@ -7182,7 +7481,7 @@
     "public_metrics": {
       "retweet_count": 1133,
       "reply_count": 1422,
-      "like_count": 8293,
+      "like_count": 8295,
       "quote_count": 351
     },
     "entities": {
@@ -7461,7 +7760,7 @@
     "public_metrics": {
       "retweet_count": 504,
       "reply_count": 450,
-      "like_count": 7452,
+      "like_count": 7451,
       "quote_count": 165
     },
     "entities": {
@@ -7551,9 +7850,9 @@
   {
     "author_id": "759251",
     "public_metrics": {
-      "retweet_count": 2708,
-      "reply_count": 2031,
-      "like_count": 17722,
+      "retweet_count": 2707,
+      "reply_count": 2030,
+      "like_count": 17721,
       "quote_count": 868
     },
     "entities": {
@@ -7696,89 +7995,64 @@
     "text": "President-elect Joe Biden is weighing several barrier-breaking candidates to be his Secretary of Defense https://t.co/AaowAeSsoi"
   },
   {
-    "author_id": "759251",
-    "public_metrics": {
-      "retweet_count": 61,
-      "reply_count": 71,
-      "like_count": 371,
-      "quote_count": 6
-    },
     "entities": {
-      "urls": [
-        {
-          "start": 235,
-          "end": 258,
-          "url": "https://t.co/OdjX56YBvC",
-          "expanded_url": "https://cnn.it/2JwJRCt",
-          "display_url": "cnn.it/2JwJRCt"
-        }
-      ],
-      "mentions": [
-        {
-          "start": 202,
-          "end": 215,
-          "username": "JohnJHarwood"
-        }
-      ],
       "annotations": [
         {
-          "start": 87,
-          "end": 95,
-          "probability": 0.9784,
+          "start": 0,
+          "end": 10,
+          "probability": 0.8379,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "probability": 0.9806,
           "type": "Person",
-          "normalized_text": "Joe Biden"
-        }
-      ]
-    },
-    "created_at": "2020-11-30T17:41:14.000Z",
-    "id": "1333466127981305856",
-    "text": "\"Responding to the economic dislocations of the pandemic won't require President-elect Joe Biden to rewrite the economic plans he'd already developed, because of who they were always intended to help,\" @JohnJHarwood writes. | Analysis https://t.co/OdjX56YBvC"
-  },
-  {
-    "author_id": "759251",
-    "public_metrics": {
-      "retweet_count": 122,
-      "reply_count": 155,
-      "like_count": 1498,
-      "quote_count": 29
-    },
-    "entities": {
-      "urls": [
-        {
-          "start": 178,
-          "end": 201,
-          "url": "https://t.co/lFXdZQqUaf",
-          "expanded_url": "https://cnn.it/2KT7hCZ",
-          "display_url": "cnn.it/2KT7hCZ"
-        }
-      ],
-      "annotations": [
+          "normalized_text": "Biden"
+        },
         {
           "start": 25,
-          "end": 33,
-          "probability": 0.985,
-          "type": "Person",
-          "normalized_text": "Joe Biden"
-        },
-        {
-          "start": 54,
-          "end": 65,
-          "probability": 0.998,
-          "type": "Person",
-          "normalized_text": "Janet Yellen"
-        },
-        {
-          "start": 70,
-          "end": 77,
-          "probability": 0.5162,
+          "end": 27,
+          "probability": 0.6878,
           "type": "Organization",
-          "normalized_text": "Treasury"
+          "normalized_text": "HHS"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "probability": 0.805,
+          "type": "Person",
+          "normalized_text": "Becerra"
+        },
+        {
+          "start": 59,
+          "end": 68,
+          "probability": 0.8757,
+          "type": "Place",
+          "normalized_text": "California"
+        }
+      ],
+      "urls": [
+        {
+          "start": 71,
+          "end": 94,
+          "url": "https://t.co/JPI0fGvFgL",
+          "expanded_url": "https://www.foxnews.com/politics/republicans-biden-hhs-xavier-becerra-abortion-senate",
+          "display_url": "foxnews.com/politics/repub\u2026"
         }
       ]
     },
-    "created_at": "2020-11-30T15:50:13.000Z",
-    "id": "1333438189458116613",
-    "text": "JUST IN: President-elect Joe Biden formally nominates Janet Yellen as Treasury chief and makes other key economic team picks, calling the group \"groundbreaking public servants.\" https://t.co/lFXdZQqUaf"
+    "id": "1335988433391661062",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 81,
+      "like_count": 214,
+      "quote_count": 11
+    },
+    "created_at": "2020-12-07T16:43:58.000Z",
+    "text": "Republicans slam Biden's HHS pick Becerra as 'disaster for California'\nhttps://t.co/JPI0fGvFgL",
+    "author_id": "1367531"
   },
   {
     "entities": {
@@ -7824,10 +8098,10 @@
     },
     "id": "1335905711390339073",
     "public_metrics": {
-      "retweet_count": 45,
-      "reply_count": 292,
-      "like_count": 364,
-      "quote_count": 25
+      "retweet_count": 54,
+      "reply_count": 352,
+      "like_count": 428,
+      "quote_count": 29
     },
     "created_at": "2020-12-07T11:15:16.000Z",
     "text": "Biden picks health team, including Fauci as top coronavirus adviser and controversial Calif. attorney general to lead HHS\nhttps://t.co/r61bF6Rj5Q",
@@ -7878,7 +8152,7 @@
     "id": "1335280596583665665",
     "public_metrics": {
       "retweet_count": 34,
-      "reply_count": 381,
+      "reply_count": 383,
       "like_count": 186,
       "quote_count": 27
     },
@@ -7909,7 +8183,7 @@
     },
     "id": "1335049090829340675",
     "public_metrics": {
-      "retweet_count": 75,
+      "retweet_count": 76,
       "reply_count": 100,
       "like_count": 296,
       "quote_count": 15
@@ -7962,8 +8236,8 @@
     },
     "id": "1335038463993913345",
     "public_metrics": {
-      "retweet_count": 118,
-      "reply_count": 306,
+      "retweet_count": 119,
+      "reply_count": 307,
       "like_count": 610,
       "quote_count": 35
     },
@@ -7995,8 +8269,8 @@
     "id": "1334993969562980353",
     "public_metrics": {
       "retweet_count": 84,
-      "reply_count": 837,
-      "like_count": 647,
+      "reply_count": 842,
+      "like_count": 648,
       "quote_count": 60
     },
     "created_at": "2020-12-04T22:52:19.000Z",
@@ -8026,9 +8300,9 @@
     },
     "id": "1334630339453521923",
     "public_metrics": {
-      "retweet_count": 254,
+      "retweet_count": 255,
       "reply_count": 3543,
-      "like_count": 2824,
+      "like_count": 2827,
       "quote_count": 530
     },
     "created_at": "2020-12-03T22:47:23.000Z",
@@ -8072,9 +8346,9 @@
     },
     "id": "1334601200889712640",
     "public_metrics": {
-      "retweet_count": 57,
+      "retweet_count": 58,
       "reply_count": 120,
-      "like_count": 292,
+      "like_count": 293,
       "quote_count": 13
     },
     "created_at": "2020-12-03T20:51:36.000Z",
@@ -8111,7 +8385,7 @@
     },
     "id": "1334598631068844032",
     "public_metrics": {
-      "retweet_count": 42,
+      "retweet_count": 43,
       "reply_count": 140,
       "like_count": 182,
       "quote_count": 10
@@ -8157,7 +8431,7 @@
     },
     "id": "1334588379648942082",
     "public_metrics": {
-      "retweet_count": 108,
+      "retweet_count": 109,
       "reply_count": 265,
       "like_count": 646,
       "quote_count": 31
@@ -8196,8 +8470,8 @@
     },
     "id": "1334273656697073667",
     "public_metrics": {
-      "retweet_count": 864,
-      "reply_count": 2653,
+      "retweet_count": 865,
+      "reply_count": 2652,
       "like_count": 7752,
       "quote_count": 306
     },
@@ -8235,7 +8509,7 @@
     },
     "id": "1334152931617222656",
     "public_metrics": {
-      "retweet_count": 69,
+      "retweet_count": 70,
       "reply_count": 176,
       "like_count": 227,
       "quote_count": 21
@@ -8288,7 +8562,7 @@
     },
     "id": "1334137160614735877",
     "public_metrics": {
-      "retweet_count": 51,
+      "retweet_count": 52,
       "reply_count": 603,
       "like_count": 425,
       "quote_count": 66
@@ -8334,7 +8608,7 @@
     },
     "id": "1333896907698171907",
     "public_metrics": {
-      "retweet_count": 73,
+      "retweet_count": 74,
       "reply_count": 458,
       "like_count": 322,
       "quote_count": 44
@@ -8407,7 +8681,7 @@
     "public_metrics": {
       "retweet_count": 397,
       "reply_count": 1467,
-      "like_count": 1012,
+      "like_count": 1011,
       "quote_count": 212
     },
     "created_at": "2020-12-01T00:14:29.000Z",
@@ -8523,23 +8797,7 @@
           "end": 84,
           "url": "https://t.co/Pp2EPQ7Jty",
           "expanded_url": "https://fxn.ws/37pG426",
-          "display_url": "fxn.ws/37pG426",
-          "images": [
-            {
-              "url": "https://pbs.twimg.com/news_img/1333491770898882560/f-s8aLTw?format=jpg&name=orig",
-              "width": 1024,
-              "height": 512
-            },
-            {
-              "url": "https://pbs.twimg.com/news_img/1333491770898882560/f-s8aLTw?format=jpg&name=150x150",
-              "width": 150,
-              "height": 150
-            }
-          ],
-          "status": 200,
-          "title": "Biden pick privately trashed him in 2015, said he would make Clinton look better by comparison",
-          "description": "Neera Tanden is President-elect Joe Biden's pick for director of the Office of Management and Budget, but\u00a0a leaked email\u00a0from 2015 indicates that Tanden may not have always believed Biden was the best Democratic presidential candidate for the job.",
-          "unwound_url": "https://www.foxnews.com/politics/biden-cabinet-nominee-tanden-privately-trashed-biden-2015-email"
+          "display_url": "fxn.ws/37pG426"
         }
       ]
     },
@@ -8601,6 +8859,74 @@
     "author_id": "1367531"
   },
   {
+    "public_metrics": {
+      "retweet_count": 2617,
+      "reply_count": 238,
+      "like_count": 8876,
+      "quote_count": 221
+    },
+    "entities": {
+      "annotations": [
+        {
+          "start": 89,
+          "end": 93,
+          "probability": 0.9847,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 104,
+          "end": 127,
+          "url": "https://t.co/ow4EBq8U9v",
+          "expanded_url": "https://www.oann.com/key-battleground-states-show-massive-election-fraud-voting-irregularities-totally-erase-bidens-lead/",
+          "display_url": "oann.com/key-battlegrou\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335973090115915776/NNy5SN0r?format=jpg&name=orig",
+              "width": 320,
+              "height": 180
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335973090115915776/NNy5SN0r?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Key battleground states show massive election fraud, voting irregulari",
+          "description": "Voting irregularities and evidence of fraud are quickly piling up in key battleground states across the country. One America's Pearson Sharp breaks down the totals from each state.",
+          "unwound_url": "https://www.oann.com/key-battleground-states-show-massive-election-fraud-voting-irregularities-totally-erase-bidens-lead/"
+        },
+        {
+          "start": 134,
+          "end": 157,
+          "url": "https://t.co/RYagaUaE3I",
+          "expanded_url": "https://twitter.com/OANN/status/1335973533088772097/photo/1",
+          "display_url": "pic.twitter.com/RYagaUaE3I"
+        }
+      ],
+      "hashtags": [
+        {
+          "start": 128,
+          "end": 133,
+          "tag": "OANN"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "id": "1335973533088772097",
+    "created_at": "2020-12-07T15:44:46.000Z",
+    "text": "Key battleground states show massive election fraud, voting irregularities totally erase Biden\u2019s lead - https://t.co/ow4EBq8U9v #OANN https://t.co/RYagaUaE3I"
+  },
+  {
+    "public_metrics": {
+      "retweet_count": 581,
+      "reply_count": 85,
+      "like_count": 2542,
+      "quote_count": 28
+    },
     "entities": {
       "annotations": [
         {
@@ -8616,20 +8942,6 @@
           "probability": 0.9861,
           "type": "Person",
           "normalized_text": "Biden"
-        }
-      ],
-      "hashtags": [
-        {
-          "start": 111,
-          "end": 116,
-          "tag": "OANN"
-        }
-      ],
-      "mentions": [
-        {
-          "start": 117,
-          "end": 132,
-          "username": "JennPellegrino"
         }
       ],
       "urls": [
@@ -8663,20 +8975,34 @@
           "expanded_url": "https://twitter.com/OANN/status/1334161178956681216/photo/1",
           "display_url": "pic.twitter.com/19XsbOCYjJ"
         }
+      ],
+      "mentions": [
+        {
+          "start": 117,
+          "end": 132,
+          "username": "JennPellegrino"
+        }
+      ],
+      "hashtags": [
+        {
+          "start": 111,
+          "end": 116,
+          "tag": "OANN"
+        }
       ]
     },
-    "id": "1334161178956681216",
-    "public_metrics": {
-      "retweet_count": 580,
-      "reply_count": 85,
-      "like_count": 2543,
-      "quote_count": 28
-    },
-    "created_at": "2020-12-02T15:43:07.000Z",
     "author_id": "1209936918",
+    "id": "1334161178956681216",
+    "created_at": "2020-12-02T15:43:07.000Z",
     "text": "President Trump\u2019s \u2018must read\u2019 article outlines Biden\u2019s peculiar election performance - https://t.co/NiNMPWy0wN #OANN @JennPellegrino https://t.co/19XsbOCYjJ"
   },
   {
+    "public_metrics": {
+      "retweet_count": 5274,
+      "reply_count": 223,
+      "like_count": 14322,
+      "quote_count": 405
+    },
     "entities": {
       "annotations": [
         {
@@ -8699,13 +9025,6 @@
           "probability": 0.9729,
           "type": "Person",
           "normalized_text": "Biden"
-        }
-      ],
-      "hashtags": [
-        {
-          "start": 119,
-          "end": 124,
-          "tag": "OANN"
         }
       ],
       "urls": [
@@ -8739,17 +9058,18 @@
           "expanded_url": "https://twitter.com/OANN/status/1334150409682780162/photo/1",
           "display_url": "pic.twitter.com/PBlBeNOSRb"
         }
+      ],
+      "hashtags": [
+        {
+          "start": 119,
+          "end": 124,
+          "tag": "OANN"
+        }
       ]
     },
-    "id": "1334150409682780162",
-    "public_metrics": {
-      "retweet_count": 5274,
-      "reply_count": 223,
-      "like_count": 14318,
-      "quote_count": 404
-    },
-    "created_at": "2020-12-02T15:00:19.000Z",
     "author_id": "1209936918",
+    "id": "1334150409682780162",
+    "created_at": "2020-12-02T15:00:19.000Z",
     "text": "Maricopa County GOP chairwoman testifies she saw votes for President Trump flipped for Biden - https://t.co/vp9vxednER #OANN https://t.co/PBlBeNOSRb"
   }
 ]

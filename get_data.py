@@ -202,7 +202,8 @@ def get_data(has_org_url, search_text):
 				article_response = requests.get(tweet_url)
 
 				# store article URL (since tweet URLs are usually shortened URLs and multiple redirect to the same end URL)
-				article_url = article_response.url
+				# split on '?' since some URLs have additional parameters but go to the same article
+				article_url = article_response.url.split('?')[0]
 
 				# article page html
 				article_soup = BeautifulSoup(article_response.text, features="html.parser")
@@ -364,8 +365,8 @@ def get_data(has_org_url, search_text):
 
 # call function to get data
 #get_data(has_org_url = True, search_text = None)
-get_data(has_org_url = True, search_text = 'Trump')
-get_data(has_org_url = True, search_text = 'Biden')
+#get_data(has_org_url = True, search_text = 'Trump')
+#get_data(has_org_url = True, search_text = 'Biden')
 get_data(has_org_url = True, search_text = '(covid-19 OR covid OR coronavirus OR pandemic)')
 get_data(has_org_url = True, search_text = 'vaccine')
 get_data(has_org_url = True, search_text = '(Georgia OR GA OR Ga.) -runoff')
