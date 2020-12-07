@@ -6,27 +6,22 @@ import json
 orgs = {
 	'nyt': {
 		'handle': 'nytimes',
-		'url': 'https://www.nytimes.com/',
 		'author_id': '807095'
 	},
 	'vox': {
 		'handle': 'voxdotcom',
-		'url': 'https://www.vox.com/',
 		'author_id': '2347049341'
 	},
 	'cnn': {
 		'handle': 'cnn',
-		'url': 'https://www.cnn.com/',
 		'author_id': '759251'
 	},
 	'fox': {
 		'handle': 'foxnews',
-		'url': 'https://www.foxnews.com/',
 		'author_id': '1367531'
 	},
 	'oan': {
 		'handle': 'oann',
-		'url': 'https://www.oann.com/',
 		'author_id': '1209936918'
 	}
 }
@@ -76,6 +71,9 @@ for org in orgs:
 
 			# store list of p tags, using the appropriate scraping approach depending on the org
 
+			# reset p list
+			p_list = []
+
 			if org == 'nyt':
 				
 				# ignore articles with "transiton highlights" in the title
@@ -85,9 +83,6 @@ for org in orgs:
 					p_container = article_soup.find('section', {'name': 'articleBody'})
 					if p_container is not None:
 						p_list = p_container.findAll('p')
-						#p = p_list[0].text
-
-				##### need to reset p stuff each time so that it doesn't use p stuff from previous one in cases like transition highlights
 
 			elif org == 'vox':
 
@@ -116,7 +111,14 @@ for org in orgs:
 					p_list = p_container.findChildren('p', recursive=False) # recursive false specifies only direct children
 
 
-			# if p list is not empty, add URL, headline, first paragraph, and article text to org list
+			## these types of articles currently have empty p_lists:
+			# CNN - https://www.cnn.com/politics/live-news/biden-trump-us-election-news-12-02-20/index.html
+			# NYT - https://www.nytimes.com/live/2020/11/30/us/joe-biden-trump
+			# seems like they are updated live so probably don't want to scrape them anyway
+			# also videos that have no text, which is fine
+			# also special things like this NYT quiz which seems fine - The Trump Administration Just Made the Citizenship Test Harder. How Would You Do? 
+
+			# if p list is not empty, then add URL, headline, first paragraph, and article text to org list
 			if len(p_list) > 0:
 
 				# store first paragraph
@@ -127,13 +129,14 @@ for org in orgs:
 				for p in p_list:
 					article_text = article_text + ' ' + p.text 
 
-				# add to org's article list
+				# add to org's article list along with number of tweet likes
 				org_articles.append({
 					'org': org,
 					'article_url': article_url,
 					'h1': h1,
 					'first_p': first_p,
-					'article_text': article_text
+					'article_text': article_text,
+					'tweet_likes': tweet['public_metrics']['like_count']
 					})	
 
 
@@ -148,22 +151,44 @@ for org in orgs:
 	# loop through articles
 	for a in org_articles:
 
-		# if the article's URL is not already in running list of URLs, add the article to the list of unique articles and add the URL to the running list of URLs
+		# if the article's URL is not already in running list of URLs, add the article to the list of unique articles and then add the URL to the running list of URLs
 		if a['article_url'] not in existing_urls:
-			org_articles_unique.append(a)
-			# org_articles_unique.append({
-			# 	'org': a['org'],
-			# 	'article_url': a['article_url'],
-			# 	'h1': a['h1'],
-			# 	'first_p': a['first_p'],
-			# 	'article_text': a['article_text']
-			# 	})	
-			# add URL to running list of URLs
+			# note - could just append a instead of writing out each key value of a, but that would include tweet likes, which we want to leave out
+			org_articles_unique.append({
+				'org': a['org'],
+				'article_url': a['article_url'],
+				'h1': a['h1'],
+				'first_p': a['first_p'],
+				'article_text': a['article_text']
+				})
 			existing_urls.append(a['article_url'])
 
-	# overwrite org articles with unique articles
+
+	# aggregate number of likes for each URL (engagement)
+
+	# for each unique URL, loop through the list of org articles and sum likes for each article with a matching article URL
+	for a_u in org_articles_unique:
+
+		# reset URL likes sum
+		url_likes = 0
+
+		# loop through non-unique org articles 
+		for a_nu in org_articles:
+
+			# if current URL is current unique URL
+			if a_nu['article_url'] == a_u['article_url']:
+
+				# add URL's engagement to running sum of unique URL's engagement
+				url_likes = url_likes + a_nu['tweet_likes']
+
+		# add summed engagement key and value to current article dict
+		a_u['url_likes'] = url_likes
+
+
+	# overwrite org articles with unique org articles
 	org_articles = org_articles_unique
 	print(len(org_articles), 'unique articles')
+
 
 	# write output org articles for reference
 	json.dump(org_articles, open(f'output/{org}_articles.json', 'w'), indent = 2)
