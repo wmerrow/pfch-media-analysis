@@ -32,9 +32,14 @@ The text_analysis.py script is unfinished and not currenty in use.
 
 ### Results
 
-I used the resulting data to make this front end display using D3.js. The dropdown can be used to explore data for different search topics.
+I used the resulting data to make this front end display using D3.js. While the data files generated often contain large numbers of articles, the interface shows only the top three articles for four of the five organizations to allow for easier comparison by the user. Additionally, while the script collects the full article text, the front end display only shows the headline and first paragraph of each.
+
+The dropdown can be used to explore data for different search topics.
+
 ![An image of the front end display of the results from the web scraping](https://github.com/wmerrow/pfch-media-analysis/blob/master/screenshot.png)
 
 ### Reflection
 
 Overall, this project was a good way to become more familiar with using an API and with web scraping. The most challenging aspects for me were working with complex data structures and determining how to set up the script, particularly looping through different objects and accomplishing different types of tasks. 
+
+Next steps would be to conduct text analysis in order to compare which words were used more or less frequently by the different news organizations.
